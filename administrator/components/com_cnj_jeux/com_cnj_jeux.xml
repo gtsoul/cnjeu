@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<extension type="component" version="1.6.0" method="upgrade">
+
+	<name>cnj_jeux</name>
+	<creationDate>Juin 2012</creationDate>
+	<author>Elisabeth Blancon</author>
+	<authorEmail>eblancon@compagnie-hyperactive.com</authorEmail>
+	<copyright>LCH</copyright>*
+	<version>1.0</version>
+	<description>Permet l'affichage des jeux issus de la base de données CNJ</description>
+
+	<files folder="composant">
+		<filename>cnj_jeux.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>metadata.xml</filename>
+		<filename>router.php</filename>
+		<folder>helpers</folder>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+	
+	<administration></administration>
+
+</extension>

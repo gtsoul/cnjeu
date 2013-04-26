@@ -1,0 +1,28 @@
+#contact-form input, #contact-form textarea, #contact-form select {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+
+
+#contact-form hr {
+    border: 1px solid;
+}
+
+#contact-form button {
+	color: #6D6D6D;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 15px;
+}
+
+#contact-form th {
+    padding-top: 8px;
+}
+
+#contact-form td span {
+    margin-top: 3px;
+    display: inline-block;
+}

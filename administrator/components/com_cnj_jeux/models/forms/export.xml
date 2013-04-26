@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details">
+
+		<field name="basename" type="text"
+			class="inputbox" size="60"
+			label="COM_CNJ_JEUX_FIELD_BASENAME_LABEL" description="COM_CNJ_JEUX_FIELD_BASENAME_DESC" />
+
+	</fieldset>
+</form>

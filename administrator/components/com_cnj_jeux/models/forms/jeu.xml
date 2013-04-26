@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_cnj_jeux/models/fields"
+	>
+		<field name="id_jeu" type="text" default="0"
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+
+		<field name="publication" type="radio"
+			label="COM_CNJ_JEUX_FIELD_PUBLICATION_LABEL" description="COM_CNJ_JEUX_FIELD_PUBLICATION_DESC"
+			default="non_publie" class="inputbox" >
+			<option value="publie">COM_CNJ_JEUX_FIELD_VALUE_PUBLIE
+			</option>
+			<option value="non_publie">COM_CNJ_JEUX_FIELD_VALUE_NON_PUBLIE
+			</option>
+		</field>
+
+		<field name="type" type="radio"
+			label="COM_CNJ_JEUX_FIELD_TYPE_LABEL" description="COM_CNJ_JEUX_FIELD_TYPE_DESC"
+			default="" class="inputbox" >
+			<option value="jeu_de_role">COM_CNJ_JEUX_FIELD_VALUE_JEU_ROLE
+			</option>
+			<option value="">COM_CNJ_JEUX_FIELD_VALUE_AUTRE
+			</option>
+		</field>
+
+
+
+<field
+name="tri_1"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_1_LABEL"
+description="Appartenance a la liste de tri 1"/>
+
+
+<field
+name="tri_2"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_2_LABEL"
+description="Appartenance a la liste de tri 2"/>
+
+
+<field
+name="tri_3"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_3_LABEL"
+description="Appartenance a la liste de tri 3"/>
+
+
+<field
+name="tri_4"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_4_LABEL"
+description="Appartenance a la liste de tri 4"/>
+
+
+
+		<field name="traduction" type="text" class="inputbox"
+			size="120" label="COM_CNJ_JEUX_FIELD_TRADUCTION_LABEL"
+			description="COM_CNJ_JEUX_FIELD_TRADUCTION_DESC"/>
+
+		<field name="titre" type="text" class="inputbox"
+			size="120" label="COM_CNJ_JEUX_FIELD_TITRE_LABEL"
+			description="COM_CNJ_JEUX_FIELD_TITRE_DESC"  required="true"   />
+
+		<field name="reference_complete" type="text" class="inputbox"
+			size="120" label="COM_CNJ_JEUX_FIELD_REFERENCE_COMPLETE_LABEL"
+			description="COM_CNJ_JEUX_FIELD_REFERENCE_COMPLETE_DESC" />
+
+		<field name="date_parution_debut" type="text"  class="inputbox"
+			size="60" label="COM_CNJ_JEUX_FIELD_DATE_PARUTION_DEBUT_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DATE_PARUTION_DEBUT_DESC" />
+                
+		<field name="date_parution_fin" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_DATE_PARUTION_FIN_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DATE_PARUTION_FIN_DESC" />
+
+		<field name="date_parution_old" type="text" 
+			readonly="true" class="readonly"
+			size="60" label="COM_CNJ_JEUX_FIELD_DATE_PARUTION_OLD_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DATE_PARUTION_OLD_DESC" />
+
+
+		<field name="disponibilite" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_DISPONIBILITE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DISPONIBILITE_DESC" />
+
+		<field name="langue" type="text" class="readonly"
+			 size="100" label="COM_CNJ_JEUX_FIELD_LANGUE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_LANGUE_DESC" />
+
+
+<field
+name="lang_fr"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_FR_LABEL"
+description="Jeu en français"/>
+
+
+<field
+name="lang_en"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_EN_LABEL"
+description="Jeu en anglais"/>
+
+
+<field
+name="lang_es"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_ES_LABEL"
+description="Jeu en espagnol"/>
+
+
+<field
+name="lang_it"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_IT_LABEL"
+description="Jeu en italien"/>
+
+
+<field
+name="lang_de"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_DE_LABEL"
+description="Jeu en allemand"/>
+
+
+<field
+name="lang_nl"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_NL_LABEL"
+description="Jeu en néerlandais"/>
+
+<field
+name="lang_au"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_AUTRE_LABEL"
+description="autre langue..."/>
+
+
+
+
+
+
+
+
+
+
+		<!--field name="langue" type="text" 
+			size="120" label="COM_CNJ_JEUX_FIELD_LANGUE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_LANGUE_DESC" /-->
+                        
+		<field name="informations_date" type="text" 
+			size="120" label="COM_CNJ_JEUX_FIELD_INFORMATIONS_DATE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_INFORMATIONS_DATE_DESC" />
+
+		<field name="resume" type="textarea" 
+			rows="5" cols="20"
+                        label="COM_CNJ_JEUX_FIELD_RESUME_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_RESUME_DESC" />
+
+		<field name="pays_edition" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_PAYS_EDITION_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_PAYS_EDITION_DESC" />
+
+		<field name="commentaire" type="textarea" 
+			rows="5" cols="60" 
+			label="COM_CNJ_JEUX_FIELD_COMMENTAIRES_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_COMMENTAIRES_DESC" />
+
+		<field name="prix" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_PRIX_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_PRIX_DESC" />
+
+		<field name="valeur_associee" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_VALEUR_ASSOCIEE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_VALEUR_ASSOCIEE_DESC" />
+
+		<field name="disponibilite_regle" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_DISPONIBILITE_REGLE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DISPONIBILITE_REGLE_DESC" />
+
+		<field name="age_indique" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_AGE_INDIQUE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_AGE_INDIQUE_DESC" />
+
+		<field name="temps_partie" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_TEMPS_PARTIE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_TEMPS_PARTIE_DESC" />
+
+		<field name="contenu_jeu" type="textarea" 
+			size="120"
+			rows="5" cols="20"
+			label="COM_CNJ_JEUX_FIELD_CONTENU_JEU_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_CONTENU_JEU_DESC" />
+
+		<field name="grande_famille" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_GRANDE_FAMILLE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_GRANDE_FAMILLE_DESC" />
+
+		<field name="mecanisme" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_MECANISME_MIG_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_MECANISME_DESC" />
+
+		<field name="type_materiel" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_TYPE_MATERIEL_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_TYPE_MATERIEL_DESC" />
+
+		<field name="format" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_FORMAT_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_FORMAT_DESC" />
+
+		<field name="collection" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_COLLECTION_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_COLLECTION_DESC" />
+
+		<field name="matiere_technique" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_MATERIEL_TECHNIQUE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_MATERIEL_TECHNIQUE_DESC" />
+
+		<field name="transfert_loc" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_TRANSFERT_LOC_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_TRANSFERT_LOC_DESC" />
+
+		<field name="autre_loc" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_AUTRE_LOC_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_AUTRE_LOC_DESC" />
+
+		<field name="transfert_nb_joueurs" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_NB_JOUEURS_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_NB_JOUEURS_DESC" />
+
+		<field name="transfert_mot_cle" type="text" 
+			size="120" label="COM_CNJ_JEUX_FIELD_TRANSFERT_MOT_CLE_LABEL"
+                        description="COM_CNJ_JEUX_FIELD_TRANSFERT_MOT_CLE_DESC" />
+
+		<field name="numero_inventaire_editeur" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_NUMERO_INVENTAIRE_EDITEUR_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_NUMERO_INVENTAIRE_EDITEUR_DESC" />
+
+		<field name="livre_inventaire" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_LIVRE_INVENTAIRE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_LIVRE_INVENTAIRE_DESC" />
+
+		<field name="numero_inventaire" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_NUMERO_INVENTAIRE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_NUMERO_INVENTAIRE_DESC" />
+
+		<field name="isbn" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_ISBN_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_ISBN_DESC" />
+
+		<field name="gamme_jeu" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_GAMME_JEU_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_GAMME_JEU_DESC" />
+
+		<field name="sous_gamme" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_SOUS_GAMME_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_SOUS_GAMME_DESC" />
+                        
+		<field name="auteurs" type="auteur"
+			size="60" label="COM_CNJ_JEUX_FIELD_AUTEUR_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_AUTEUR_DESC" />
+
+		<field name="references" type="reference"
+			size="60" label="COM_CNJ_JEUX_FIELD_REFERENCE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_REFERENCE_DESC" />
+
+			<field name="motcles" type="motcle"
+			size="60" label="COM_CNJ_JEUX_FIELD_MOTCLE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_MOTCLE_DESC" />
+
+			<field name="mecanismes" type="mecanisme"
+			size="60" label="COM_CNJ_JEUX_FIELD_MECANISME_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_MECANISME_DESC" />
+
+
+		<field name="distinctions" type="distinction"
+			size="60" label="COM_CNJ_JEUX_FIELD_DISTINCTION_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DISTINCTION_DESC" />
+
+		<field name="documents" type="document"
+			size="60" label="COM_CNJ_JEUX_FIELD_DOCUMENT_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DOCUMENT_DESC" />
+
+	</fieldset>
+
+</form>

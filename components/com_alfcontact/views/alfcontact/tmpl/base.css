@@ -1,0 +1,56 @@
+#contact-form table {
+    width: 100%;
+    border: none;
+}
+
+#contact-form tr {
+    border: none;
+}
+
+#contact-form td, #contact-form th {
+    border: none;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#contact-form th {
+    text-align: right;
+    font-weight: normal;
+    white-space: nowrap;
+    width: 110px;
+}
+
+#contact-form td {
+    text-align: left;
+}
+
+#contact-form select{
+    width: 90%;
+}
+ 
+#contact-form textarea{
+    width: 90%;
+}
+ 
+
+#contact-form input {
+    width: 60%;
+    border: 1px solid silver;
+}
+
+#contact-form select, #contact-form input, #contact-form textarea {
+    border: 1px solid silver;
+    padding: 1px;
+    background: white;
+    margin: 0;
+}
+
+#extrarow, #extra2row {
+    display: none;
+}
+
+
+
+#contact-form :invalid, #contact-form :required {
+    box-shadow: none; /* thanks, but no, thanks, firefox */
+}

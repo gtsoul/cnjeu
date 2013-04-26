@@ -1,0 +1,475 @@
+administrator/modules/mod_menu/menu.php:	 * CSS string to add to document head
+administrator/modules/mod_menu/menu.php:		 * Build the CSS class suffix
+administrator/modules/mod_menu/menu.php:	 * Method to get the CSS class name for an icon identifier or create one if
+administrator/modules/mod_menu/menu.php:				// Build the CSS class for the icon
+administrator/modules/mod_menu/menu.php:	 * CSS Class for node
+administrator/includes/toolbar.php:	 * this is due to the nature of how the css has been used to postion the title in respect to the toolbar.
+administrator/includes/toolbar.php:		// Add an edit css button (hide).
+administrator/components/com_templates/models/template.php:				// Handle the CSS files.
+administrator/components/com_categories/views/category/view.html.php:		// Load specific css component
+administrator/components/com_categories/views/categories/view.html.php:		// Load specific css component
+administrator/components/com_jcomments/install/plugins/system/jcomments.j10.php: * System plugin for attaching JComments CSS & JavaScript to HEAD tag
+administrator/components/com_jcomments/install/plugins/system/jcomments.php: * System plugin for attaching JComments CSS & JavaScript to HEAD tag
+administrator/components/com_jcomments/install/plugins/system/jcomments.php:					// remove CSS if JComments isn't loaded
+administrator/components/com_kunena/libraries/integration/avatar.php:		// Why in the world do you need to have CSS here????
+administrator/components/com_kunena/libraries/integration/jomsocial/private.php:			// PM popup requires JomSocial css to be loaded from selected template
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_EDIT_CSS_TEMPLATE="Edit CSS Template"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_CHOOSE_CSS_TEMPLATE="Choose CSS Template"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_COULD_NOT_CSS_WRITABLE="Could not make the css file writable"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_COULD_NOT_CSS_UNWRITABLE="Could not make the css file unwritable"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_WRONG_CSS="Wrong file type given, only CSS files can be edited."
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_CLASS_SFX="Category CSS Class Suffix"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_CSSEDITOR="Template CSS Editor"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_CSSERROR="Please note: The CSS template file must be writable to save changes."
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_CSS_SAVE="Saving CSS file should be here: file='%file%'"
+administrator/components/com_kunena/language/en-GB/en-GB.com_kunena.ini:COM_KUNENA_C_CSS="Edit CSS File"
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_COULD_NOT_CSS_WRITABLE="Impossible de mettre le fichier CSS inscriptible"
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_COULD_NOT_CSS_UNWRITABLE="Impossible de mettre le fichier CSS non-inscriptible"
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_A_TEMPLATE_MANAGER_WRONG_CSS="Mauvais type de fichier fournit, seuls les fichiers CSS peuvent être modifiés."
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_CFC_FILENAME="Fichier CSS à modifier"
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_CFC_NOTSAVED="Le fichier CSS ne peut-être modifié."
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_CFC_SAVED="Le fichier CSS est sauvegardé."
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_CLASS_SFX="Suffixe de classe CSS "
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_CSSERROR="<strong>Remarque: Le fichier CSS du template doit être accessible en écriture pour l'enregistrement des modifications.</strong>"
+administrator/components/com_kunena/language/fr-FR/fr-FR.com_kunena.ini:COM_KUNENA_CSS_SAVE="L'enregistrement du fichier CSS devrait se trouver ici: file=&quot;%file%&quot;"
+administrator/components/com_kunena/admin.kunena.php:		// Determine template CSS directory
+administrator/components/com_kunena/admin.kunena.php:// CSS functions
+administrator/templates/system/css/system.css:/* Import project-level system CSS */
+administrator/templates/hathor/css/colour_standard.css: * Color CSS file for the template - standard
+administrator/templates/hathor/css/colour_standard.css:/** CSS file for Accessible Admin Menu
+administrator/templates/hathor/css/template_rtl.css: * RTL CSS file for the template
+administrator/templates/hathor/css/template_rtl.css: * CSS Reset
+administrator/templates/hathor/css/template_rtl.css:/* background images moved to color css file */
+administrator/templates/hathor/css/template_rtl.css:/* background images moved to the color rtl css file */
+administrator/templates/hathor/css/colour_standard_rtl.css: * RTL CSS file for the color standard
+administrator/templates/hathor/css/template.css: * Main CSS file for the template
+administrator/templates/hathor/css/template.css: * CSS Reset
+administrator/templates/hathor/css/template.css:/* The following line hides the unseen panel (prevents the mouse from activating in IE, so overridden in the ie css files) */
+administrator/templates/hathor/css/template.css: * are now in the color css files
+administrator/templates/hathor/css/template.css:/* Icons (background images moved to color css files */
+administrator/templates/hathor/css/template.css: /* CSS file for Accessible Admin Menu
+administrator/templates/hathor/css/colour_brown_rtl.css: * RTL CSS file for the color standard
+administrator/templates/hathor/css/colour_highcontrast.css:/** CSS file for Accessible Admin Menu
+administrator/templates/hathor/css/colour_brown.css: * Color CSS file for the template - brown
+administrator/templates/hathor/css/colour_brown.css:/** CSS file for Accessible Admin Menu
+administrator/templates/hathor/css/colour_blue_rtl.css: * RTL CSS file for the color standard
+administrator/templates/hathor/css/ie8.css: * CSS file for IE8
+administrator/templates/hathor/css/ie8.css:/* Accessibility: css in template.css for slider keyboard
+administrator/templates/hathor/css/ie6.css: * CSS file for IE6
+administrator/templates/hathor/css/colour_blue.css: * Color CSS file for the template - standard
+administrator/templates/hathor/css/colour_blue.css:/** CSS file for Accessible Admin Menu
+administrator/templates/hathor/css/colour_highcontrast_rtl.css: * RTL CSS file for the color standard
+administrator/templates/hathor/css/ie7.css: * CSS file for IE7
+administrator/templates/hathor/language/en-GB/en-GB.tpl_hathor.sys.ini:TPL_HATHOR_XML_DESCRIPTION="Hathor is an accessible administrator template for Joomla!. The Colour CSS files can also be used for custom colour branding."
+administrator/templates/hathor/language/en-GB/en-GB.tpl_hathor.ini:TPL_HATHOR_XML_DESCRIPTION="Hathor is an accessible administrator template for Joomla!. The Colour CSS files can also be used for custom colour branding."
+administrator/templates/hathor/error.php:	<!-- Load additional CSS styles for rtl sites -->
+administrator/templates/hathor/login.php:<!-- Load system style CSS -->
+administrator/templates/hathor/login.php:<!-- Load Template CSS -->
+administrator/templates/hathor/login.php:<!-- Load additional CSS styles for colors -->
+administrator/templates/hathor/login.php:<!-- Load additional CSS styles for rtl sites -->
+administrator/templates/hathor/login.php:<!-- Load specific language related css -->
+administrator/templates/hathor/login.php:<!-- Load additional CSS styles for bold Text -->
+administrator/templates/hathor/login.php:<!-- Load additional CSS styles for Internet Explorer -->
+administrator/templates/hathor/index.php:<!-- Load system style CSS -->
+administrator/templates/hathor/index.php:<!-- Load Template CSS -->
+administrator/templates/hathor/index.php:<!-- Load additional CSS styles for colors -->
+administrator/templates/hathor/index.php:<!-- Load additional CSS styles for rtl sites -->
+administrator/templates/hathor/index.php:<!-- Load specific language related css -->
+administrator/templates/hathor/index.php:<!-- Load additional CSS styles for bold Text -->
+administrator/templates/hathor/index.php:<!-- Load additional CSS styles for Internet Explorer -->
+administrator/templates/hathor/cpanel.php:<!-- Load system style CSS -->
+administrator/templates/hathor/cpanel.php:<!-- Load Template CSS -->
+administrator/templates/hathor/cpanel.php:<!-- Load additional CSS styles for colors -->
+administrator/templates/hathor/cpanel.php:<!-- Load additional CSS styles for rtl sites -->
+administrator/templates/hathor/cpanel.php:<!-- Load specific language related css -->
+administrator/templates/hathor/cpanel.php:<!-- Load additional CSS styles for bold Text -->
+administrator/templates/hathor/cpanel.php:<!-- Load additional CSS styles for Internet Explorer -->
+administrator/templates/hathor/component.php:<!-- Load additional CSS styles for rtl sites -->
+administrator/templates/hathor/component.php:<!-- Load specific language related css -->
+administrator/templates/hathor/component.php:<!-- Load additional CSS styles for bold Text -->
+administrator/templates/bluestork/component.php:/** Load specific language related css */
+administrator/templates/bluestork/css/ie7.css:/* Accessibility: css in template.css for slider keyboard
+administrator/templates/bluestork/cpanel.php:/** Load specific language related css */
+administrator/templates/bluestork/login.php:/** Load specific language related css */
+administrator/templates/bluestork/index.php:/** Load specific language related css */
+administrator/language/fr-FR/fr-FR.tpl_hathor.ini:TPL_HATHOR_XML_DESCRIPTION="Le template d'administration Hathor est construit selon les normes d'accessibilité. Le fichier CSS de couleurs peut également être utilisé pour créer vos propres couleurs personnalisées."
+administrator/language/fr-FR/fr-FR.com_menus.ini:COM_MENUS_ITEM_FIELD_ANCHOR_CSS_DESC="Style CSS personnalisé à appliquer au lien de menu (optionnel)."
+administrator/language/fr-FR/fr-FR.com_menus.ini:COM_MENUS_ITEM_FIELD_ANCHOR_CSS_LABEL="Style CSS du lien"
+administrator/language/fr-FR/fr-FR.com_menus.ini:COM_MENUS_ITEM_FIELD_PAGE_CLASS_DESC="Classe CSS optionnelle à appliquer à cette page."
+administrator/language/fr-FR/fr-FR.tpl_hathor.sys.ini:TPL_HATHOR_XML_DESCRIPTION="Le template d'administration Hathor est construit selon les normes d'accessibilité. Le fichier CSS de couleurs peut également être utilisé pour créer vos propres couleurs personnalisées."
+administrator/language/fr-FR/fr-FR.com_modules.ini:COM_MODULES_FIELD_MODULECLASS_SFX_DESC="Suffixe à appliquer à la classe CSS du module correspondant à un style personnalisé du template."
+administrator/language/fr-FR/fr-FR.com_languages.ini:COM_LANGUAGES_FIELD_IMAGE_DESC="Préfix du fichier image de cette langue lors de l'activation de l'option basique du Sélecteur de langue "_QQ_"Utiliser les drapeaux"_QQ_". Exemple: si 'fr' est choisi, l'image devra être 'fr.gif'. Les images et fichiers CSS de ce module sont dans media/mod_languages/"
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_ERR_CUSTOMCSSFILENOTPRESENT="Impossible de trouver le fichier CSS personnalisé défini dans les paramètres de l'éditeur TinyMCE. Aucun style n'a pu être chargé."
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_FIELD_BLOCKQUOTE_DESC="Activer/Désactiver le bouton d'insertion des balises blockquote (applique un retrait si aucun style différent n'est spécifié dans la feuille de style CSS du template)."
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_FIELD_CSS_DESC="Activer/Désactiver la prise en charge dans l'éditeur des styles CSS du template.<br />Par défaut, le plug-in recherche le fichier "_QQ_"editor.css"_QQ_". S'il n'en trouve pas dans le dossier css du template, il utilise le fichier "_QQ_"editor.css"_QQ_" du template "_QQ_"system"_QQ_"."
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_FIELD_CSS_LABEL="Classes CSS du template"
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_FIELD_CUSTOM_CSS_DESC="Nom de la feuille de styles CSS personnalisée qui prendra le pas sur le fichier "_QQ_"editor.css"_QQ_".<br />Saisissez le nom du fichier à utiliser, présent dans le dossier "_QQ_"css"_QQ_" de votre template par défaut (exemple : perso.css) ou, saisissez l'URL complète du fichier personnalisé (exemple : http://www.mon-site.com/templates/mon-template/css/perso.css)."
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_FIELD_CUSTOM_CSS_LABEL="Classes CSS personnalisées"
+administrator/language/fr-FR/fr-FR.plg_editors_tinymce.ini:PLG_TINY_FIELD_STYLE_DESC="Afficher/Masquer la liste déroulante contenant les classes CSS du template."
+administrator/language/fr-FR/fr-FR.com_alfcontact.ini:COM_ALFCONTACT_OPTIONS_USE_COMPONENT_CSS_DESCRIPTION="Utiliser le CSS de ALFContact pour formater et organiser la présentation de votre formulaire. Ceci est particulièrement utile quand votre thème désorganise totalement le formulaire de contact."
+administrator/language/fr-FR/fr-FR.com_alfcontact.ini:COM_ALFCONTACT_OPTIONS_CUSTOM_CSS="Formatage CSS personnalisé :"
+administrator/language/fr-FR/fr-FR.com_alfcontact.ini:COM_ALFCONTACT_OPTIONS_CUSTOM_CSS_DESCRIPTION="Ici vous pouvez entrer votre propre CSS pour personnaliser la page de contact de ALFcontact. Le composant de style doit être activé et vous devez choisir le thème ' --- custom --- ' pour que ça prenne effet. Toutes les éléments du formulaire sont balisées avec #contact-form."
+administrator/language/en-GB/en-GB.com_languages.ini:COM_LANGUAGES_FIELD_IMAGE_DESC="Prefix of the image file for this language when using the "_QQ_"Use image flags"_QQ_" Language Switcher basic option. Example: if 'en' is chosen, then the image shall be en.gif. Images and CSS for this module are in media/mod_languages/"
+administrator/language/en-GB/en-GB.com_alfcontact.ini:COM_ALFCONTACT_OPTIONS_USE_COMPONENT_CSS_DESCRIPTION="Use ALFcontact's CSS for formatting and layout of the form. This is especially usefull when the template makes the contact form look ugly."
+administrator/language/en-GB/en-GB.com_alfcontact.ini:COM_ALFCONTACT_OPTIONS_CUSTOM_CSS="Custom CSS formatting:"
+administrator/language/en-GB/en-GB.com_alfcontact.ini:COM_ALFCONTACT_OPTIONS_CUSTOM_CSS_DESCRIPTION="Here you can specify your own CSS to stylize the ALFcontact's contact form. Usage of component's styling must be enabled and you must choose the theme ' --- custom --- ' for this to have any effect. All contact form's elements are within #contact-form."
+administrator/language/en-GB/en-GB.plg_system_shadowbox.ini:SHADOWBOX_USESIZZLE_DESC="Set this false to disable loading the Sizzle.js CSS selector library. Note that if you choose not to use Sizzle you may not use CSS selectors to set up your links. Defaults to true."
+administrator/language/en-GB/en-GB.plg_system_shadowbox.ini:SHADOWBOX_INSTALL_DESC="<script type='text/javascript'>function popup(url) { var width  = 800; var height = 600; var left   = (screen.width  - width)/2; var top    = (screen.height - height)/2; var params = 'width='+width+', height='+height; params += ', top='+top+', left='+left; params += ', directories=no'; params += ', location=no'; params += ', menubar=no'; params += ', status=no'; params += ', toolbar=no'; newwin=window.open(url,'sbwindow', params); if (window.focus) {newwin.focus()} return false;}</script><p><a href='http://www.shadowbox-js.com' title='Shadowbox Home' target='_blank'>Shadowbox</a> is an online media viewer application by <a href='http://mjijackson.com' title='Michael J. I. Jackson' target='_blank'>Michael J. I. Jackson</a> that supports all of the web's most popular media publishing formats. Shadowbox is written entirely in JavaScript and CSS and is highly customisable. This plugin has been created by <a href='http://www.softforge.co.uk/resource-area/documentation/shadowbox-media-plugin' title='SoftForge Ltd.' target='_blank'>SoftForge</a> to bring the power of Shadowbox to Joomla!</p><p>The simplest way to tell Shadowbox which links you want it to open is to add a rel=&quot;shadowbox&quot; (or rel=&quot;lightbox&quot;) attribute to each link like this:</p><pre class='html4strict'><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;image.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>Image<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span></pre><p>To display a title for your image, simply add a title attribute to the link like this:</p><pre class='html4strict'><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;image.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox&quot; </span><span style='color: rgb(0, 0, 102);'>title</span>=<span style='color: rgb(255, 0, 0);'>&quot;Image&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>Image<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span></pre><p>To designate a link as part of a gallery, add the gallery name to the rel attribute between square brackets immediately following the word shadowbox like this:</p><pre class='html4strict'><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;beach.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox[Vacation]&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>The Beach<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span><br/><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;pier.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox[Vacation]&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>The Pier<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span></pre><p>Demos have been included with this plugin showing various ways in which Shadowbox can be used. This includes a <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/simple.html' target='_blank' onclick='popup(this);return false;' title='Simple Image'>simple image</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/draggable.html' target='_blank' onclick='popup(this);return false;' title='Draggable Image'>draggable image</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/thumb.html' target='_blank' onclick='popup(this);return false;' title='Thumbnail Image'>thumbnail image</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/image-map.html' target='_blank' onclick='popup(this);return false;' title='Image Map'>image map</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/script-gallery.html' target='_blank' onclick='popup(this);return false;' title='Script Gallery'>script gallery</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/vimeo.html' target='_blank' onclick='popup(this);return false;' title='Vimeo Video'>Vimeo video</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/maps.html' target='_blank' onclick='popup(this);return false;' title='Google Maps'>Google maps</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/message.html') target='_blank' onclick='popup(this);return false;' title='HTML Message'>HTML message</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/inline.html' target='_blank' onclick='popup(this);return false;' title='Inline HTML'>inline HTML</a>, and an <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/external.html' target='_blank' onclick='popup(this);return false;' title='External URL'>external URL</a>.</p><p>For more information, see the <a title='Shadowbox Markup' target='_blank' href='http://www.shadowbox-js.com/usage.html#markup'>full usage instructions</a> and <a title='Shadowbox FAQ' target='_blank' href='http://www.shadowbox-js.com/faq.html'>frequently asked questions</a>.</p><p>For easy thumbnail creation, use <a title='Automatic Thumbnail Generation' target='_blank' href=' http://extensions.joomla.org/extensions/photos-a-images/articles-images/6263'>mavik Thumbnails</a> set to Slimbox and no link to scripts.</p><p>Shadowbox is licensed under the terms of the <a href='http://www.shadowbox-js.com/LICENSE' target='_blank' title='Shadowbox Licence'>Shadowbox.js License</a>. This license grants personal, non-commercial users the right to use Shadowbox without paying a fee. If you would like to use Shadowbox for commercial purposes, you can <a href='http://www.shadowbox-js.com/index.html#license' title='Purchase Shadowbox Licence' target='_blank'>purchase a licence</a> that allows you to use it on an unlimited number of commercial domains. The code, images and documentation in this plugin are redistributed with the permission of the copyright holder.</p><p>If you like this plugin, please consider writing a review on the <a title='Review Shadowbox Media Viewer Plugin' target='_blank' href='http://extensions.joomla.org/extensions/multimedia/multimedia-display/9220/review'>Joomla Extension Directory</a>...</p>"
+administrator/language/en-GB/en-GB.com_modules.ini:COM_MODULES_FIELD_MODULECLASS_SFX_DESC="A suffix to be applied to the CSS class of the module. This allows for individual module styling."
+administrator/language/en-GB/en-GB.com_xmap.ini:XMAP_ATTRIBS_CLASSNAME_DESC="The CSS class to use for this sitemap."
+administrator/language/en-GB/en-GB.com_menus.ini:COM_MENUS_ITEM_FIELD_ANCHOR_CSS_LABEL="Link CSS Style"
+administrator/language/en-GB/en-GB.com_menus.ini:COM_MENUS_ITEM_FIELD_PAGE_CLASS_DESC="Optional CSS class to add to elements in this page. This allows CSS styling specific to this page."
+administrator/language/en-GB/en-GB.plg_system_shadowbox.sys.ini:SHADOWBOX_INSTALL_DESC="<script type='text/javascript'>function popup(url) { var width  = 800; var height = 600; var left   = (screen.width  - width)/2; var top    = (screen.height - height)/2; var params = 'width='+width+', height='+height; params += ', top='+top+', left='+left; params += ', directories=no'; params += ', location=no'; params += ', menubar=no'; params += ', status=no'; params += ', toolbar=no'; newwin=window.open(url,'sbwindow', params); if (window.focus) {newwin.focus()} return false;}</script><p><a href='http://www.shadowbox-js.com' title='Shadowbox Home' target='_blank'>Shadowbox</a> is an online media viewer application by <a href='http://mjijackson.com' title='Michael J. I. Jackson' target='_blank'>Michael J. I. Jackson</a> that supports all of the web's most popular media publishing formats. Shadowbox is written entirely in JavaScript and CSS and is highly customisable. This plugin has been created by <a href='http://www.softforge.co.uk/resource-area/documentation/shadowbox-media-plugin' title='SoftForge Ltd.' target='_blank'>SoftForge</a> to bring the power of Shadowbox to Joomla!</p><p>The simplest way to tell Shadowbox which links you want it to open is to add a rel=&quot;shadowbox&quot; (or rel=&quot;lightbox&quot;) attribute to each link like this:</p><pre class='html4strict'><p><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;image.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>Image<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span></p></pre><p>To display a title for your image, simply add a title attribute to the link like this:</p><pre class='html4strict'><p><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;image.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox&quot; </span><span style='color: rgb(0, 0, 102);'>title</span>=<span style='color: rgb(255, 0, 0);'>&quot;Image&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>Image<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span></p></pre><p>To designate a link as part of a gallery, add the gallery name to the rel attribute between square brackets immediately following the word shadowbox like this:</p><pre class='html4strict'><p><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;beach.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox[Vacation]&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>The Beach<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span><br/><span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;a </span><span style='color: rgb(0, 0, 102);'>href</span>=<span style='color: rgb(255, 0, 0);'>&quot;pier.jpg&quot; </span><span style='color: rgb(0, 0, 102);'>rel</span>=<span style='color: rgb(255, 0, 0);'>&quot;shadowbox[Vacation]&quot;</span><span style='color: rgb(0, 0, 0); font-weight: bold;'>&gt;</span></span>The Pier<span style='color: rgb(0, 153, 0);'><span style='color: rgb(0, 0, 0); font-weight: bold;'>&lt;/a&gt;</span></span></p></pre><p>Demos have been included with this plugin showing various ways in which Shadowbox can be used. This includes a <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/simple.html' target='_blank' onclick='popup(this);return false;' title='Simple Image'>simple image</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/draggable.html' target='_blank' onclick='popup(this);return false;' title='Draggable Image'>draggable image</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/thumb.html' target='_blank' onclick='popup(this);return false;' title='Thumbnail Image'>thumbnail image</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/image-map.html' target='_blank' onclick='popup(this);return false;' title='Image Map'>image map</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/script-gallery.html' target='_blank' onclick='popup(this);return false;' title='Script Gallery'>script gallery</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/vimeo.html' target='_blank' onclick='popup(this);return false;' title='Vimeo Video'>Vimeo video</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/maps.html' target='_blank' onclick='popup(this);return false;' title='Google Maps'>Google maps</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/message.html') target='_blank' onclick='popup(this);return false;' title='HTML Message'>HTML message</a>, <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/inline.html' target='_blank' onclick='popup(this);return false;' title='Inline HTML'>inline HTML</a>, and an <a href='http://www.softforge.co.uk/plugins/system/shadowbox/examples/external.html' target='_blank' onclick='popup(this);return false;' title='External URL'>external URL</a>.</p><p>For more information, see the <a title='Shadowbox Markup' target='_blank' href='http://www.shadowbox-js.com/usage.html#markup'>full usage instructions</a> and <a title='Shadowbox FAQ' target='_blank' href='http://www.shadowbox-js.com/faq.html'>frequently asked questions</a>.</p><p>For easy thumbnail creation, use <a title='Automatic Thumbnail Generation' target='_blank' href=' http://extensions.joomla.org/extensions/photos-a-images/articles-images/6263'>mavik Thumbnails</a> set to Slimbox and no link to scripts.</p><p>Shadowbox is licensed under the terms of the <a href='http://www.shadowbox-js.com/LICENSE' target='_blank' title='Shadowbox Licence'>Shadowbox.js License</a>. This license grants personal, non-commercial users the right to use Shadowbox without paying a fee. If you would like to use Shadowbox for commercial purposes, you can <a href='http://www.shadowbox-js.com/index.html#license' title='Purchase Shadowbox Licence' target='_blank'>purchase a licence</a> that allows you to use it on an unlimited number of commercial domains. The code, images and documentation in this plugin are redistributed with the permission of the copyright holder.</p><p>If you like this plugin, please consider writing a review on the <a title='Review Shadowbox Media Viewer Plugin' target='_blank' href='http://extensions.joomla.org/extensions/multimedia/multimedia-display/9220/review'>Joomla Extension Directory</a>...</p>"
+administrator/language/en-GB/en-GB.tpl_hathor.ini:TPL_HATHOR_XML_DESCRIPTION="Hathor is an accessible administrator template for Joomla!. The Colour CSS files can also be used for custom colour branding."
+administrator/language/en-GB/en-GB.plg_editors_tinymce.ini:PLG_TINY_ERR_CUSTOMCSSFILENOTPRESENT="The file name %s was entered in the TinyMCE Custom CSS field. This file could not be found in the default template folder. No styles are available."
+administrator/language/en-GB/en-GB.plg_editors_tinymce.ini:PLG_TINY_FIELD_CSS_DESC="By default the Plug-in looks for an editor.css file. If it cannot find one in the default template css folder, it loads the editor.css file from the system template."
+administrator/language/en-GB/en-GB.plg_editors_tinymce.ini:PLG_TINY_FIELD_CSS_LABEL="Template CSS classes"
+administrator/language/en-GB/en-GB.plg_editors_tinymce.ini:PLG_TINY_FIELD_CUSTOM_CSS_DESC="Optional CSS file that will override the standard editor.css file. Enter a file name to point to a file in the CSS folder of the default template (for example, templates/beez_20/css/). Or enter a full URL path to the custom CSS file. If you enter a value in this field, this file will be used instead of the editor.css file."
+administrator/language/en-GB/en-GB.plg_editors_tinymce.ini:PLG_TINY_FIELD_CUSTOM_CSS_LABEL="Custom CSS classes"
+administrator/language/en-GB/en-GB.plg_editors_tinymce.ini:PLG_TINY_FIELD_STYLE_DESC="Show/Hide the CSS Style control button. Only works in Extended mode."
+administrator/language/en-GB/en-GB.plg_system_jcomments.ini:PLG_SYSTEM_JCOMMENTS_FIELD_DISABLETEMPLATECSS_DESC="Disallow usage of JComments' CSS files and thus lower the number of used CSS files. Use this option only if you have moved all CSS styles from the JComments' template into the CSS files of your Joomla template."
+administrator/language/en-GB/en-GB.tpl_hathor.sys.ini:TPL_HATHOR_XML_DESCRIPTION="Hathor is an accessible administrator template for Joomla!. The Colour CSS files can also be used for custom colour branding."
+components/com_jcomments/tpl/default/tpl_index.php:			// include comments css (only if we are in administor's panel)
+components/com_jvotesystem/assets/js/zebra_dialog.js: *  -   easily customizable appearance by changing the CSS file
+components/com_jvotesystem/assets/js/zebra_dialog.js:                                                        //  CSS file having something like
+components/com_jvotesystem/assets/js/zebra_dialog.js:                                                        //  See the CSS file for what can be changed.
+components/com_jvotesystem/assets/js/zebra_dialog.js:                                                        //  the script to use the default value, as set in the CSS file.
+components/com_jvotesystem/assets/js/zebra_dialog.js:                                                        //  Default is 0 - use the value from the CSS file.
+components/com_jvotesystem/assets/js/zebra_dialog.js:                // set some css properties of the overlay
+components/com_jvotesystem/assets/js/zebra_dialog.js:            // set some css properties of the dialog box
+components/com_jvotesystem/assets/js/zebra_dialog.js:                // animate overlay's css properties
+components/com_jvotesystem/assets/js/zebra_dialog.js:            // animate dialog box's css properties
+components/com_jvotesystem/assistant/assets/css/themes/base/jquery.ui.core.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/base/jquery.ui.theme.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/base/jquery.ui.all.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/ui-lightness/jquery-ui-1.8.16.custom.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/ui-lightness/jquery-ui-1.8.16.custom.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/ui-lightness/jquery.ui.core.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/ui-lightness/jquery.ui.theme.css: * jQuery UI CSS Framework 1.8.16
+components/com_jvotesystem/assistant/assets/css/themes/ui-lightness/jquery.ui.all.css: * jQuery UI CSS Framework 1.8.16
+components/com_kunena/template/example/css/kunena.forum.css:/* Mootools Autocompleter CSS classes
+components/com_kunena/template/example/css/kunena.default.css:/* Mootools Autocompleter CSS classes
+components/com_kunena/template/example/css/kunena.default.css:/* CSS suffix support for category specific styling (Leave this section at the bottom)
+components/com_kunena/template/default/initialize.php:	// Load css from Joomla template
+components/com_kunena/template/default/initialize.php:	// Load css from the current template
+components/com_kunena/template/default/initialize.php:	// Load css from default template
+components/com_kunena/template/default/initialize.php:	/* Kunena Custom CSS */
+components/com_kunena/template/default/initialize.php:	/* End of Kunena Custom CSS */
+components/com_kunena/template/default/js/editor.js:// of the Kunena bbcode engine. With a wide variety of tags supported, css sprite based
+components/com_kunena/template/default/userlist/userlist.php:					<?php // FIXME: fixed image css sprite ?>
+components/com_kunena/template/default/css/kunena.default.css:/* Mootools Autocompleter CSS classes
+components/com_kunena/template/default/css/kunena.default.css:/* CSS suffix support for category specific styling (Leave this section at the bottom)
+components/com_kunena/template/default/css/kunena.default.rtl.css:/* Mootools Autocompleter CSS classes */
+components/com_kunena/template/default/css/kunena.forum.css:/* Mootools Autocompleter CSS classes
+components/com_kunena/template/default/css/kunena.forum.rtl.css:/* Mootools Autocompleter CSS classes */
+components/com_kunena/js/mediaboxadvanced/js/mediaboxAdv.js:				overlayOpacity: 0.7,			// 1 is opaque, 0 is completely transparent (change the color in the CSS file)
+components/com_kunena/js/mediaboxadvanced/js/mediaboxAdv.js:				imgBackground: false,		// Embed images as CSS background (true) or <img> tag (false)
+components/com_kunena/js/mediaboxadvanced/js/mediaboxAdv.js:											// CSS background is naturally non-clickable, preventing downloads
+components/com_kunena/js/mediaboxadvanced/js/mediaboxAdv.js:											// Change this number only if the CSS style is significantly divergent from the original, and requires different sizes
+components/com_kunena/js/mediaboxadvanced/js/mediaboxAdv.js://				overflow: 'auto',			// If set, overides CSS settings for inline content only
+components/com_kunena/js/mediaboxadvanced/js/mediaboxAdv.js:			if ((Browser.Engine.trident) && (Browser.Engine.version<5)) {	// Fixes IE 6 and earlier incompatibilities with CSS position: fixed;
+components/com_kunena/CHANGELOG.php:^ [#30] Css J17 backend template manager
+components/com_kunena/CHANGELOG.php:^ [#31] Css J16/J17 img border
+components/com_kunena/CHANGELOG.php:^ [#25934] Minor CSS fixes
+components/com_kunena/CHANGELOG.php:# [#25168] CSS fix to show Topic started Today by User in right order (thanks Jelle)
+components/com_kunena/CHANGELOG.php:# [#25168] CSS coloration and layout fixes (thanks Jelle)
+components/com_kunena/CHANGELOG.php:^ [#25168] Minor CSS fixes
+components/com_kunena/CHANGELOG.php:# [#25168] Fix CSS color issue in sticky messages
+components/com_kunena/CHANGELOG.php:^ [#25168] Fix CSS layout and color issues (j16 fixes)
+components/com_kunena/CHANGELOG.php:^ [#25168] Fix CSS layout and color issues (IE7 fixes, j16 fixes frontend)
+components/com_kunena/CHANGELOG.php:^ [#25168] Fix CSS layout and color issues (double div.kmsgtext in css)
+components/com_kunena/CHANGELOG.php:^ [#25168] Fix CSS layout and color issues (read announcement)
+components/com_kunena/CHANGELOG.php:^ [#25168] Fix CSS layout and color issues (Whoisonline)
+components/com_kunena/CHANGELOG.php:^ [#25168] Fix CSS layout and color issues (few little fixes)
+components/com_kunena/CHANGELOG.php:# [#25168] Fix misc CSS layout and color issues (thanks 810)
+components/com_kunena/CHANGELOG.php:# [#24364] CSS fix for pagination and announcement links (regression from Joomla 1.6 fixes)
+components/com_kunena/CHANGELOG.php:# [#24364] CSS fix for color coded user names (regression from Joomla 1.6 fixes)
+components/com_kunena/CHANGELOG.php:# [#24364] CSS fixes for Joomla 1.6 (Beez and Atomic)
+components/com_kunena/CHANGELOG.php:# [#24364] CSS fixes for Joomla 1.6 (Beez and Atomic)
+components/com_kunena/CHANGELOG.php:# [#22979] Small CSS tweaks on spacing for subcategories.
+components/com_kunena/CHANGELOG.php:# [#23001] CSS lightbox issue under chrome 7, use now mediaboxadvanced tested under IE8, Firefox, Google chrome
+components/com_kunena/CHANGELOG.php:^ [#22979] Split default css into styling and coloration files to enable more than one color style
+components/com_kunena/CHANGELOG.php:^ [#22979] First clean up pass on skinner CSS file
+components/com_kunena/CHANGELOG.php:+ [#22979] Added Skinner override in default template CSS folder (needs to be hooked up in params)
+components/com_kunena/CHANGELOG.php:# [#19288] some IE7 css fixes
+components/com_kunena/CHANGELOG.php:+ [#19064] Dedicated css styling for [article] bbcode
+components/com_kunena/CHANGELOG.php:# [#19356] Fixed button styles on profile page, fixed old CSS syntax
+components/com_kunena/CHANGELOG.php:# [#19356] Fixed template CSS validation errors
+components/com_kunena/CHANGELOG.php:+ [#19356] Added missing Restore button to CSS sprite
+components/com_kunena/CHANGELOG.php:# [#19356] Removed duplicate CSS in intialize.php, cleaned up
+components/com_kunena/CHANGELOG.php:^ [#19356] Added default initialize.php styles to template CSS file
+components/com_kunena/CHANGELOG.php:^ [#19356] CSS cleanup in installer/upgrader
+components/com_kunena/CHANGELOG.php:# [#19288] Css - Fix Joomla Templates which override the text-align center in the profile box
+components/com_kunena/CHANGELOG.php:^ [#19288] IE7 CSS fix - Menu
+components/com_kunena/CHANGELOG.php:^ [#19288] Css - Fix layout on backend statistics
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - removed scrollbar in quote message
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - width of profile position in topic view page
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - show date before topic subject in right, top and bottom position
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - removed black border on submit button
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - aligned insert and remove buttons in attachment function
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - two js error with multi-attachment
+components/com_kunena/CHANGELOG.php:# [#19288] IE7 css fix - scroll bar on quote in history of reply
+components/com_kunena/CHANGELOG.php:# [#19288] Some CSS fixes (thanks Cerberus)
+components/com_kunena/CHANGELOG.php:# [#19288] Admin: move inline css into its own file (media/css/admin.css) for easier styling
+components/com_kunena/CHANGELOG.php:+ [#19064] basic css setup for embedded google maps
+components/com_kunena/CHANGELOG.php:# [#19345] Simplify CSS for kicon-button
+components/com_kunena/CHANGELOG.php:# [#19345] Simplify CSS for kicon-editor
+components/com_kunena/CHANGELOG.php:# [#19288] Reorder css file
+components/com_kunena/CHANGELOG.php:# [#19288] Fixed small css bugs
+components/com_kunena/CHANGELOG.php:# [#19345] Simplify CSS for kicon-profile
+components/com_kunena/CHANGELOG.php:# [#19288] CSS fixes for bottom button row in showcat page
+components/com_kunena/CHANGELOG.php:# [#19288] Fix float of sticky icon in post.php, more clean in css file
+components/com_kunena/CHANGELOG.php:+ [#19288] New CSS class for hidden text - separate background color
+components/com_kunena/CHANGELOG.php:# [#19288] Fixed bug which prevented loading css from the selected template without copying initialize.php into template
+components/com_kunena/CHANGELOG.php:# [#19288] Replace online/ofline icons from icons.php to css icons in userlist
+components/com_kunena/CHANGELOG.php:^ [#19288] Fixed css for cpanel, template date on showtemplates
+components/com_kunena/CHANGELOG.php:- [#19345] Remove some unused CSS rules and images
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression - Fix CSS for rounded buttons
+components/com_kunena/CHANGELOG.php:# [#19288] Replace all icons from icons.php to css icons
+components/com_kunena/CHANGELOG.php:# [#19345] Some CSS fixes for Beez2 (J1.6)
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression - Minified CSS does not exist in Kunena SVN version
+components/com_kunena/CHANGELOG.php:+ [#20916] New helper functions to load minified css and js or full version when in forum debug
+components/com_kunena/CHANGELOG.php:^ [#19345] Template Manager - Load javascript and css from the template (initialize.php)
+components/com_kunena/CHANGELOG.php:# [#19288] Small Css fix - Boardcode
+components/com_kunena/CHANGELOG.php:+ [#20916] Add css and js minification logic to build process
+components/com_kunena/CHANGELOG.php:# [#19288] Small Css fix - Thread action, Threads showcat, Boardcode
+components/com_kunena/CHANGELOG.php:# [#19356] Fixed rest of CSS underscores to dashes (consistent naming), synchronized styles
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression - CSS fix for category description.
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression - CSS fix for category description.
+components/com_kunena/CHANGELOG.php:# [#19288] Naming changes into CSS (thanks cerberus)
+components/com_kunena/CHANGELOG.php:^ [#19356] CSS updates for Chrome, etc.
+components/com_kunena/CHANGELOG.php:^ [#19356] Changed CSS styles to format using k and dashes
+components/com_kunena/CHANGELOG.php:# [#19356] CSS fixes for broken layouts caused by no breaks in code tags, new images
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression - CSS and template fixes.
+components/com_kunena/CHANGELOG.php:# [#19288] CSS tweaks
+components/com_kunena/CHANGELOG.php:# [#19356] Various CSS fixes for frontend, IE7 compatibility
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression: Do not mess up Joomla template (local css rules)
+components/com_kunena/CHANGELOG.php:# [#19356] Random CSS fixes for UI
+components/com_kunena/CHANGELOG.php:+ [#19380] New attachment CSS styles
+components/com_kunena/CHANGELOG.php:# [#19356] More CSS fixes and reworked Report to Mod page
+components/com_kunena/CHANGELOG.php:# [#19356] More CSS fixes for default Joomla templates
+components/com_kunena/CHANGELOG.php:# [#19356] CSS fixes for Afterburner
+components/com_kunena/CHANGELOG.php:# [#19356] CSS fixes, rounded tabs (CSS3 only)
+components/com_kunena/CHANGELOG.php:# [#19356] CSS fixes
+components/com_kunena/CHANGELOG.php:# [#19356] Random CSS fixes for UI
+components/com_kunena/CHANGELOG.php:# [#19356] Added CSS for red forum suffix
+components/com_kunena/CHANGELOG.php:+ [#19359] Color Code moderator and admin username - different css classes to moderator and admin usernames.
+components/com_kunena/CHANGELOG.php:+ [#19380] New bbcode editor (part 2) - All buttons added as css sprite
+components/com_kunena/CHANGELOG.php:# [#19356] Change CSS and reorder fields on Recent Topics
+components/com_kunena/CHANGELOG.php:# [#19356] Reworked CSS and synced colors and fonts, added palette to CSS header, minor language string fixes
+components/com_kunena/CHANGELOG.php:^ [#19345] Refactor css class names 'fb' to 'k'
+components/com_kunena/CHANGELOG.php:^ [#19345] Modified css class prefix logic
+components/com_kunena/CHANGELOG.php:# [#19288] Fix regression: warnings in backend after css file moved
+components/com_kunena/CHANGELOG.php:^ [#19236] Changed behaviour of category css suffix logic. Now adds new class to overide only specific features.
+components/com_kunena/CHANGELOG.php:+ [#19236] Updated colors: -green, -red, -orange, -blue, -grey & -pink for category css class suffix
+components/com_kunena/CHANGELOG.php:+ [#19236] Add css class suffix support for categories in various views
+components/com_kunena/CHANGELOG.php:+ [#19236] Add category css class suffix predefines: -green, -red, -orange, -blue, -grey & -pink
+components/com_kunena/CHANGELOG.php:^ [#18780] Reformatted CSS files
+components/com_kunena/CHANGELOG.php:# [#18780] Commented out errors. Both CSS files now validate at W3C
+language/fr-FR/fr-FR.mod_languages.ini:MOD_LANGUAGES_FIELD_ACTIVE_DESC="Afficher/Masquer la langue active. Si affichée, la classe CSS "_QQ_"lang-active"_QQ_" sera ajoutée au module."
+language/fr-FR/fr-FR.mod_jcomments_latest.ini:MOD_JCOMMENTS_LATEST_FIELD_CSS_LABEL="Utiliser du CSS intégré"
+language/fr-FR/fr-FR.mod_menu.ini:MOD_MENU_FIELD_CLASS_DESC="Vous pouvez spécifier un suffixe à ajouter à la classe CSS des liens du menu pour utiliser un style spécifique.<br />La classe CSS avec le suffixe doit être présente dans la feuille de style CSS du template."
+language/fr-FR/fr-FR.mod_menu.ini:MOD_MENU_FIELD_CLASS_LABEL="Suffixe CSS de menu"
+language/en-GB/en-GB.mod_menu.ini:MOD_MENU_FIELD_CLASS_DESC="A suffix to be applied to the CSS class of the menu items"
+language/en-GB/en-GB.tpl_atomic.ini:TPL_ATOMIC_XML_DESCRIPTION="Atomic is an easy to modify example of how basic template elements look. Atomic includes the <a href="_QQ_"https://github.com/joshuaclayton/blueprint-css/wiki"_QQ_">Blueprint CSS framework</a>.</p><p><a href="_QQ_"http://www.garethjmsaunders.co.uk/blueprint/cheatsheets/"_QQ_">Blueprint Cheat Sheets</a> </p><p>The PSD for the background may be found at <a href="_QQ_"http://help.joomla.org/files/blueprint_psd.zip"_QQ_">joomla.org</a></p>"
+language/en-GB/en-GB.tpl_atomic.sys.ini:TPL_ATOMIC_XML_DESCRIPTION="Atomic is an easy to modify example of how basic template elements look. Atomic includes the <a href="_QQ_"https://github.com/joshuaclayton/blueprint-css/wiki"_QQ_">Blueprint CSS framework</a>.</p><p><a href="_QQ_"http://www.garethjmsaunders.co.uk/blueprint/cheatsheets/"_QQ_">Blueprint Cheat Sheets</a> </p><p>The PSD for the background may be found at <a href="_QQ_"http://help.joomla.org/files/blueprint_psd.zip"_QQ_">joomla.org</a></p>"
+libraries/joomla/form/field.php:	 * The label's CSS class of the form field
+libraries/joomla/form/field.php:		// Set the CSS class of field label
+libraries/joomla/filter/input.php:	 * Remove CSS Expressions in the form of <property>:expression(...)
+libraries/joomla/error/profiler.php:	 * with a CSS class of 'profiler'.
+libraries/joomla/html/html.php:	 * @param   boolean  $detect_browser  detect browser to include specific browser css files
+libraries/joomla/html/html.php:	 * @return  mixed  nothing if $path_only is false, null, path or array of path if specific css browser files were detected
+libraries/joomla/html/html.php:	 * @param   string  $class    CSS class for the tool tip
+libraries/joomla/html/toolbar/button/help.php:	 * @return  string	Button CSS Id
+libraries/joomla/html/toolbar/button/custom.php:	 * @param   string  $id    CSS id for the button
+libraries/joomla/html/toolbar/button/custom.php:	 * Get the button CSS Id
+libraries/joomla/html/toolbar/button/custom.php:	 * @return  string  Button CSS Id
+libraries/joomla/html/toolbar/button/popup.php:	 * @return  string	Button CSS Id
+libraries/joomla/html/toolbar/button/confirm.php:	 * Get the button CSS Id
+libraries/joomla/html/toolbar/button/confirm.php:	 * @return  string  Button CSS Id
+libraries/joomla/html/toolbar/button/link.php:	 * Get the button CSS Id
+libraries/joomla/html/toolbar/button/link.php:	 * @return  string  Button CSS Id
+libraries/joomla/html/toolbar/button/standard.php:	 * Get the button CSS Id
+libraries/joomla/html/toolbar/button/standard.php:	 * @return  string  Button CSS Id
+libraries/joomla/html/toolbar/button.php:	 * Method to get the CSS class name for an icon identifier
+libraries/joomla/html/toolbar/button.php:	 * @return  string  CSS class name
+libraries/joomla/html/editor.php:		// If editor plugins need a unit like "px" for CSS styling, they need to take care of that
+media/editors/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css:/* CSS file for cell dialog in the table plugin */
+media/editors/tinymce/jscripts/tiny_mce/plugins/table/css/row.css:/* CSS file for row dialog in the table plugin */
+media/editors/tinymce/jscripts/tiny_mce/plugins/table/css/table.css:/* CSS file for table dialog in the table plugin */
+media/editors/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js:		// Force absolute CSS urls
+media/editors/tinymce/jscripts/tiny_mce/plugins/fullpage/langs/fr_dlg.js:appearance_style:"Propri\u00E9t\u00E9s classes CSS et styles",
+media/editors/tinymce/jscripts/tiny_mce/plugins/style/langs/en_dlg.js:tinyMCE.addI18n('en.style_dlg',{"text_lineheight":"Line Height","text_variant":"Variant","text_style":"Style","text_weight":"Weight","text_size":"Size","text_font":"Font","text_props":"Text","positioning_tab":"Positioning","list_tab":"List","border_tab":"Border","box_tab":"Box","block_tab":"Block","background_tab":"Background","text_tab":"Text",apply:"Apply",toggle_insert_span:"Insert span at selection",title:"Edit CSS Style",clip:"Clip",placement:"Placement",overflow:"Overflow",zindex:"Z-index",visibility:"Visibility","positioning_type":"Type",position:"Position","bullet_image":"Bullet Image","list_type":"Type",color:"Color",height:"Height",width:"Width",style:"Style",margin:"Margin",left:"Left",bottom:"Bottom",right:"Right",top:"Top",same:"Same for All",padding:"Padding","box_clear":"Clear","box_float":"Float","box_height":"Height","box_width":"Width","block_display":"Display","block_whitespace":"Whitespace","block_text_indent":"Text Indent","block_text_align":"Text Align","block_vertical_alignment":"Vertical Alignment","block_letterspacing":"Letter Spacing","block_wordspacing":"Word Spacing","background_vpos":"Vertical Position","background_hpos":"Horizontal Position","background_attachment":"Attachment","background_repeat":"Repeat","background_image":"Background Image","background_color":"Background Color","text_none":"None","text_blink":"Blink","text_case":"Case","text_striketrough":"Strikethrough","text_underline":"Underline","text_overline":"Overline","text_decoration":"Decoration","text_color":"Color",text:"Text",background:"Background",block:"Block",box:"Box",border:"Border",list:"List"});
+media/editors/tinymce/jscripts/tiny_mce/plugins/style/readme.txt:Edit CSS Style plug-in notes
+media/editors/tinymce/jscripts/tiny_mce/langs/en.js:tinyMCE.addI18n({en:{common:{"more_colors":"More Colors...","invalid_data":"Error: Invalid values entered, these are marked in red.","popup_blocked":"Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool.","clipboard_no_support":"Currently not supported by your browser, use keyboard shortcuts instead.","clipboard_msg":"Copy/Cut/Paste is not available in Mozilla and Firefox.\nDo you want more information about this issue?","not_set":"-- Not Set --","class_name":"Class",browse:"Browse",close:"Close",cancel:"Cancel",update:"Update",insert:"Insert",apply:"Apply","edit_confirm":"Do you want to use the WYSIWYG mode for this textarea?","invalid_data_number":"{#field} must be a number","invalid_data_min":"{#field} must be a number greater than {#min}","invalid_data_size":"{#field} must be a number or percentage",value:"(value)"},contextmenu:{full:"Full",right:"Right",center:"Center",left:"Left",align:"Alignment"},insertdatetime:{"day_short":"Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun","day_long":"Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday","months_short":"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","months_long":"January,February,March,April,May,June,July,August,September,October,November,December","inserttime_desc":"Insert Time","insertdate_desc":"Insert Date","time_fmt":"%H:%M:%S","date_fmt":"%Y-%m-%d"},print:{"print_desc":"Print"},preview:{"preview_desc":"Preview"},directionality:{"rtl_desc":"Direction Right to Left","ltr_desc":"Direction Left to Right"},layer:{content:"New layer...","absolute_desc":"Toggle Absolute Positioning","backward_desc":"Move Backward","forward_desc":"Move Forward","insertlayer_desc":"Insert New Layer"},save:{"save_desc":"Save","cancel_desc":"Cancel All Changes"},nonbreaking:{"nonbreaking_desc":"Insert Non-Breaking Space Character"},iespell:{download:"ieSpell not detected. Do you want to install it now?","iespell_desc":"Check Spelling"},advhr:{"delta_height":"","delta_width":"","advhr_desc":"Insert Horizontal Line"},emotions:{"delta_height":"","delta_width":"","emotions_desc":"Emotions"},searchreplace:{"replace_desc":"Find/Replace","delta_width":"","delta_height":"","search_desc":"Find"},advimage:{"delta_width":"","image_desc":"Insert/Edit Image","delta_height":""},advlink:{"delta_height":"","delta_width":"","link_desc":"Insert/Edit Link"},xhtmlxtras:{"attribs_delta_height":"","attribs_delta_width":"","ins_delta_height":"","ins_delta_width":"","del_delta_height":"","del_delta_width":"","acronym_delta_height":"","acronym_delta_width":"","abbr_delta_height":"","abbr_delta_width":"","cite_delta_height":"","cite_delta_width":"","attribs_desc":"Insert/Edit Attributes","ins_desc":"Insertion","del_desc":"Deletion","acronym_desc":"Acronym","abbr_desc":"Abbreviation","cite_desc":"Citation"},style:{"delta_height":"","delta_width":"",desc:"Edit CSS Style"},paste:{"plaintext_mode_stick":"Paste is now in plain text mode. Click again to toggle back to regular paste mode.","plaintext_mode":"Paste is now in plain text mode. Click again to toggle back to regular paste mode. After you paste something you will be returned to regular paste mode.","selectall_desc":"Select All","paste_word_desc":"Paste from Word","paste_text_desc":"Paste as Plain Text"},"paste_dlg":{"word_title":"Use Ctrl+V on your keyboard to paste the text into the window.","text_linebreaks":"Keep Linebreaks","text_title":"Use Ctrl+V on your keyboard to paste the text into the window."},table:{"merge_cells_delta_height":"","merge_cells_delta_width":"","table_delta_height":"","table_delta_width":"","cellprops_delta_height":"","cellprops_delta_width":"","rowprops_delta_height":"","rowprops_delta_width":"",cell:"Cell",col:"Column",row:"Row",del:"Delete Table","copy_row_desc":"Copy Table Row","cut_row_desc":"Cut Table Row","paste_row_after_desc":"Paste Table Row After","paste_row_before_desc":"Paste Table Row Before","props_desc":"Table Properties","cell_desc":"Table Cell Properties","row_desc":"Table Row Properties","merge_cells_desc":"Merge Table Cells","split_cells_desc":"Split Merged Table Cells","delete_col_desc":"Delete Column","col_after_desc":"Insert Column After","col_before_desc":"Insert Column Before","delete_row_desc":"Delete Row","row_after_desc":"Insert Row After","row_before_desc":"Insert Row Before",desc:"Insert/Edit Table"},autosave:{"warning_message":"If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?","restore_content":"Restore auto-saved content.","unload_msg":"The changes you made will be lost if you navigate away from this page."},fullscreen:{desc:"Toggle Full Screen Mode"},media:{"delta_height":"","delta_width":"",edit:"Edit Embedded Media",desc:"Insert/Edit Embedded Media"},fullpage:{desc:"Document Properties","delta_width":"","delta_height":""},template:{desc:"Insert Predefined Template Content"},visualchars:{desc:"Show/Hide Visual Control Characters"},spellchecker:{desc:"Toggle Spell Checker",menu:"Spell Checker Settings","ignore_word":"Ignore Word","ignore_words":"Ignore All",langs:"Languages",wait:"Please wait...",sug:"Suggestions","no_sug":"No Suggestions","no_mpell":"No misspellings found.","learn_word":"Learn word"},pagebreak:{desc:"Insert Page Break for Printing"},advlist:{types:"Types",def:"Default","lower_alpha":"Lower Alpha","lower_greek":"Lower Greek","lower_roman":"Lower Roman","upper_alpha":"Upper Alpha","upper_roman":"Upper Roman",circle:"Circle",disc:"Disc",square:"Square"},colors:{"333300":"Dark olive","993300":"Burnt orange","000000":"Black","003300":"Dark green","003366":"Dark azure","000080":"Navy Blue","333399":"Indigo","333333":"Very dark gray","800000":"Maroon",FF6600:"Orange","808000":"Olive","008000":"Green","008080":"Teal","0000FF":"Blue","666699":"Grayish blue","808080":"Gray",FF0000:"Red",FF9900:"Amber","99CC00":"Yellow green","339966":"Sea green","33CCCC":"Turquoise","3366FF":"Royal blue","800080":"Purple","999999":"Medium gray",FF00FF:"Magenta",FFCC00:"Gold",FFFF00:"Yellow","00FF00":"Lime","00FFFF":"Aqua","00CCFF":"Sky blue","993366":"Brown",C0C0C0:"Silver",FF99CC:"Pink",FFCC99:"Peach",FFFF99:"Light yellow",CCFFCC:"Pale green",CCFFFF:"Pale cyan","99CCFF":"Light sky blue",CC99FF:"Plum",FFFFFF:"White"},aria:{"rich_text_area":"Rich Text Area"},wordcount:{words:"Words:"},visualblocks:{desc:'Show/hide block elements'}}});
+media/editors/codemirror/js/basefiles-uncompressed.js:// Test whether a DOM node has a certain CSS class.
+media/editors/codemirror/js/parsecss.js:/* Simple parser for CSS */
+media/editors/codemirror/js/parsecss.js:  // This is a very simplistic parser -- since CSS does not really
+media/editors/codemirror/js/tokenizephp.js:     The style corresponds to the CSS span class in phpcolors.css.
+media/editors/codemirror/js/tokenizejavascript.js:  // is used by the highlighter to pick the correct CSS style for a
+media/editors/codemirror/js/util.js:// Test whether a DOM node has a certain CSS class.
+media/system/js/progressbar-uncompressed.js:			var css = (this.fill)
+media/system/js/progressbar-uncompressed.js:			this.element.setStyle('backgroundPosition', css + ' 0px').title = Math.round(to) + '%';
+media/system/js/mootools-more-uncompressed.js:description: Effect to change any number of CSS properties of any number of Elements.
+media/system/js/prototype.js:      var css = document.defaultView.getComputedStyle(element, null);
+media/system/js/prototype.js:      value = css ? css[style] : null;
+media/system/js/mootools-core-uncompressed.js:description: The new, superfast css selector engine.
+media/system/js/mootools-core-uncompressed.js:description: Contains the CSS animation logic. Used by Fx.Tween, Fx.Morph, Fx.Elements.
+media/system/js/mootools-core-uncompressed.js:	//searches inside the page css to find the values for a selector
+media/system/js/mootools-core-uncompressed.js:description: Formerly Fx.Style, effect to transition any CSS property for an element.
+media/system/js/mootools-core-uncompressed.js:description: Formerly Fx.Styles, effect to transition any number of CSS properties for an element using an object of rules, or CSS based selector rules.
+media/system/js/effects.js:        var css = this.element.getStyles();
+media/system/js/effects.js:    var css = document.defaultView.getComputedStyle($(element), null);
+media/system/js/effects.js:    var css = element.currentStyle, styles;
+media/system/css/adminlist.css:/* Common CSS for adminlist grids */
+media/cms/css/debug.css:/* Common CSS for system debug */
+media/cms/css/debug.css:/* Common CSS for system debug */
+modules/mod_loginregister/tmpl/element/jquery.min.js: * Sizzle CSS Selector Engine - v1.0
+modules/mod_loginregister/tmpl/element/jquery.min.js:	// Exclude the following css properties to add px
+modules/mod_loginregister/tmpl/element/jquery.min.js:		// normalize float css property
+modules/mod_loginregister/tmpl/element/jquery.min.js:			// If a number was passed in, add 'px' to the (except for certain CSS properties)
+modules/mod_loginregister/tmpl/element/jquery.min.js:	// A method for quickly swapping in/out CSS properties to get correct calculations
+modules/mod_slideshowck/elements/jscolor/jscolor.js:		this.pickerFaceColor = 'ThreeDFace'; // CSS color
+modules/mod_slideshowck/elements/jscolor/jscolor.js:		this.pickerBorderColor = 'ThreeDHighlight ThreeDShadow ThreeDShadow ThreeDHighlight'; // CSS color
+modules/mod_slideshowck/elements/jscolor/jscolor.js:		this.pickerInsetColor = 'ThreeDShadow ThreeDHighlight ThreeDHighlight ThreeDShadow'; // CSS color
+modules/mod_iNowSlider/js/diapo.js:		piePosition			: 'top:5px; right:5px',	//this option accepts any CSS value
+modules/mod_iNowSlider/js/jquery.mobile-1.0rc2.customized.min.js:/* $.mobile.media method: pass a CSS media type or query and get a bool return
+modules/mod_iNowSlider/js/jquery.mobile-1.0rc2.customized.min.js:// This simply reappends the CSS in place, which for some reason makes it apply
+modules/mod_iNowSlider/js/jquery.mobile-1.0rc2.customized.min.js:		// Class used for "active" button state, from CSS framework
+plugins/system/debug/debug.php:	 * Add the CSS for debug. We can't do this in the constructor because
+plugins/system/shadowbox/shadowbox.php:	// inject javascript and css into <head>
+plugins/system/shadowbox/shadowbox/cache.js:                    links = S.find(selector); // css selector
+plugins/system/shadowbox/shadowbox/cache.js:                    links = S.find(selector[0], selector[1]); // css selector + context
+plugins/system/shadowbox/shadowbox/find.js: * Sizzle CSS Selector Engine - v1.0
+plugins/system/shadowbox/shadowbox/examples/build/shadowbox.js: * Sizzle CSS Selector Engine - v1.0
+plugins/system/shadowbox/shadowbox/examples/build/README:media publishing formats. Shadowbox is written entirely in JavaScript and CSS and
+plugins/system/shadowbox/shadowbox/resources/shadowbox.css: * CSS styles for Shadowbox.
+plugins/system/shadowbox/shadowbox/shadowbox.js: * Sizzle CSS Selector Engine - v1.0
+plugins/system/shadowbox/shadowbox/README:media publishing formats. Shadowbox is written entirely in JavaScript and CSS and
+plugins/system/shadowbox/shadowbox/min/config.php:// Prepend $siteUri to the rewritten URIs in CSS files
+plugins/system/shadowbox/shadowbox/min/config.php: * Combining multiple CSS files can place @import declarations after rules, which
+plugins/system/shadowbox/shadowbox/min/config.php: * warning comment at the top of the CSS output. To resolve this you can either 
+plugins/system/shadowbox/shadowbox/min/config.php: * move the @imports within your CSS files, or enable this option, which will 
+plugins/system/shadowbox/shadowbox/min/config.php: * affect CSS values (which is why this option is disabled by default).
+plugins/system/shadowbox/shadowbox/min/config.php: * If you minify CSS files stored in symlink-ed directories, the URI rewriting
+plugins/system/shadowbox/shadowbox/min/README.txt:initial "/". As CSS files may contain relative URIs, Minify will automatically
+plugins/system/shadowbox/shadowbox/min/README.txt:Let's say you have CSS files at these URLs:
+plugins/system/shadowbox/shadowbox/min/lib/HTTP/Encoder.php: * // Send a CSS file, compressed if possible
+plugins/system/shadowbox/shadowbox/min/lib/Minify/Controller/Page.php:     * 'minifyAll': should all CSS and Javascript blocks be individually 
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php: * Rewrite file-relative URIs as root-relative in CSS files
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php:     * Rewrite file relative URIs as root relative in CSS files
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php:     * @param string $currentDir The directory of the current CSS file.
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php:     * the CSS file resides (default = $_SERVER['DOCUMENT_ROOT']).
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php:     * @param array $symlinks (default = array()) If the CSS file is stored in 
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php:     * Prepend a path to relative URIs in CSS files
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/UriRewriter.php:     *     , '/home/user/www/css'  // path of CSS file
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/Compressor.php: * comments and tokens, and some CSS value minimization, where practical.
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/Compressor.php:     * Minify a CSS string
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS/Compressor.php:     * Minify a CSS string
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS.php: * minify CSS and rewrite relative URIs.
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS.php:     * Minify a CSS string
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS.php:     * directory of the current CSS file. Using this, minify will rewrite
+plugins/system/shadowbox/shadowbox/min/lib/Minify/CSS.php:     * 'symlinks': (default = array()) If the CSS file is stored in 
+plugins/system/shadowbox/shadowbox/min/lib/Minify/Lines.php:     * directory of the current CSS file. Using this, minify will rewrite
+plugins/system/shadowbox/shadowbox/min/lib/Minify/ImportProcessor.php: * Linearize a CSS/JS file by including content specified by CSS import
+plugins/system/shadowbox/shadowbox/min/lib/Minify/ImportProcessor.php: * declarations. In CSS files, relative URIs are fixed.
+plugins/system/shadowbox/shadowbox/min/lib/Minify/YUICompressor.php:     * Minify a CSS string
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php: * Minify - Combines, minifies, and caches JavaScript and CSS files on demand.
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * NOT set, then serve() will check CSS files for @import declarations that
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * minifier option to enable URI rewriting in CSS files (default true)
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * files will be move to the top. Note this may alter effective CSS values
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * // call customCssMinifier($css) for all CSS minification
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * under the key of the content-type. E.g. To send the CSS minifier an option: 
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * // give CSS minifier array('optionName' => 'optionValue') as 2nd argument 
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:     * Bubble CSS @imports to the top or prepend a warning if an
+plugins/system/shadowbox/shadowbox/min/lib/Minify.php:            // bubble CSS imports
+plugins/system/shadowbox/shadowbox/flash.js:	/* Cross-browser dynamic CSS creation
+plugins/system/jcomments/jcomments.php: * System plugin for attaching JComments CSS & JavaScript to HEAD tag
+plugins/system/jcomments/jcomments.php:					// remove CSS if JComments isn't loaded
+plugins/system/mediabox_ck/mediabox_ck/mediaboxAdv-1.3.4b.js:				overlayOpacity: 0.7,			// 1 is opaque, 0 is completely transparent (change the color in the CSS file)
+plugins/system/mediabox_ck/mediabox_ck/mediaboxAdv-1.3.4b.js:				imgBackground: false,		// Embed images as CSS background (true) or <img> tag (false)
+plugins/system/mediabox_ck/mediabox_ck/mediaboxAdv-1.3.4b.js:											// CSS background is naturally non-clickable, preventing downloads
+plugins/system/mediabox_ck/mediabox_ck/mediaboxAdv-1.3.4b.js:											// Change this number only if the CSS style is significantly divergent from the original, and requires different sizes
+plugins/system/mediabox_ck/mediabox_ck/mediaboxAdv-1.3.4b.js://				overflow: 'auto',			// If set, overides CSS settings for inline content only
+plugins/system/mediabox_ck/mediabox_ck/mediaboxAdv-1.3.4b.js:			if ((Browser.Engine.trident) && (Browser.Engine.version<5)) {	// Fixes IE 6 and earlier incompatibilities with CSS position: fixed;
+plugins/editors/tinymce/tinymce.php:		// loading of css file for 'styles' dropdown
+plugins/user/profile/fields/tos.php:		// Add CSS and JS for the TOS field
+plugins/content/geshi/geshi/geshi/css.php: * CSS language file for GeSHi.
+plugins/content/geshi/geshi/geshi/css.php: * * Re-look at keywords - possibly to make several CSS language
+plugins/content/geshi/geshi/geshi/css.php: *   files, all with different versions of CSS in them
+plugins/content/geshi/geshi/geshi.php:     * Whether to use CSS classes in output
+plugins/content/geshi/geshi/geshi.php:     * Whether CSS IDs should be added to the code
+plugins/content/geshi/geshi/geshi.php:     * Sets whether CSS classes should be used to highlight the source. Default
+plugins/content/geshi/geshi/geshi.php:     * Whether CSS IDs should be added to each line
+plugins/content/geshi/geshi/geshi.php:     * support for the CSS method of doing this in 1.1 and Opera
+plugins/content/geshi/geshi/geshi.php:     * has support for the CSS method, but (of course) IE doesn't
+plugins/content/geshi/geshi/geshi.php:     * so it's not worth doing it the CSS way yet.
+plugins/content/geshi/geshi/geshi.php:                    // get highlighted if the language has a CSS keyword in it (like CSS, for example ;))
+plugins/content/geshi/geshi/geshi.php:                " * CSS class: {$this->overall_class}, CSS id: {$this->overall_id}\n".
+templates/atomic/css/blueprint/ie.css: Blueprint CSS Framework 1.0.1
+templates/atomic/css/blueprint/src/AUTHORS.txt:h1. Blueprint CSS Framework Authors and Contributors
+templates/atomic/css/blueprint/src/AUTHORS.txt:h2. Original CSS authors
+templates/atomic/css/blueprint/src/AUTHORS.txt:and ideas that were developed by true CSS experts.
+templates/atomic/css/blueprint/src/AUTHORS.txt:The CSS reset is based on work by:
+templates/atomic/css/blueprint/src/print.css:  snippet of CSS appends the URL of each link within the text.
+templates/atomic/css/blueprint/src/print.css:   (note: This is valid CSS3, but it still won't go through the W3C CSS Validator) */
+templates/atomic/css/blueprint/src/RESOURCES.txt:h1. Blueprint CSS Resources
+templates/atomic/css/blueprint/src/RESOURCES.txt:Below are several resources for Blueprint CSS for you to use in your projects.
+templates/atomic/css/blueprint/src/RESOURCES.txt:* Blueprint CSS Cheatsheet - http://www.garethjmsaunders.co.uk/blueprint/cheatsheets/index.html
+templates/atomic/css/blueprint/src/RESOURCES.txt:* Blueprint CSS Placeholders - http://www.garethjmsaunders.co.uk/blueprint/placeholders/index.html
+templates/atomic/css/blueprint/src/CHANGELOG.txt:Blueprint CSS Framework Change Log
+templates/atomic/css/blueprint/src/CHANGELOG.txt:    * Added detailed explanations to core uncompressed CSS files [CMM]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:      * Ability to add your own CSS files. [JC]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:      * Semantic class naming from CSS rules. [JC]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:  * Extracted the support for CSS buttons into a new plugin. [OFB]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:  * grid.css : removed reference to '.first' css class as it no longer exists. [GR]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:  * Added new script 'validate_css.rb' which will validate all css files and present a report with
+templates/atomic/css/blueprint/src/CHANGELOG.txt:  * Created an experimental CSS classes plugin, by popular demand. [OFB]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:  * Removed 'first' CSS class and the need to apply it to the first column in a row of columns. [OFB]
+templates/atomic/css/blueprint/src/CHANGELOG.txt:  * Adds perfected CSS buttons, by Kevin Hale of Particletree fame. [OFB]
+templates/atomic/css/blueprint/src/TUTORIAL.txt:h1. Blueprint CSS Framework Tutorial
+templates/atomic/css/blueprint/src/TUTORIAL.txt:Blueprint is a CSS framework, designed to cut down on your development time. It gives you a solid foundation to build your CSS on top of, including some sensible default typography, a customizable grid, a print stylesheet and much more.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:From the bottom up, here are the CSS layers in Blueprint:
+templates/atomic/css/blueprint/src/TUTORIAL.txt:#	*CSS reset*: Removes any default CSS rules set by each browser.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:#	*Grid*: Provides a set of CSS classes for making grid layouts.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:a look at the CSS in Blueprint. We'll then move on to the scripts, where I'll show you 
+templates/atomic/css/blueprint/src/TUTORIAL.txt:* @blueprint/screen.css@:	All CSS for screen, projection viewing.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:h2. Using the CSS in Blueprint
+templates/atomic/css/blueprint/src/TUTORIAL.txt:As mentioned before, there's basically three layers of CSS in Blueprint. The first two layers, the browser CSS reset and the default typography, apply themselves by changing the CSS of standard HTML elements. In other words, you don't need to change anything in these files. If you, for instance, want to change the font size, do this in your own stylesheet, so that it's easy to upgrade Blueprint when new versions arrive.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:The third layer is the grid CSS classes, which is the tool Blueprint gives you to create almost any kind of grid layout for your site. Keep in mind that most of the CSS behind the grid can be customized (explained below). In this section however, I'm using the default settings.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:To create basic grids, this is all you need to know. The grid CSS however, provides many more classes for more intricate designs. To see some of them in action, check out the files in @tests/parts/@. These files demonstrate what's possible with the grid in Blueprint.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:Blueprint comes with two scripts: one for compressing and customizing the CSS, and one for validating the core CSS files, which is handy if you're making changes to these files.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:The validator has a fairly simple job - validate the CSS in the core BP files.  The script uses a bundled version of the W3C CSS validator to accomplish this.  To run it, you'll need to have Ruby installed on your machine. You can then run the script like so: @$ ruby validate.rb@.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:Note that there are a few validation errors shipping with Blueprint. These are known, and comes from a few CSS hacks needed to ensure consistent rendering across the vast browser field.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:As the files you'll include in your HTML are the compressed versions of the core CSS files, you'll have to recompress the core if you've made any changes.  This is what the compressor script is for.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:In addition this is where you customize the grid. To customize the grid, a special settings file is used, and the new CSS is generated once you run the compressor. The new compressed files will then reflect your settings file.
+templates/atomic/css/blueprint/src/TUTORIAL.txt:To recompress, you just have to run the script. This will parse the core CSS files and output new compressed files in the blueprint folder. As with the validator, Ruby has to be installed to use this script. In the @lib@ directory, run: @$ruby compress.rb@
+templates/atomic/css/blueprint/src/README.txt:h1. Blueprint CSS Framework Readme
+templates/atomic/css/blueprint/src/README.txt:Welcome to Blueprint! This is a CSS framework designed to cut down on your CSS development time. It gives you a solid foundation to build your own CSS on. Here are some of the features BP provides out-of-the-box:
+templates/atomic/css/blueprint/src/README.txt:* Perfected browser CSS reset
+templates/atomic/css/blueprint/src/README.txt:# Upload the "blueprint" folder in this folder to your server, and place it in whatever folder you'd like. A good choice would be your CSS folder.
+templates/atomic/css/blueprint/src/README.txt:# Add the following three lines to every @<head/>@ of your site. Make sure the three @href@ paths are correct (here, BP is in my CSS folder): <pre><code>
+templates/atomic/css/blueprint/src/README.txt:This file resets CSS values that browsers tend to set for you.
+templates/atomic/css/blueprint/src/README.txt:Validates the Blueprint core files with the W3C CSS validator.
+templates/atomic/css/blueprint/print.css: Blueprint CSS Framework 1.0.1
+templates/atomic/css/blueprint/plugins/buttons/readme.txt:* Gives you great looking CSS buttons, for both <a> and <button>.
+templates/atomic/css/blueprint/plugins/tabs/AUTHORS.txt:h1. Blueprint CSS Tabs Plugin Authors and Contributors
+templates/atomic/css/blueprint/plugins/tabs/screen.css: Tabs Plugin 0.2 for the Blueprint CSS Framework
+templates/atomic/css/blueprint/plugins/tabs/README.txt:h1. Blueprint CSS Tabs Plugin Readme
+templates/atomic/css/blueprint/plugins/joomla-nav/README.txt:h1. Blueprint CSS Joomla Nav Plugin Readme
+templates/atomic/css/blueprint/plugins/joomla-nav/screen.css: Joomla Nav 0.1 for the Blueprint CSS Framework
+templates/atomic/css/blueprint/plugins/joomla-nav/AUTHORS.txt:h1. Blueprint CSS Tabs Plugin Authors and Contributors
+templates/atomic/css/blueprint/screen.css: Blueprint CSS Framework 1.0.1
+templates/atomic/css/template.css:/* A variation on Eric Meyer's CSS Reset:
+templates/atomic/css/template.css:/* Below are the CSS styles that aren't included with Blueprint. It's a good idea to keep them whether or not you use it unless you know what you're doing. */
+templates/atomic/index.php:		<!-- The following five lines load the Blueprint CSS Framework (http://blueprintcss.org). If you don't want to use this framework, delete these lines. -->
+templates/atomic/index.php:		<!-- The following line loads the template CSS file located in the template folder. -->
+templates/atomic/index.php:		<!-- The following four lines load the Blueprint CSS Framework and the template CSS file for right-to-left languages. If you don't want to use these, delete these lines. -->
+templates/atomic/language/en-GB/en-GB.tpl_atomic.ini:TPL_ATOMIC_XML_DESCRIPTION="Atomic is an easy to modify example of how basic template elements look. Atomic includes the <a href="_QQ_"https://github.com/joshuaclayton/blueprint-css/wiki"_QQ_">Blueprint CSS framework</a>.</p><p><a href="_QQ_"http://www.garethjmsaunders.co.uk/blueprint/cheatsheets/"_QQ_">Blueprint Cheat Sheets</a> </p><p>The PSD for the background may be found at <a href="_QQ_"http://help.joomla.org/files/blueprint_psd.zip"_QQ_">joomla.org</a></p>"
+templates/atomic/language/en-GB/en-GB.tpl_atomic.sys.ini:TPL_ATOMIC_XML_DESCRIPTION="Atomic is an easy to modify example of how basic template elements look. Atomic includes the <a href="_QQ_"https://github.com/joshuaclayton/blueprint-css/wiki"_QQ_">Blueprint CSS framework</a>.</p><p><a href="_QQ_"http://www.garethjmsaunders.co.uk/blueprint/cheatsheets/"_QQ_">Blueprint Cheat Sheets</a> </p><p>The PSD for the background may be found at <a href="_QQ_"http://help.joomla.org/files/blueprint_psd.zip"_QQ_">joomla.org</a></p>"
+templates/lch_cnj/index.php:		<!-- css -->
+templates/lch_cnj/index.php:		<!-- MINIMISER LES CSS A LA FIN DU SITE -->
+templates/lch_cnj/php/init.php:/* css update */
+templates/system/css/offline_rtl.css: * Joomla! 1.5 Offline RTL css file
+templates/system/css/system.css:/* Import project-level system CSS */
+tmp/install_4ffed7d36d5b4/swfobject/src/swfobject.js:	/* Cross-browser dynamic CSS creation

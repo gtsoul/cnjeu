@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Catégorie">
+		<message>
+			Page SAS jeux
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="params">
+		<fieldset name="advanced">
+                        <field name="num_max_items" type="text"
+				description="Nombre de résultats maximum à afficher"
+				label="Nombre de résultats max"
+				size="3"
+			/>
+		</fieldset>
+	</fields>
+
+</metadata>

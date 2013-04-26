@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_cnj_jeux/models/fields"
+	>
+		<field name="id_auteur" type="text" default="0"
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+
+		<field name="nom" type="text" class="inputbox"
+			size="60" label="COM_CNJ_JEUX_FIELD_NOM_LABEL"
+			description="COM_CNJ_JEUX_FIELD_NOM_DESC" required="true" />
+
+		<field name="alias" type="text" class="inputbox"
+			size="60" label="COM_CNJ_JEUX_FIELD_ALIAS_LABEL"
+			description="COM_CNJ_JEUX_FIELD_ALIAS_DESC" />
+
+		<field name="nationalite" type="text"  class="inputbox"
+			size="60" label="COM_CNJ_JEUX_FIELD_NATIONALITE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_NATIONALITE_DESC" />
+                
+		<field name="presentation" type="textarea" 
+			rows="5" cols="20"
+			label="COM_CNJ_JEUX_FIELD_PRESENTATION_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_PRESENTATION_DESC" />
+
+		<field name="site" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_SITE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_SITE_DESC" />
+
+		<field name="transfert_createur" type="text" 
+			size="60" label="COM_CNJ_JEUX_FIELD_TRANSFERT_CREATEUR_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_TRANSFERT_CREATEUR_DESC" />
+
+		<field name="documents" type="document" 
+			size="60" label="COM_CNJ_JEUX_FIELD_DOCUMENT_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_DOCUMENT_DESC" />
+
+<field
+name="tri_1"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_1_LABEL"
+description="Appartenance a la liste de tri 1"/>
+
+
+<field
+name="tri_2"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_2_LABEL"
+description="Appartenance a la liste de tri 2"/>
+
+
+<field
+name="tri_3"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_3_LABEL"
+description="Appartenance a la liste de tri 3"/>
+
+
+<field
+name="tri_4"
+type="checkbox"
+value="1"
+label="COM_CNJ_JEUX_FIELD_TRI_4_LABEL"
+description="Appartenance a la liste de tri 4"/>
+
+
+	</fieldset>
+
+</form>

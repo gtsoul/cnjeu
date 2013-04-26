@@ -1,0 +1,30 @@
+/**
+ * @package Component jVoteSystem for Joomla! 1.5 - 2.5
+ * @projectsite www.joomess.de/projects/jvotesystem
+ * @author Johannes Me�mer
+ * @copyright (C) 2010- Johannes Me�mer
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+**/
+.icon-48-users { background-image: url("../images/icon-48-users.png"); }
+.icon-48-answers { background-image: url("../images/icon-48-answers.png"); }
+.icon-48-comments { background-image: url("../images/icon-48-comments.png"); }
+.icon-48-boxen { background-image: url("../images/icon-48-boxen.png"); }
+.icon-48-box-add { background-image: url("../images/icon-48-box-add.png"); }
+.icon-48-jvotesystem { background-image: url("../images/icon-48-jvotesystem.png"); }
+.icon-48-generic { background-image: url("../images/icon-48-generic.png"); }
+.icon-48-options { background-image: url("../images/icon-48-options.png"); }
+.icon-48-category, .icon-48-categories { background-image: url("../images/icon-48-category.png"); }
+.icon-48-category-add { background-image: url("../images/icon-48-category-add.png"); }
+
+.icon-32-answers { background-image: url("../images/icon-32-answers.png"); }
+
+a.icon-16-deny { background: url("../images/icon-16-deny.png") no-repeat scroll 0 0 transparent; }
+a.icon-16-denyinactive { background: url("../images/icon-16-denyinactive.png") no-repeat scroll 0 0 transparent; }
+a.icon-16-allow { background: url("../images/icon-16-allow.png") no-repeat scroll 0 0 transparent; }
+a.icon-16-allowinactive { background: url("../images/icon-16-allowinactive.png") no-repeat scroll 0 0 transparent; }
+label.icon-16-allow, label.icon-16-deny, a.icon-16-allow, a.icon-16-deny, a.icon-16-allowinactive, a.icon-16-denyinactive {
+    display: block;
+    height: 16px;
+    margin: 0 auto;
+    width: 16px;
+}

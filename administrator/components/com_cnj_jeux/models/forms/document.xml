@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details"
+		addfieldpath="/administrator/components/com_cnj_jeux/models/fields"
+	>
+		<field name="id" type="text" default="0"
+			readonly="true" class="readonly"
+			label="COM_CNJ_JEUX_FIELD_OLD_ID_LABEL" 	description ="COM_CNJ_JEUX_FIELD_OLD_ID_DESC" />
+                        
+		<field name="old_id_document" type="text" default="0"
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+
+                <field name="id_archive" type="text" default="0"
+			readonly="true" class="readonly"
+			label="COM_CNJ_JEUX_FIELD_ID_ARCHIVE_LABEL" 	description ="COM_CNJ_JEUX_FIELD_ID_ARCHIVE_DESC" />
+
+		<field name="nom" type="text" class="inputbox"
+			size="60" label="COM_CNJ_JEUX_FIELD_NOM_LABEL"
+			description="COM_CNJ_JEUX_FIELD_NOM_DESC" required="true" />
+
+		<field name="visuel" type="file"
+			size="60" label="COM_CNJ_JEUX_FIELD_VISUEL_LABEL"
+			description="COM_CNJ_JEUX_FIELD_VISUEL_DESC" />
+
+		<field name="path_hd" type="text"
+			readonly="true" class="readonly"
+			size="60" label="COM_CNJ_JEUX_FIELD_PATH_HD_LABEL"
+			description="COM_CNJ_JEUX_FIELD_PATH_HD_DESC" />
+
+		<field name="path_miniature" type="text"
+			readonly="true" class="readonly"
+			size="60" label="COM_CNJ_JEUX_FIELD_PATH_MINIATURE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_PATH_MINIATURE_DESC" />
+                
+		<field name="path_optimise" type="text"
+			readonly="true" class="readonly"
+			size="60" label="COM_CNJ_JEUX_FIELD_PATH_OPTIMISE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_PATH_OPTIMISE_DESC" />
+
+		<field name="commentaire" type="textarea" 
+			rows="5" cols="20"
+			label="COM_CNJ_JEUX_FIELD_COMMENTAIRES_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_COMMENTAIRES_DESC" />
+
+		<field name="type" type="text" 
+			readonly="true" class="readonly"
+			size="60" label="COM_CNJ_JEUX_FIELD_TYPE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_TYPE_DESC" />
+
+		<field name="taille" type="text" 
+			readonly="true" class="readonly"
+			size="60" label="COM_CNJ_JEUX_FIELD_TAILLE_LABEL" 
+                        description="COM_CNJ_JEUX_FIELD_TAILLE_DESC" />
+
+
+		<field name="force_telechargement" type="radio"
+label="COM_CNJ_JEUX_FIELD_TELECHARGEABLE_LABEL" 
+       description="COM_CNJ_JEUX_FIELD_TELECHARGEABLE_DESC"
+			default="" class="inputbox" >
+			<option value="oui">Oui</option>
+			<option value="non">Non</option>
+		</field>
+
+
+
+
+
+			</fieldset>
+
+</form>
