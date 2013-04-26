@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="administrator">
+	<name>mod_cnj_slideshow</name>
+	<author>Fabien VAUTOUR</author>
+	<creationDate>06/06/2012</creationDate>
+	<copyright>La Compagnie Hyperactive</copyright>
+	<authorEmail>fvautour@compagnie-hyperactive.com</authorEmail>
+	<authorUrl>www.compagnie-hyperactive.com</authorUrl>
+	<version>2.5.0</version>
+	<description>MOD_CNJ_SLIDESHOW_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_cnj_slideshow">mod_cnj_slideshow.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="fr-FR">fr-FR.mod_cnj_slideshow.ini</language>
+		<language tag="fr-FR">fr-FR.mod_cnj_slideshow.sys.ini</language>
+	</languages>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_LATEST_NEWS" />
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            <field
+                    name="catid"
+                    type="category"
+                    extension="com_content"
+                    multiple="true"
+                    size="10"
+                    default=""
+                    label="JCATEGORY"
+                    description="MOD_CNJ_SLIDESHOW_FIELD_CATEGORY_DESC" >
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

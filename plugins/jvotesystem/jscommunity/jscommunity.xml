@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5" method="upgrade" group="jvotesystem">
+  <name>jVoteSystem - JS Community plugin</name>
+  <creationDate>29-Jun-2011</creationDate>
+  <author>Johannes Meßmer</author>
+  <authorEmail>service@joomess.de</authorEmail>
+  <authorUrl>http://www.joomess.de</authorUrl>
+  <copyright>Copyright (C) 2010-2012 Johannes Meßmer</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3</license>
+  <version>1.03</version>
+  <description></description>
+  <files>
+    <filename>index.html</filename>
+    <filename plugin="jscommunity">jscommunity.php</filename>
+  </files>
+  <languages>
+    <language tag="de-DE">de-DE.plg_jvotesystem_jscommunity.ini</language>
+    <language tag="en-GB">en-GB.plg_jvotesystem_jscommunity.ini</language>
+  </languages>
+  <config>
+	<!--Joomla 1.6-->
+   	<fields name="params">
+		<fieldset name="basic">
+			<field type="radio" name="add_comment" label="P_ADDCOMMENT" default="1">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+			<field type="radio" name="add_answer" label="P_ADDANSWER" default="1">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+			<field type="radio" name="voted" label="P_VOTED" default="1">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+			<field type="radio" name="guests" label="P_GUESTS" default="0">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+		</fieldset>
+	</fields>
+   </config>
+</install>

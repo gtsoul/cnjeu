@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<install type="plugin" version="1.5" method="upgrade" group="system">
+  <name>System - jVoteSystemDatabase</name>
+  <creationDate>20-Sep-2011</creationDate>
+  <author>Johannes Meßmer</author>
+  <authorEmail>service@joomess.de</authorEmail>
+  <authorUrl>http://www.joomess.de</authorUrl>
+  <copyright>Copyright (C) 2011- Johannes Meßmer</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+  <version>1.00</version>
+  <description />
+  <files>
+    <filename plugin="jvotesystemdatabase">jvotesystemdatabase.php</filename>
+  </files>
+</install>

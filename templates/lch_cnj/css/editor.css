@@ -1,0 +1,30 @@
+/* ==|== editor ==== */
+
+p.right,
+img.right {
+	Xfloat: right;
+}
+
+p.left,
+img.left {
+	Xfloat: left;
+}
+
+.readmore-slideshow {
+	display: block;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 30px;
+}
+
+a.telecharger {
+    text-decoration: underline;
+}
+
+a.programmation {
+    
+}

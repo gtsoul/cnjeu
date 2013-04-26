@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="administrator">
+	<name>mod_cnj_navflash</name>
+	<author>Fabien VAUTOUR</author>
+	<creationDate>06/06/2012</creationDate>
+	<copyright>La Compagnie Hyperactive</copyright>
+	<authorEmail>fvautour@compagnie-hyperactive.com</authorEmail>
+	<authorUrl>www.compagnie-hyperactive.com</authorUrl>
+	<version>2.5.0</version>
+	<description>MOD_CNJ_NAVFLASH_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_cnj_navflash">mod_cnj_navflash.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="fr-FR">fr-FR.mod_cnj_navflash.ini</language>
+		<language tag="fr-FR">fr-FR.mod_cnj_navflash.sys.ini</language>
+	</languages>
+</extension>

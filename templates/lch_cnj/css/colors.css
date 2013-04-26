@@ -1,0 +1,114 @@
+/* ==|== colors ==== */
+/* ==|== contient toutes les classes avec couleurs dynamiques ==== */
+
+/* Top */
+body.vert #top { background: #339900; }
+body.orange #top { background: #db800c; }
+body.rose #top { background: #bd57b3; }
+body.bleu #top { background: #4689b9; }
+body.rouge #top { background: #9d3c25; }
+body.rose-qsn #top { background: #b94664; }
+
+/* Menu gauche */
+body.vert .titre-menu { color: #388009; }
+body.orange .titre-menu { color: #db800c; }
+body.rose .titre-menu { color: #bd57b3; }
+body.bleu .titre-menu { color: #4689b9; }
+body.rouge .titre-menu { color: #9d3c25; }
+body.rose-qsn .titre-menu { color: #b94664; }
+
+body.vert #left ul.menu li.active a,
+body.vert #left ul.menu li a:hover {
+    color: #408c0d;
+    background: url('../images/fleche-gauche-vert.png') center right no-repeat;
+}
+body.orange #left ul.menu li.active a,
+body.orange #left ul.menu li a:hover {
+    color: #db800c;
+    background: url('../images/fleche-gauche-orange.png') center right no-repeat;
+}
+body.rose #left ul.menu li.active a,
+body.rose #left ul.menu li a:hover {
+    color: #bd57b3;
+    background: url('../images/fleche-gauche-rose.png') center right no-repeat;
+}
+body.bleu #left ul.menu li.active a,
+body.bleu #left ul.menu li a:hover {
+    color: #4689b9;
+    background: url('../images/fleche-gauche-bleu.png') center right no-repeat;
+}
+body.rouge #left ul.menu li.active a,
+body.rouge #left ul.menu li a:hover {
+    color: #9d3c25;
+    background: url('../images/fleche-gauche-rouge.png') center right no-repeat;
+}
+body.rose-qsn #left ul.menu li.active a,
+body.rose-qsn #left ul.menu li a:hover {
+    color: #b94664;
+    background: url('../images/fleche-gauche-rose-qsn.png') center right no-repeat;
+}
+
+/* breadcrumbs */
+body.vert .breadcrumbs span { color: #339900; }
+body.orange .breadcrumbs span { color: #db800c; }
+body.rose .breadcrumbs span { color: #bd57b3; }
+body.bleu .breadcrumbs span { color: #4689b9; }
+body.rouge .breadcrumbs span { color: #9d3c25; }
+body.rose-qsn .breadcrumbs span { color: #b94664; }
+
+/* content h2 */
+body.vert .item-page h2 { color: #339900; }
+body.orange .item-page h2 { color: #db800c; } body.orange .item-page.jeu h2, body.orange .item-page.fiche_detail h2 { margin-bottom:0; } 
+body.rose .item-page h2 { color: #bd57b3; }
+body.bleu .item-page h2 { color: #4689b9; }
+body.rouge .item-page h2 { color: #9d3c25; }
+body.rose-qsn .item-page h2 { color: #b94664; }
+
+/* content h3 */
+body.vert .item-page h3 { color: #339900; }
+body.orange .item-page h3 { color: #db800c; } body.orange .item-page.jeu h3, body.orange .item-page.fiche_detail h3 { color: #1f2929; margin-top:0; }  
+body.rose .item-page h3 { color: #bd57b3; }
+body.bleu .item-page h3 { color: #4689b9; }
+body.rouge .item-page h3 { color: #9d3c25; }
+body.rose-qsn .item-page h3 { color: #b94664; }
+
+/* content a.telecharger */
+body.vert .item-page a.telecharger { color: #339900; }
+body.orange .item-page a.telecharger { color: #db800c; }
+body.rose .item-page a.telecharger { color: #bd57b3; }
+body.bleu .item-page a.telecharger { color: #4689b9; }
+body.rouge .item-page a.telecharger { color: #9d3c25; }
+body.rose-qsn .item-page a.telecharger { color: #b94664; }
+
+/* content a */
+body.vert .item-page a { color: #339900; }
+body.orange .item-page a { color: #db800c; } body.orange .item-page.jeu a.en_savoir_plus { color: #ffffff; } body.orange .item-page.fiche_detail a.retour { color:#424443; }
+body.rose .item-page a { color: #bd57b3; }
+body.bleu .item-page a { color: #4689b9; }
+body.rouge .item-page a { color: #9d3c25; }
+body.rose-qsn .item-page a { color: #b94664; }
+
+/* blog h2 */
+body.blog.vert h2 { color: #339900; }
+body.blog.orange h2 { color: #db800c; }
+body.blog.rose h2 { color: #bd57b3; }
+body.blog.rose-qsn h2 { color: #bd57b3; }
+body.blog.bleu h2 { color: #4689b9; }
+body.blog.rouge h2 { color: #9d3c25; }
+body.blog.rose-qsn h2 { color: #b94664; }
+
+/* blog h3 */
+body.blog.vert h3 { color: #339900; }
+body.blog.orange h3 { color: #db800c; }
+body.blog.rose h3 { color: #bd57b3; }
+body.blog.bleu h3 { color: #4689b9; }
+body.blog.rouge h3 { color: #9d3c25; }
+body.blog.rose-qsn h3 { color: #b94664; }
+
+/* blog .cat-children a.on */
+body.blog.vert .cat-children a.on { color: #339900; }
+body.blog.orange .cat-children a.on { color: #db800c; }
+body.blog.rose .cat-children a.on { color: #bd57b3; }
+body.blog.bleu .cat-children a.on { color: #4689b9; }
+body.blog.rouge .cat-children a.on { color: #9d3c25; }
+body.blog.rose-qsn .cat-children a.on { color: #b94664; }

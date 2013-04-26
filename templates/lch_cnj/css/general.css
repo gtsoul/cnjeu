@@ -1,0 +1,22 @@
+/* ==|== general ==== */
+  
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+    clear:both;
+}
+
+.result-title a, .result-title{
+	font-family: Verdana, sans-serif;
+	font-size: 18px;
+	color: #4CA114;
+}
+
+.search-results dd{
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	color: #424443;
+}

@@ -1,0 +1,72 @@
+<?php
+/**
+* @version 			SEBLOD 2.x Core ~ $Id: storage.php sebastienheraud $
+* @package			SEBLOD (App Builder & CCK) // SEBLOD nano (Form Builder)
+* @url				http://www.seblod.com
+* @editor			Octopoos - www.octopoos.com
+* @copyright		Copyright (C) 2012 SEBLOD. All Rights Reserved.
+* @license 			GNU General Public License version 2 or later; see _LICENSE.php
+**/
+
+// No Direct Access
+defined( '_JEXEC' ) or die;
+
+// Plugin
+class JCckPluginStorage extends JPlugin
+{
+	protected static $construction	=	'cck_storage';	
+	
+	// g_onCCK_StoragePrepareContent
+	public static function g_onCCK_StoragePrepareContent( &$field, &$config = array() )
+	{
+		if ( ! $field->storage_field2 ) {
+			$field->storage_field2	=	$field->name;
+		}
+	}
+	
+	// g_onCCK_StoragePrepareForm
+	public static function g_onCCK_StoragePrepareForm( &$field, &$config = array() )
+	{
+		if ( ! $field->storage_field2 ) {
+			$field->storage_field2	=	$field->name;
+		}
+	}
+	
+	// g_onCCK_StoragePrepareStore
+	public static function g_onCCK_StoragePrepareStore( &$field, $store, &$config = array() )
+	{
+		$Pl	=	$field->storage_location;
+		$Pt	=	$field->storage_table;
+		$Pf	=	$field->storage_field;
+		
+		if ( ! isset( $config['storages'][$Pt] ) ) {
+			$config['storages'][$Pt]		=	array();
+			// -
+			$s				=	new stdClass;
+			$s->location	=	$Pl;
+			$s->table		=	$Pt;
+			$s->state		=	false;
+			// -
+			$config['storages'][$Pt]['_']	=	$s;
+		}
+		if ( is_array( $store ) ) {
+			@$config['storages'][$Pt][$Pf]	=	$store;
+		} else {
+			@$config['storages'][$Pt][$Pf]	.=	trim( $store );
+		}
+	}
+	
+	// -------- -------- -------- -------- -------- -------- -------- -------- // Stuff
+	
+	public static function g_addProcess( $event, $type, &$config, $params )
+	{
+		if ( $event && $type ) {
+			$process						=	new stdClass;
+			$process->group					=	self::$construction;
+			$process->type					=	$type;
+			$process->params				=	$params;
+			$config['process'][$event][]	=	$process;
+		}
+	}
+}
+?>

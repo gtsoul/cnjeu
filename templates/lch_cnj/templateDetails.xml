@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+
+<extension version="2.5" type="template" client="site">
+		
+	<name>lch_cnj</name>	
+	<author>Fabien VAUTOUR (fvautour)</author>
+	<authorEmail>fvautour@compagnie-hyperactive.com</authorEmail>
+	<creationDate>06/06/12</creationDate>	
+	<copyright></copyright>	
+	<version>1.0</version>
+	<description>TPL_LCH_CNJ_DESC</description>
+
+	<files>		
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>img</folder>
+		<folder>js</folder>		
+		<folder>language</folder>
+		<folder>php</folder>		
+		<filename>index.html</filename>
+		<filename>index.php</filename>		
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>		
+	</files>
+
+	<positions>		
+		<position>absolute</position>
+		
+		<position>navigation</position>
+		
+		<position>header-menu</position>
+		<position>header-navflash</position>
+		
+		<position>top</position>
+		<position>slideshow</position>		
+				
+	    <position>left</position>
+		<position>content-top</position>
+	    <position>right</position>
+		<position>main-top</position>	    		
+  	    <position>breadcrumb</position>
+		<position>main-bottom</position>
+		<position>content-bottom</position>
+		
+		<position>bottom-actualite</position>
+		<position>bottom-agenda</position>
+        <position>bottom-agenda-pub</position>		
+					
+	    <position>footer</position>
+	    <position>footer-logo</position>
+	    <position>footer-menu</position>
+	    
+		<position>debug</position>
+				
+    </positions>
+	
+	<languages folder="language">
+		<language tag="fr-FR">fr-FR/fr-FR.tpl_lch_cnj.ini</language>
+	</languages>
+	
+</extension>

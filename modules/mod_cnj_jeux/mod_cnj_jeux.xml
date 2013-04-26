@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.6.0"
+	client="site"
+	method="upgrade">
+	<name>mod_cnj_jeux</name>
+	<author>Elisabeth Blancon</author>
+	<creationDate>Juin 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>eblancon@compagnie-hyperactive.com</authorEmail>
+	<authorUrl>www.compagnie-hyperactive.com</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_CNJ_JEUX_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_cnj_jeux">mod_cnj_jeux.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>	
+		<filename>mod_cnj_jeux.xml</filename>
+	</files>
+	<languages>
+		<language tag="fr-FR">fr-FR.mod_cnj_jeux.ini</language>
+		<language tag="fr-FR">fr-FR.mod_cnj_jeux.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

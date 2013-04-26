@@ -1,0 +1,204 @@
+/* ==|== content ==== */
+p.right,
+img.right {
+	float: right;
+}
+
+p.left,
+img.left {
+	float: left;
+}
+
+.readmore a { color:#424443; text-decoration:underline; }
+
+.breadcrumbs {
+    margin-top: 30px;
+}
+
+.breadcrumbs a {
+    font-size: 11px;
+    color: #1f2929;
+}
+
+.breadcrumbs span {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.item-page h2 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.item-page h3 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.item-page a.telecharger {
+    padding-left: 30px;
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: underline;
+    background: url('../images/picto-telecharger.gif') top left no-repeat;
+}
+
+
+ 
+.fiche.last {
+    margin-right:0; 
+}
+.fiche .visuel {
+    width: 100%;
+    border-bottom:solid 1px #cfcfcf;
+}
+    .fiche .visuel td {
+        text-align: center;
+        vertical-align: middle;
+        padding:12px;
+        overflow: hidden;
+    }
+    
+.fiche .info {
+    position:relative;
+    padding:15px 8px 44px 8px;
+}
+    .fiche .info p {
+        margin:2px 0;
+    }
+    .fiche .info .titre {
+        font-weight: bold;
+    }
+    .fiche a.en_savoir_plus {
+        position:absolute;
+        /*bottom:0;*/
+        right:0;
+        display: block;
+        color:#FFFFFF;
+        text-decoration:none;
+        font-weight: bold;
+        background:url('../images/bg-en-savoir-plus.png') top left no-repeat;
+        width:126px;
+        height:20px;
+        padding:4px 0 0 7px;
+        margin-bottom: 10px;
+        margin-right: 8px;
+    }
+
+.fiche_detail a.retour {
+    display:block;
+    text-align: right;
+    color:#424443;
+    text-decoration: none;
+}
+    .fiche_detail a.retour img{
+        vertical-align: middle;
+    }
+    
+.fiche_detail .info {
+    position:relative;
+    padding:15px 30px 44px 30px;
+}    
+    .fiche_detail .info p {
+        margin:6px 0;
+    }
+    .fiche_detail .info .titre {
+        dislay:inline-block;
+        padding-left: 12px;
+        font-weight: bold;
+        background: url('../images/puce-orange.png') left 5px no-repeat;
+    }
+    .fiche_detail a.ressources {
+        position:absolute;
+        bottom:0;
+        right:0;
+        margin-bottom:10px;
+        margin-right:10px;
+    }
+    
+.pagination ul { margin-top:6px; }
+.pagination li { float: left; list-style: none; margin:4px 4px 0 4px; }
+.pagination li.pagination-start, .pagination li.pagination-end, .pagination li.pagination-prev, .pagination li.pagination-next { margin:0; }
+.pagination li.pagination-start { margin-left:6px; }
+
+.fiche_detail .description .pictos img {
+    vertical-align: middle;
+}
+
+
+.fiche_detail .description .visuel #slider li { 
+    width:494px;
+    overflow:hidden; 
+}
+
+
+
+.fiche_detail .description .visuel .bx-pager {
+    background-color: #eee;
+    margin-top: 14px;
+    max-height:300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.fiche_detail .description .visuel .bx-pager a {
+    display:inline-block;
+    margin:0 14px 0 0;
+    padding:8px 0;
+}
+.fiche_detail .description .visuel .bx-pager img {
+    height:80px;
+    vertical-align: middle;
+}
+
+.blog .cat-children ul { margin:14px 0 0 0; padding: 0; border-top:solid 1px #e8e9e9; border-bottom:solid 1px #e8e9e9; }
+	.blog .cat-children li { display:inline-block; padding:5px 17px 5px 8px; margin-right:10px; background:url('../images/blog-ssmenu-item-rose-qsn.png') right 10px no-repeat; }
+	.blog .cat-children li a { color:#353e3e; font-family: 'Abel'; font-size: 16px; font-weight: 400; }
+
+.blog h2 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+	clear:left;
+}
+
+.blogblog h2 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+	clear:left;
+}
+
+.blog h3 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: normal;
+}
+.items-leading div img, .items-row div img { margin-right:20px; float:left; padding-bottom: 10px; }
+
+.items-leading, .items-row{ clear:left; width:680px; margin-bottom: 20px;}
+
+.blogblog.rose-qsn .item{clear: left;}
+
+.pagination-actu {float:right;}
+
+.pagination-actu span{ color:#b94664; font-weight:bold; }
+
+.pagination-actu a{ color:#424443;}
+
+.pagination-actu li{ padding-right: 9px; padding-top: 5px;}
+
+.pagination-actu .num-page{ height: 23px; border-right: 1px solid #e0e2e2;}
+
+.pagination-actu .num-page:last-child{border-right: none;}

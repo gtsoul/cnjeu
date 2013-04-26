@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<install type="plugin" version="1.5" method="upgrade" group="editors-xtd">
+  <name>Button  - jVoteSystemButton</name>
+  <creationDate>26-Jan-2011</creationDate>
+  <author>Johannes Meßmer</author>
+  <authorEmail>johannes.messmer@gmail.com</authorEmail>
+  <authorUrl>http://joomess.de</authorUrl>
+  <copyright>(C) 2010 Johannes Meßmer</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3</license>
+  <version>2.00</version>
+  <description />
+  <files>
+    <filename plugin="jvotesystembutton">jvotesystembutton.php</filename>
+	<folder>images</folder>
+	<folder>css</folder>
+  </files>
+</install>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>CDC J Floating Bar</name>
+	<author>Robert Trudeau</author>
+	<creationDate>2012/01/01</creationDate>
+	<copyright>Copyright (C) 2002-2012</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@citeducommerce.com</authorEmail>
+	<authorUrl>www.citeducommerce.com</authorUrl>
+	<version>1.1.2</version>
+	<description>MOD_CDC_J_FLOATING_BAR_XML_DESC</description>
+
+	<files>
+		<filename module="mod_cdc_jfloating_bar">mod_cdc_jfloating_bar.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>License.txt</filename>
+		<folder>tmpl/</folder>
+		
+	</files>
+	
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_cdc_jfloating_bar.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_cdc_jfloating_bar.sys.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_cdc_jfloating_bar.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_cdc_jfloating_bar.sys.ini</language>
+	</languages>
+	
+	<config>
+	<fields name="params">
+		<fieldset name="basic" label="DESC_OPTIONS_DE_CONNEXION">
+			<field name="activelogin" type="radio" default="0" label="DESC_LABL_ACTIVELOGIN" description="DESC_ACTIVELOGIN">
+			<option value="0">CDC_NO</option>
+			<option value="1">CDC_YES</option>
+		</field>
+		
+		<field name="login" type="menuitem" default="" disable="separator" label="DESC_LABL_LOGIN_LANDING_PAGE" description="DESC_LOGIN_LANDING_PAGE" state="1"><option value="">JDEFAULT</option></field>
+		<field name="logout" type="menuitem" default="" disable="separator" label="DESC_LABL_LOGOUT_LANDING_PAGE" description="DESC_LOGOUT_LANDING_PAGE" state="1"><option value="">JDEFAULT</option></field>
+		
+		<field name="loginpage" type="menuitem" default="" disable="separator" label="DESC_LABL_LOGIN_PAGE" description="DESC_LOGIN_PAGE" state="1"><option value="">JDEFAULT</option></field>
+		
+		<field name="registerlinkactive" type="radio" default="0" label="DESC_LABL_REGISTERLINKACTIVE" description="DESC_REGISTERLINKACTIVE">
+			<option value="0">CDC_NO</option>
+			<option value="1">CDC_YES</option>
+		</field>
+		
+		<field name="urlregister" type="menuitem" default="" disable="separator" label="DESC_LABL_URLREGISTER" description="DESC_URLREGISTER" state="1">
+		<option value="">JDEFAULT</option>
+                         </field> 
+		
+		
+		 <field name="spacer0" type="spacer" hr="true"/> 
+		
+		<field name="view_profile" type="menuitem" default="" disable="separator" label="DESC_LABL_VIEW_PROFILE" description="DESC_VIEW_PROFILE" state="1"><option value="">JDEFAULT</option></field>
+		<field name="edit_profile" type="menuitem" default="" disable="separator" label="DESC_LABL_EDIT_PROFILE" description="DESC_EDIT_PROFILE" state="1"><option value="">JDEFAULT</option></field>
+		
+		 <field name="spacer0" type="spacer" hr="true"/> 
+		
+		<field name="usesecure" type="radio" default="0" label="DESC_LABL_LOGINSECURE" description="DESC_LOGINSECURE">
+			<option value="0">CDC_NO</option>
+			<option value="1">CDC_YES</option>
+		</field>
+		
+	
+		
+		
+		
+		</fieldset>
+		
+		<fieldset name="basic5" label="DESC_STYLE">
+		
+		
+		
+<field name="moduleposition" type="radio" default="0" label="DESC_LABL_MODULEPOSITION" description="DESC_MODULEPOSITION">
+			<option value="fixed">CDC_YES</option>
+			<option value="relative">CDC_NO</option>
+		</field>
+<field name="cdc_fbg" type="text" default="" label="DESC_LABL_FBG" description="DESC_CDC_FBG" />
+
+		<field name="nWidth" type="text" default="950px" label="DESC_LABL_CDC_WIDTH" description="DESC_CDC_WIDTH" />
+
+		<field name="nStyle" type="filelist" default="" label="DESC_LABL_CDC_STYLE" description="DESC_CDC_STYLE" directory="modules/mod_cdc_jfloating_bar/tmpl/css/" filter="\.css$" stripext="true" hide_none="true" hide_default="true" />
+		</fieldset>
+		
+		
+		
+		
+		
+		
+		
+		<fieldset name="basic2" label="DESC_CONTACTS_ET_RESEAUX_SOCIAUX">
+		
+		<field name="iContacts" type="text" default="" label="DESC_LABL_ICONTACTS" size="20" description="DESC_ICONTACTS" />
+		<field name="vContacts" type="menuitem" default="" disable="separator" label="DESC_LABL_VCONTACTS" description="DESC_VCONTACTS" state="1"><option value="">JDEFAULT</option></field>
+		 <field name="spacer1" type="spacer" hr="true"/> 
+		<field name="iTwit" type="text" default="" label="DESC_LABL_TWIT" size="35" description="DESC_TWIT" />
+		<field name="iFbook" type="text" default="" label="DESC_LABL_FACEBOOK" size="35" description="DESC_FACEBOOK" />
+		<field name="iLinked" type="text" default="" label="DESC_LABL_LINKEDIN" size="35" description="DESC_LINKEDIN" />
+		<field name="iMySpace" type="text" default="" label="DESC_LABL_MYSPACE" size="35" description="DESC_MYSPACE" />
+		<field name="iYoutube" type="text" default="" label="DESC_LABL_YOUTUBE" size="35" description="DESC_YOUTUBE" />
+		
+		
+		</fieldset>
+		<fieldset name="basic3" label="DESC_THIRD_PARTY_EXTENSION">	
+		
+		
+		
+		 <field name="spacer0" type="spacer" hr="true"/> 
+		
+	
+		
+		
+		
+		<field name="mTree" type="radio" default="0" label="DESC_LABL_MOSETSTREE" description="DESC_MOSETSTREE">
+			<option value="0">CDC_NO</option>
+			<option value="1">CDC_YES</option>
+		</field>
+		
+	 <field name="spacer0" type="spacer" hr="true"/> 
+	 
+		<field name="iCart" type="radio" default="0" label="DESC_LABL_VIRTUEMART" description="DESC_VIRTUEMART">
+			<option value="0">CDC_NO</option>
+			<option value="1">CDC_YES</option>
+		</field>
+		
+		
+		
+		
+		</fieldset>
+		
+		<fieldset name="basic4" label="DESC_WEB_SITE_NAVIGATION">
+		
+		<field name="urlhome" type="menuitem" default="" disable="separator" label="DESC_LABL_URLHOME" description="DESC_URLHOME" state="1"><option value="">JDEFAULT</option></field> 
+		
+		<field name="url1" type="menuitem" default="" disable="separator" label="DESC_LABL_URL1" description="DESC_URL1" state="1"><option value="">JDEFAULT</option></field> 
+		
+		<field name="url2" type="menuitem" default="" disable="separator" label="DESC_LABL_URL2" description="DESC_URL2" state="1"><option value="">JDEFAULT</option></field>
+		
+		<field name="url3" type="menuitem" default="" disable="separator" label="DESC_LABL_URL3" description="DESC_URL3" state="1"><option value="">JDEFAULT</option></field>
+		
+		<field name="url4" type="menuitem" default="" disable="separator" label="DESC_LABL_URL4" description="DESC_URL4" state="1"><option value="">JDEFAULT</option></field>
+		
+		<field name="url5" type="menuitem" default="" disable="separator" label="DESC_LABL_URL5" description="DESC_URL5" state="1">
+		<option value="">JDEFAULT</option></field>
+		
+		<field name="url6" type="menuitem" default="" disable="separator" label="DESC_LABL_URL6" description="DESC_URL6" state="1"><option value="">JDEFAULT</option></field>
+		
+		<field name="url7" type="menuitem" default="" disable="separator" label="DESC_LABL_URL7" description="DESC_URL7" state="1"><option value="">JDEFAULT</option></field>
+		
+		
+		</fieldset>
+		
+		
+		</fields>
+
+</config>
+	
+
+</extension>

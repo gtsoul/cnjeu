@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="administrator">
+	<name>mod_cnj_actualites_hp</name>
+	<author>Fabien VAUTOUR</author>
+	<creationDate>06/06/2012</creationDate>
+	<copyright>La Compagnie Hyperactive</copyright>
+	<authorEmail>fvautour@compagnie-hyperactive.com</authorEmail>
+	<authorUrl>www.compagnie-hyperactive.com</authorUrl>
+	<version>2.5.0</version>
+	<description>MOD_CNJ_ACTUALITES_HP_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_cnj_actualites_hp">mod_cnj_actualites_hp.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="fr-FR">fr-FR.mod_cnj_actualites_hp.ini</language>
+		<language tag="fr-FR">fr-FR.mod_cnj_actualites_hp.sys.ini</language>
+	</languages>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_LATEST_NEWS" />
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            <field
+                    name="catid"
+                    type="category"
+                    extension="com_content"
+                    multiple="true"
+                    size="10"
+                    default=""
+                    label="JCATEGORY"
+                    description="MOD_CNJ_ACTUALITES_HP_FIELD_CATEGORY_DESC" >
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+            <field
+                    name="typeactualite"
+                    type="list"
+                    default="joue1a7"
+                    label="MOD_CNJ_ACTUALITES_HP_FIELD_TYPEACTUALITE_LABEL"
+                    description="MOD_CNJ_ACTUALITES_HP_FIELD_TYPEACTUALITE_DESC">
+                    <option
+                        value="joue1a7">MOD_CNJ_ACTUALITES_HP_FIELD_TYPE_JOUE1A7</option>
+                    <option
+                        value="joueclub">MOD_CNJ_ACTUALITES_HP_FIELD_TYPE_JOUECLUB</option>
+                    <option
+                        value="actualitescnj">MOD_CNJ_ACTUALITES_HP_FIELD_TYPE_ACTUALITESCNJ</option>
+                </field>
+            </fieldset>
+            <fieldset name="article_ordering"
+                label="MOD_ARTICLES_CATEGORY_FIELD_GROUP_ORDERING_LABEL"
+            >
+                <field name="article_ordering" type="list"
+                    default="a.title"
+                    label="MOD_ARTICLES_CATEGORY_FIELD_ARTICLEORDERING_LABEL"
+                    description="MOD_ARTICLES_CATEGORY_FIELD_ARTICLEORDERING_DESC"
+                >
+                    <option value="a.ordering">MOD_ARTICLES_CATEGORY_OPTION_ORDERING_VALUE
+                    </option>
+                    <option value="a.title">JGLOBAL_TITLE
+                    </option>
+                    <option value="a.id">MOD_ARTICLES_CATEGORY_OPTION_ID_VALUE
+                    </option>
+                    <option value="a.created">MOD_ARTICLES_CATEGORY_OPTION_CREATED_VALUE
+                    </option>
+                    <option value="modified">MOD_ARTICLES_CATEGORY_OPTION_MODIFIED_VALUE
+                    </option>
+                    <option value="publish_up">MOD_ARTICLES_CATEGORY_OPTION_STARTPUBLISHING_VALUE
+                    </option>
+                </field>
+
+                <field name="article_ordering_direction" type="list"
+                    default="ASC"
+                    label="MOD_ARTICLES_CATEGORY_FIELD_ARTICLEORDERINGDIR_LABEL"
+                    description="MOD_ARTICLES_CATEGORY_FIELD_ARTICLEORDERINGDIR_DESC"
+                >
+                    <option value="DESC">MOD_ARTICLES_CATEGORY_OPTION_DESCENDING_VALUE
+                    </option>
+                    <option value="ASC">MOD_ARTICLES_CATEGORY_OPTION_ASCENDING_VALUE
+                    </option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

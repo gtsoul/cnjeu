@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD module 1.0//EN" "http://joomla.org/xml/dtd/1.5/module-install.dtd">
+<install type="module" version="1.5" method="upgrade" client="site">
+  <name>jVoteSystemModule</name>
+  <creationDate>08-Aug-2011</creationDate>
+  <author>Johannes Meßmer</author>
+  <authorEmail>service@joomess.de</authorEmail>
+  <authorUrl>http://www.joomess.de</authorUrl>
+  <copyright>Copyright (C) 2011- Johannes Meßmer</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+  <version>1.00</version>
+  <description></description>
+  <files>
+    <filename>index.html</filename>
+    <filename module="mod_jvotesystemmodule">mod_jvotesystemmodule.php</filename>
+  </files>
+  <params>
+			<param type="radio" name="type" label="P_TYPE" default="poll" description="P_TYPE_DESC">
+	 		  <option value="poll">P_POLL</option>
+			  <option value="advanced">P_ADVANCED</option>
+			</param>
+			<param type="radio" name="show_link" label="P_SHOW_GOTO" default="1" description="P_SHOW_GOTO_DESC">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</param>
+			<param type="spacer" name="viewPoll" label="&lt;b&gt;&lt;i&gt;Poll&lt;/i&gt;&lt;/b&gt;" />
+  			<param type="sql" name="poll_id" label="P_POLLID" default="" description="P_POLLID_DESC" query="SELECT id AS value, title AS poll_id FROM #__jvotesystem_boxes WHERE `published` >= 0" />
+  			<param type="spacer" name="viewAdvanced" label="&lt;b&gt;&lt;i&gt;Advanced&lt;/i&gt;&lt;/b&gt;" />
+  			<param type="radio" name="cat_all" label="P_ALLCATS" default="1" description="P_ALLCATS_DESC">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</param>
+  			<param type="sql" name="cat_id" label="P_CAT" default="" description="P_CAT_DESC" query="SELECT id AS value, title AS cat_id FROM #__jvotesystem_categories" />
+  			<param type="radio" name="sub_cats" label="P_SUBCATS" default="1">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</param>
+			<param type="list" name="order_by" label="P_ORDERBY" default="random">
+			  <option value="random">RANDOM</option>
+			  <option value="most-voted">MOST_VOTED</option>
+			  <option value="recent">RECENT</option>
+			  <option value="most-discussed">MOST_DISCUSSED</option>
+			</param>
+			<param name="time" type="list" default="all-time" label="POLLS_CREATED">
+				<option value="all-time">ALL</option>
+				<option value="month">THIS_MONTH</option>
+				<option value="week">THIS_WEEK</option>
+				<option value="today">TODAY</option>
+			</param>
+			<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+  </params>
+  <config>
+	<!--Joomla 1.6-->
+   	<fields name="params">
+		<fieldset name="basic">
+			<field type="radio" name="type" label="P_TYPE" default="poll" description="P_TYPE_DESC">
+			  <option value="poll">P_POLL</option>
+			  <option value="advanced">P_ADVANCED</option>
+			</field>
+			<field type="radio" name="show_link" label="P_SHOW_GOTO" default="1" description="P_SHOW_GOTO_DESC">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+			<field type="spacer" name="viewPoll" label="&lt;b&gt;&lt;i&gt;Poll&lt;/i&gt;&lt;/b&gt;" />
+  			<field type="sql" name="poll_id" label="P_POLLID" default="" description="P_POLLID_DESC" query="SELECT id AS value, title AS poll_id FROM #__jvotesystem_boxes WHERE `published` >= 0" />
+  			<field type="spacer" name="viewAdvanced" label="&lt;b&gt;&lt;i&gt;Advanced&lt;/i&gt;&lt;/b&gt;" />
+  			<field type="radio" name="cat_all" label="P_ALLCATS" default="1" description="P_ALLCATS_DESC">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+  			<field type="sql" name="cat_id" label="P_CAT" default="" description="P_CAT_DESC" query="SELECT id AS value, title AS cat_id FROM #__jvotesystem_categories" />
+  			<field type="radio" name="sub_cats" label="P_SUBCATS" default="1">
+			  <option value="1">JYES</option>
+			  <option value="0">JNO</option>
+			</field>
+			<field type="list" name="order_by" label="P_ORDERBY" default="random">
+			  <option value="random">RANDOM</option>
+			  <option value="most-voted">MOST_VOTED</option>
+			  <option value="recent">RECENT</option>
+			  <option value="most-discussed">MOST_DISCUSSED</option>
+			</field>
+			<field name="time" type="list" default="all-time" label="POLLS_CREATED">
+				<option value="all-time">ALL</option>
+				<option value="month">THIS_MONTH</option>
+				<option value="week">THIS_WEEK</option>
+				<option value="today">TODAY</option>
+			</field>
+  		</fieldset>
+		<fieldset name="advanced">
+			<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+		</fieldset>
+  	</fields>
+  </config>
+  <languages>
+		<language tag="en-GB">en-GB.mod_jvotesystemmodule.ini</language>
+		<language tag="de-DE">de-DE.mod_jvotesystemmodule.ini</language>
+	</languages>
+</install>

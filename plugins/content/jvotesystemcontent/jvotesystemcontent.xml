@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<install type="plugin" version="1.5" group="content" method="upgrade">
+  <name>Content - jVoteSystem</name>
+  <creationDate>26-Dec-2010</creationDate>
+  <author>Johannes Meßmer</author>
+  <authorEmail>service@joomess.de</authorEmail>
+  <authorUrl>http://www.joomess.de</authorUrl>
+  <copyright>Copyright (C) 2010 Johannes Meßmer</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3</license>
+  <version>2.00</version>
+  <description />
+  <files>
+    <filename plugin="jvotesystemcontent">jvotesystemcontent.php</filename>
+  </files>
+</install>

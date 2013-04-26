@@ -1,0 +1,90 @@
+.cdc_jfloating_bar #form-login, .cdc_jfloating_bar form, .cdc_jfloating_bar input, .cdc_jfloating_bar form div, .cdc_jfloating_bar select, .cdc_jfloating_bar form input,
+.cdc_jfloating_bar #modlgn_username, .cdc_jfloating_bar #modlgn_passwd{
+	padding: 0; margin: 0; border: 0; line-height: normal; background: transparent; font-weight: normal;
+	}
+.cdc_jfloating_bar {
+	position: fixed;
+	z-index: 99999;
+	height: 35px;
+	width: auto;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	line-height: normal !important;
+	}
+
+.cdc_jfloating_bar {top: 0;}
+.cdc_jfloating_bar .w1 {
+	padding-left: 8px;
+	}
+.cdc_jfloating_bar .w2 {
+	padding-right: 8px;
+	}
+.cdc_jfloating_bar .w3 {
+	height: 28px;
+	padding: 4px 0 3px 0;
+	}
+.v-line {border-right: 0px solid #555555; float: left; height: 28px; width: 5px; margin-right: 5px}
+
+
+
+.cdc-home {float: left; background: url(../images/icons/blue/28x28/home.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+
+/*WEB SITE NAVIGATION*/
+.cdc-url1 {float: left; background: url(../images/icons/blue/28x28/url1.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-url2 {float: left; background: url(../images/icons/blue/28x28/url2.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-url3 {float: left; background: url(../images/icons/blue/28x28/url3.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-url4 {float: left; background: url(../images/icons/blue/28x28/url4.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-url5 {float: left; background: url(../images/icons/blue/28x28/url5.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-url6 {float: left; background: url(../images/icons/blue/28x28/url6.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-url7 {float: left; background: url(../images/icons/blue/28x28/url7.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+
+
+
+
+
+
+.cdc-twit {float: left; background: url(../images/icons/blue/28x28/twitter.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-fbook {float: left; background: url(../images/icons/blue/28x28/facebook.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-linkedin {float: left; background: url(../images/icons/blue/28x28/linkedin.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-youtube {float: left; background: url(../images/icons/blue/28x28/youtube.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-myspace {float: left; background: url(../images/icons/blue/28x28/myspace.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-cart {float: left; width: 120px; height: 22px; background: url(../images/icons/blue/28x28/cartfull.png) no-repeat; display: block; color: #185111; font-size: 11px; padding: 6px 0 0 30px}
+.cdc-cartempty {float: left; width: 120px; height: 22px; background: url(../images/icons/blue/28x28/cartempty.png) no-repeat; display: block; color: #185111; font-size: 11px; padding: 6px 0 0 30px}
+
+/*----LOGIN FORM----*/
+.cdc-loginform {float: right}
+.ffields, .pwreset, .uninput, .pwinput, .fbtn, .unreset, .stayin, .reg{float: left}
+.cdc_jfloating_bar .ffields {
+	width: 300px;
+	height: 28px;
+	background: url(../images/bar/loginbar.png) no-repeat;
+	}
+.uninput, .pwinput {
+	width: 95px !important;
+	height: 18px !important;
+	font-size: 11px !important;
+	background: transparent;
+	border: 0 !important;
+	margin: 5px 0 0 21px !important;
+	}
+.cdc_jfloating_bar .stayin {padding: 8px 0 0 8px !important; width: 30px; height: 20px; }
+.cdc_jfloating_bar .fbtn {width: 28px; height: 28px;}
+.reg { width: 28px; height: 28px; display: block;}
+.cdc_jfloating_bar .reg {background: url(../images/icons/blue/28x28/newuser.png) no-repeat;}
+
+/*Mosets Tree Tools*/
+.mTree_ad {float: left; background: url(../images/icons/blue/28x28/add.png) no-repeat; width: 28px; height: 28px; display: bloc; margin: 0px 0 0 3px !important;}
+.mTree_adsview {float: left; background: url(../images/icons/blue/28x28/viewad.png) no-repeat; width: 28px; height: 28px; display: block}
+
+/* COMMUNITY BUILDER and Jom social Tools*/
+.profile {float: left; background: url(../images/icons/blue/28x28/profile.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px !important;}
+.editprofile {float: left; background: url(../images/icons/blue/28x28/edit.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px!important;}
+
+
+
+
+/*Logged in*/
+.l-inuname {font-size: 12px}
+.cdc-contact {float: left; background: url(../images/icons/blue/28x28/nousjoindre.png) no-repeat; width: 28px; height: 28px; display: block; padding: 3px 0 0 3px}
+.cdc-outbtn {float: left; background: url(../images/icons/blue/28x28/logout.png) no-repeat !important; width: 28px; height: 28x; }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="administrator">
+	<name>mod_cnj_share_search</name>
+	<author>Fabien VAUTOUR</author>
+	<creationDate>06/06/2012</creationDate>
+	<copyright>La Compagnie Hyperactive</copyright>
+	<authorEmail>fvautour@compagnie-hyperactive.com</authorEmail>
+	<authorUrl>www.compagnie-hyperactive.com</authorUrl>
+	<version>2.5.0</version>
+	<description>MOD_CNJ_SHARE_SEARCH_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_cnj_share_search">mod_cnj_share_search.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="fr-FR">fr-FR.mod_cnj_share_search.ini</language>
+		<language tag="fr-FR">fr-FR.mod_cnj_share_search.sys.ini</language>
+	</languages>
+</extension>

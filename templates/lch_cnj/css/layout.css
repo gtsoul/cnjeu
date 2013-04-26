@@ -1,0 +1,202 @@
+/* ==|== layout ============================================================= */
+
+/* ==========================================================================
+  									Page
+   ========================================================================== */
+
+body, html {
+	height :100%;  /* sticky footer */
+}
+
+body {
+	background: #ffffff;
+}
+
+.container {
+    width: 954px;
+    margin: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+/* Header */
+header .container-header-menu {
+    height: 46px;
+    background: url('../images/fond-header.png') top left repeat-x;
+}
+
+header #navflash {
+    overflow: hidden;
+    text-align: center;
+    background: #fafafa;
+    margin: auto;
+    margin-top: -7px;
+    width: 1200px;
+    height: 484px;
+}
+
+/* Footer */
+footer {
+    background: #1f2929;
+    padding-bottom: 45px;
+}
+
+footer .container {
+    overflow: hidden;
+}
+
+footer #footer-logo {
+    float: left;
+	margin-top: -11px;
+}
+
+footer #footer-logo p {
+    color: #898989;
+    font-size: 11px;
+}
+
+footer #footer-menu {
+    float: right;
+}
+
+footer #footer-menu ul.menu {
+    margin-top: 10px;
+}
+
+footer #footer-menu ul.menu li {
+    float: left;
+    padding: 0 7px;
+    border-left: 1px solid #9c9c9c;
+}
+
+footer #footer-menu ul.menu li:first-child {
+    border-left: none;
+}
+
+footer #footer-menu ul.menu li a {
+    color: #898989;
+    font-size: 11px;
+}
+
+/* Top */
+#top {
+    background: #339900;
+}
+
+#top .top {
+    background: #1f2929;
+    min-height: 41px;
+    overflow: hidden;
+}
+
+body.hp #middle .container {
+    background: none;
+}
+    
+#middle .container {
+    overflow: hidden;
+    background: url('../images/fond-menu-gauche.gif') top left repeat-x;
+}
+
+body.hp #content {
+    float: none;
+    padding: 0;
+    width: 100%;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 740px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+}
+.blog #content {
+	width:954px ;
+    padding-left: 0;
+}
+
+#right {
+    float: right;
+    width: 206px;
+}
+
+body.hp #main {
+    padding-right: 0;
+    min-height:0;
+}
+
+#main {
+    padding-right: 220px;
+    min-height:300px;
+}
+#main.large {
+    padding-right:0;
+}
+
+  
+.jeu .pagination {
+    float:right;
+    text-align:right;
+}
+.jeu #resultats {
+    clear:both; 
+    padding-top: 20px;
+}
+    .jeu #resultats .fiche {
+        float:left; 
+        width:230px;
+        margin:0 14px 10px 0; 
+        border:solid 1px #cfcfcf;
+        box-shadow: 0 0 5px #cfcfcf;
+        -moz-box-shadow: 0 0 5px #cfcfcf;
+        -webkit-box-shadow: 0 0 5px #cfcfcf;
+    }
+    .jeu #resultats .row {
+        clear: both;
+    }
+
+.fiche_detail .description {
+    border:solid 1px #cfcfcf;
+    box-shadow: 0 0 5px #cfcfcf;
+    -moz-box-shadow: 0 0 5px #cfcfcf;
+    -webkit-box-shadow: 0 0 5px #cfcfcf;
+    margin:10px 0 0 0; 
+}
+.fiche_detail .description .visuel {
+    border-bottom:solid 1px #cfcfcf;
+    overflow: hidden;
+    text-align: center;
+    padding:12px;
+    overflow: hidden;
+}
+    
+.fiche_detail .description .visuel #slider {
+    width:494px;
+}
+    
+.fiche_detail .description .pictos {
+    text-align: center;
+    padding:12px;
+    overflow: hidden;
+    font-weight:bold;
+    color:#db800c;
+}
+
+
+.search-jeux-bloc {
+    clear:both;
+    background: #1f2929;
+    overflow: hidden;
+    padding:10px 0 18px 0;
+    border-top:solid 1px #3f3f3f;
+    color:#FFFFFF;
+}
+
+/* bottom */
+
+.ie7 .bottom-agenda-pub{
+	margin-bottom:10px;
+}
