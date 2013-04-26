@@ -167,3 +167,4 @@ pip-log.txt
 #############
 
 configuration.php
+logs/error.php
