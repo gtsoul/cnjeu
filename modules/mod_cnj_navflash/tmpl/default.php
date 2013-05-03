@@ -23,11 +23,23 @@ defined('_JEXEC') or die;
 ?>
 
 
+<style>
+  #navflashalt {
+    display: block;
+    margin-bottom: -3px;
+    margin-top: -8px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #navflash {
+  
+  }
+</style>
 
-
-<div id= "bigJPG" style="width:100%;text-align:center">
+<div id= "bigJPG">
   <div id="navflashalt" style="width:100%;text-align:center;display:block;">
-    <img src="templates/lch_cnj/images/banniere_cnj_reduite.jpg" alt="cnj" />
+    <img src="templates/lch_cnj/images/banniere_cnj_reduite.png" alt="cnj" />
     <a href="javascript:void(0);" class="expand">
       <img src="templates/lch_cnj/images/toggle-expand.png" alt="expand" />
     </a>
@@ -58,7 +70,7 @@ defined('_JEXEC') or die;
 <div style="width:100%;text-align:center">
 <script>
 
-$.(document).ready(function() {
+$(document).ready(function() {
 
   var flashvars = {
       lien_ludotheque: "<?php echo JURI::base(); ?>ludotheque.php",
