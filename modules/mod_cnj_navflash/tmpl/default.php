@@ -46,6 +46,12 @@ defined('_JEXEC') or die;
     display: block;
   }
   
+  #navflashwrapper .toggle-expand {
+    position: absolute;
+    top: 40px;
+    right: 5%;
+  }
+  
   #navflashwrapper .collapse {
     display: none;
   }
@@ -65,12 +71,11 @@ defined('_JEXEC') or die;
 
 <div id= "bigJPG">
   <div id="navflashwrapper">
-    <img src="templates/lch_cnj/images/banniere_cnj_reduite.png" alt="cnj" class="navflashalt"/>
     <a href="javascript:void(0);" class="toggle-expand">
       <img src="templates/lch_cnj/images/toggle-expand.png" class="expand" alt="expand" />
       <img src="templates/lch_cnj/images/toggle-collapse.png" class="collapse" alt="collapse" />
-    </a>
-    
+    </a>  
+    <img src="templates/lch_cnj/images/banniere_cnj_reduite.png" alt="cnj" class="navflashalt"/>  
     <div id="navflash">
       <map name="nav_map">
         <area shape="rect" coords="45,106,396,357" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=5&Itemid=114">
@@ -109,13 +114,13 @@ $(document).ready(function() {
       wmode: "transparent"
   };
   var attributes = { };
-
+ 
   $('#navflashwrapper .toggle-expand').click(function() {
     if($('#navflashwrapper').hasClass('expanded')) {
       $('#navflashwrapper').removeClass('expanded');
     } else {
       $('#navflashwrapper').addClass('expanded');
-      if (flashVersion != "0.0.0" && $('#navflash #nav_map').length > 0)  {
+      if (flashVersion != "0.0.0" && $('#navflash map').length > 0)  {
         swfobject.embedSWF('<?php echo JURI::base(); ?>templates/lch_cnj/images/nav_HP.swf',
                   'navflash', '1200', '485', '10', 'expressInstall.swf', flashvars, params, attributes);
       }
