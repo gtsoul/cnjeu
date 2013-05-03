@@ -171,3 +171,18 @@ configuration.php
 logs/error.php
 CHANGELOG.txt
 images/cnj/ALGEDIM
+cache/
+
+# Joomsef 4.4.1
+components/com_sef/
+administrator/components/com_sef/
+plugins/extension/joomsefinstall/
+plugins/system/joomsef/
+plugins/system/joomseflang/
+plugins/system/joomsefsystem/
+plugins/system/joomsefgoogle/
+plugins/system/joomsefinstall/
+plugins/content/joomsef/
+libraries/joomla/updater/adapters/sef_update.php
+libraries/joomla/installer/adapters/sef_ext.php
+
