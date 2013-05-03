@@ -166,6 +166,7 @@ pip-log.txt
 ## Cnjeu
 #############
 
+.htaccess
 configuration.php
 logs/error.php
 CHANGELOG.txt
