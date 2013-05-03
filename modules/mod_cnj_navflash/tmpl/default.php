@@ -26,15 +26,24 @@ defined('_JEXEC') or die;
 
 
 <div id= "bigJPG" style="width:100%;text-align:center">
-    <div id="navflash" style="width:100%;text-align:center">
-        <map name="nav_map">
-        	<area shape="rect" coords="45,106,396,357" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=5&Itemid=114">
-        	<area shape="rect" coords="582,224,816,435" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=15&Itemid=124">
-        	<area shape="rect" coords="745,27,1013,224" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=22&Itemid=131">
-        	<area shape="rect" coords="823,312,1099,485" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=28&Itemid=137">
-        </map>
-        <img usemap="#nav_map" src="templates/lch_cnj/images/flash-alt.jpg" alt="" />
-    </div>
+  <div id="navflashalt" style="width:100%;text-align:center;display:block;">
+    <img src="templates/lch_cnj/images/banniere_cnj_reduite.jpg" alt="cnj" />
+    <a href="javascript:void(0);" class="expand">
+      <img src="templates/lch_cnj/images/toggle-expand.png" alt="expand" />
+    </a>
+  </div>
+  <div id="navflash" style="width:100%;text-align:center;display:none;">
+      <map name="nav_map">
+        <area shape="rect" coords="45,106,396,357" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=5&Itemid=114">
+        <area shape="rect" coords="582,224,816,435" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=15&Itemid=124">
+        <area shape="rect" coords="745,27,1013,224" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=22&Itemid=131">
+        <area shape="rect" coords="823,312,1099,485" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=28&Itemid=137">
+      </map>
+      <img usemap="#nav_map" src="templates/lch_cnj/images/flash-alt.jpg" alt="" />
+      <a href="javascript:void(0);" class="collapse">
+        <img src="templates/lch_cnj/images/toggle-collapse.png" alt="collapse" />
+      </a>      
+  </div>
 </div>
 <?php
 /*
@@ -49,36 +58,32 @@ defined('_JEXEC') or die;
 <div style="width:100%;text-align:center">
 <script>
 
-if (flashVersion == "0.0.0")
-{
-  //var id=  document.getElementById('withoutFlash');
-  //id.style.display = 'block';
-  //document.getElementById('bigJPG').style.display = 'none';
-}
-else
-{
-//document.getElementById('withoutFlash').style.display = 'none';
+$.(document).ready(function() {
+
+  var flashvars = {
+      lien_ludotheque: "<?php echo JURI::base(); ?>ludotheque.php",
+      lien_conservatoire: "<?php echo JURI::base(); ?>conservatoire.php",
+      lien_tremplin: "<?php echo JURI::base(); ?>tremplin.php",
+      lien_observatoire: "<?php echo JURI::base(); ?>observatoire.php"
+  };      
+  var params = {
+      menu: "false",
+      wmode: "transparent"
+  };
+  var attributes = { };
+
+  if (flashVersion == "0.0.0")  {
+    //var id=  document.getElementById('withoutFlash');
+    //id.style.display = 'block';
+    //document.getElementById('bigJPG').style.display = 'none';
+  } else {
+  swfobject.embedSWF('<?php echo JURI::base(); ?>templates/lch_cnj/images/nav_HP.swf',
+              'navflash', '1200', '485', '10', 'expressInstall.swf', flashvars, params, attributes);
+  }
+
+});
 
 
-var flashvars = {
-    lien_ludotheque: "<?php echo JURI::base(); ?>ludotheque.php",
-    lien_conservatoire: "<?php echo JURI::base(); ?>conservatoire.php",
-    lien_tremplin: "<?php echo JURI::base(); ?>tremplin.php",
-    lien_observatoire: "<?php echo JURI::base(); ?>observatoire.php"
-};
-
-    
-    
-var params = {
-    menu: "false",
-    wmode: "transparent"
-};
-var attributes = {
-};
-
-swfobject.embedSWF('<?php echo JURI::base(); ?>templates/lch_cnj/images/nav_HP.swf',
-            'navflash', '1200', '485', '10', 'expressInstall.swf', flashvars, params, attributes);
-};
 
 </script> 
 </div>
