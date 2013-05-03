@@ -22,53 +22,6 @@
 defined('_JEXEC') or die;
 ?>
 
-
-<style>
-  #navflashwrapper {
-    display: block;
-    margin-bottom: -3px;
-    margin-top: -8px;
-    text-align: center;
-    width: 100%;
-  }
-  
-  #navflash {
-    width:100%;
-    text-align:center;
-    display:none;
-  }
-  
-  #navflashwrapper.expanded .navflashalt {
-    display: none;
-  }  
-  
-  #navflashwrapper.expanded #navflash {
-    display: block;
-  }
-  
-  #navflashwrapper .toggle-expand {
-    position: absolute;
-    top: 40px;
-    right: 5%;
-  }
-  
-  #navflashwrapper .collapse {
-    display: none;
-  }
-  
-  #navflashwrapper .expand {
-    display: block;
-  }    
-  
-  #navflashwrapper.expanded .collapse {
-    display: block;
-  }
-  
-  #navflashwrapper.expanded .expand {
-    display: none;
-  }  
-</style>
-
 <div id= "bigJPG">
   <div id="navflashwrapper">
     <a href="javascript:void(0);" class="toggle-expand">
