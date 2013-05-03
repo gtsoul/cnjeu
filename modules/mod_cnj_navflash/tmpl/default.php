@@ -1,6 +1,6 @@
 <head>
 
-<script type="text/javascript" src="swfobject.js"></script>
+<!--script type="text/javascript" src="swfobject.js"></script-->
 		<script type="text/javascript">
 
 		var playerVersion = swfobject.getFlashPlayerVersion(); // returns a JavaScript object
@@ -24,7 +24,7 @@ defined('_JEXEC') or die;
 
 
 <style>
-  #navflashalt {
+  #navflashwrapper {
     display: block;
     margin-bottom: -3px;
     margin-top: -8px;
@@ -33,28 +33,54 @@ defined('_JEXEC') or die;
   }
   
   #navflash {
-  
+    width:100%;
+    text-align:center;
+    display:none;
   }
+  
+  #navflashwrapper.expanded .navflashalt {
+    display: none;
+  }  
+  
+  #navflashwrapper.expanded #navflash {
+    display: block;
+  }
+  
+  #navflashwrapper .collapse {
+    display: none;
+  }
+  
+  #navflashwrapper .expand {
+    display: block;
+  }    
+  
+  #navflashwrapper.expanded .collapse {
+    display: block;
+  }
+  
+  #navflashwrapper.expanded .expand {
+    display: none;
+  }  
 </style>
 
 <div id= "bigJPG">
-  <div id="navflashalt" style="width:100%;text-align:center;display:block;">
-    <img src="templates/lch_cnj/images/banniere_cnj_reduite.png" alt="cnj" />
-    <a href="javascript:void(0);" class="expand">
-      <img src="templates/lch_cnj/images/toggle-expand.png" alt="expand" />
+  <div id="navflashwrapper">
+    <img src="templates/lch_cnj/images/banniere_cnj_reduite.png" alt="cnj" class="navflashalt"/>
+    <a href="javascript:void(0);" class="toggle-expand">
+      <img src="templates/lch_cnj/images/toggle-expand.png" class="expand" alt="expand" />
+      <img src="templates/lch_cnj/images/toggle-collapse.png" class="collapse" alt="collapse" />
     </a>
-  </div>
-  <div id="navflash" style="width:100%;text-align:center;display:none;">
+    
+    <div id="navflash">
       <map name="nav_map">
         <area shape="rect" coords="45,106,396,357" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=5&Itemid=114">
         <area shape="rect" coords="582,224,816,435" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=15&Itemid=124">
         <area shape="rect" coords="745,27,1013,224" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=22&Itemid=131">
         <area shape="rect" coords="823,312,1099,485" href="<?php echo JURI::base(); ?>index.php?option=com_content&view=article&id=28&Itemid=137">
       </map>
-      <img usemap="#nav_map" src="templates/lch_cnj/images/flash-alt.jpg" alt="" />
-      <a href="javascript:void(0);" class="collapse">
-        <img src="templates/lch_cnj/images/toggle-collapse.png" alt="collapse" />
-      </a>      
+      <img usemap="#nav_map" src="templates/lch_cnj/images/flash-alt.jpg" alt="" />  
+    </div>    
+    
   </div>
 </div>
 <?php
@@ -84,15 +110,17 @@ $(document).ready(function() {
   };
   var attributes = { };
 
-  if (flashVersion == "0.0.0")  {
-    //var id=  document.getElementById('withoutFlash');
-    //id.style.display = 'block';
-    //document.getElementById('bigJPG').style.display = 'none';
-  } else {
-  swfobject.embedSWF('<?php echo JURI::base(); ?>templates/lch_cnj/images/nav_HP.swf',
-              'navflash', '1200', '485', '10', 'expressInstall.swf', flashvars, params, attributes);
-  }
-
+  $('#navflashwrapper .toggle-expand').click(function() {
+    if($('#navflashwrapper').hasClass('expanded') {
+      $('#navflashwrapper').removeClass('expanded');
+    } else {
+      $('#navflashwrapper').addClass('expanded');
+      if (flashVersion != "0.0.0" && $('#navflash #nav_map').length > 0)  {
+        swfobject.embedSWF('<?php echo JURI::base(); ?>templates/lch_cnj/images/nav_HP.swf',
+                  'navflash', '1200', '485', '10', 'expressInstall.swf', flashvars, params, attributes);
+      }
+    } 
+  });
 });
 
 
