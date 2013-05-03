@@ -111,7 +111,7 @@ $(document).ready(function() {
   var attributes = { };
 
   $('#navflashwrapper .toggle-expand').click(function() {
-    if($('#navflashwrapper').hasClass('expanded') {
+    if($('#navflashwrapper').hasClass('expanded')) {
       $('#navflashwrapper').removeClass('expanded');
     } else {
       $('#navflashwrapper').addClass('expanded');
