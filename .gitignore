@@ -168,10 +168,11 @@ pip-log.txt
 
 .htaccess
 configuration.php
-logs/error.php
+logs/
 CHANGELOG.txt
 images/cnj/ALGEDIM
 cache/
+tmp/
 
 # Joomsef 4.4.1
 components/com_sef/
