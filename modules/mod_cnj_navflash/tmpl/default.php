@@ -68,7 +68,7 @@ $(document).ready(function() {
   };
   var attributes = { };
  
-  $('#navflashwrapper .toggle-expand, #navflashwrapper .navflashalt').click(function() {
+  $('#navflashwrapper .toggle-expand').click(function() {
     if($('#navflashwrapper').hasClass('expanded')) {
       $('#navflashwrapper').removeClass('expanded');
     } else {

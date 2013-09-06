@@ -50,7 +50,7 @@ class SearchModelSearch extends JModelLegacy
 	 *
 	 * @since 1.5
 	 */
-	function __construct()
+	function __construct() // MARCHE PAS
 	{
 		parent::__construct();
 

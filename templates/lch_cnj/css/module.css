@@ -16,10 +16,6 @@
   display:none;
 }
 
-#navflashwrapper .navflashalt {
-  cursor: pointer;
-}
-
 #navflashwrapper.expanded .navflashalt {
   display: none;
 }  
