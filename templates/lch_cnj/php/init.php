@@ -40,9 +40,14 @@ if( $document->countModules('right') )
 
 // class en fonction de la catégorie
 if( $active != $menu->getDefault() ) {
+    $classNote = '';
     $parent_id = $menu->getItem($active->parent_id);
-    if($parent_id) {
-        $class[] = $parent_id->note;
+    while($parent_id && $classNote == '') {
+      $classNote = $parent_id->note;
+      $parent_id = $menu->getItem($parent_id->parent_id);
     }
+    if($classNote && $classNote != '') {
+      $class[] = $classNote;
+    }    
 }
 ?>

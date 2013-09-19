@@ -17,33 +17,45 @@ body.bleu .titre-menu { color: #4689b9; }
 body.rouge .titre-menu { color: #9d3c25; }
 body.rose-qsn .titre-menu { color: #b94664; }
 
-body.vert #left ul.menu li.current.active a,
-body.vert #left ul.menu li a:hover {
+body.vert #left ul.menu li.active a,
+body.vert #left ul.menu li a:,
+body.vert #left ul.menu li.active.parent ul li.active.current a,
+body.vert #left ul.menu li.active.parent ul li a:hover{
     color: #408c0d;
     background: url('../images/fleche-gauche-vert.png') center right no-repeat;
 }
-body.orange #left ul.menu li.current.active a,
-body.orange #left ul.menu li a:hover {
+body.orange #left ul.menu li.active a,
+body.orange #left ul.menu li a:hover,
+body.orange #left ul.menu li.active.parent ul li.active.current a,
+body.orange #left ul.menu li.active.parent ul li a:hover {
     color: #db800c;
     background: url('../images/fleche-gauche-orange.png') center right no-repeat;
 }
-body.rose #left ul.menu li.current.active a,
-body.rose #left ul.menu li a:hover {
+body.rose #left ul.menu li.active a,
+body.rose #left ul.menu li a:hover,
+body.rose #left ul.menu li.active.parent ul li.active.current a,
+body.rose #left ul.menu li.active.parent ul li a:hover {
     color: #bd57b3;
     background: url('../images/fleche-gauche-rose.png') center right no-repeat;
 }
-body.bleu #left ul.menu li.current.active a,
-body.bleu #left ul.menu li a:hover {
+body.bleu #left ul.menu li.active a,
+body.bleu #left ul.menu li a:hover,
+body.bleu #left ul.menu li.active.parent ul li.active.current a,
+body.bleu #left ul.menu li.active.parent ul li a:hover {
     color: #4689b9;
     background: url('../images/fleche-gauche-bleu.png') center right no-repeat;
 }
-body.rouge #left ul.menu li.current.active a,
-body.rouge #left ul.menu li a:hover {
+body.rouge #left ul.menu li.active a,
+body.rouge #left ul.menu li a:hover,
+body.rouge #left ul.menu li.active.parent ul li.active.current a,
+body.rouge #left ul.menu li.active.parent ul li a:hover {
     color: #9d3c25;
     background: url('../images/fleche-gauche-rouge.png') center right no-repeat;
 }
-body.rose-qsn #left ul.menu li.current.active a,
-body.rose-qsn #left ul.menu li a:hover {
+body.rose-qsn #left ul.menu li.active a,
+body.rose-qsn #left ul.menu li a:hover,
+body.rose-qsn #left ul.menu li.active.parent ul li.active.current a,
+body.rose-qsn #left ul.menu li.active.parent ul li a:hover {
     color: #b94664;
     background: url('../images/fleche-gauche-rose-qsn.png') center right no-repeat;
 }

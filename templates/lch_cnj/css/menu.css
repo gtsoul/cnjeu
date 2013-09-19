@@ -223,8 +223,13 @@ header #header-menu ul.menu li a:hover {
 	margin-left: 10px;
 }
 
+body #left ul.menu li.current.active.parent ul li a{
+	color: #1F2929 !important;
+	background: url('../images/fleche-gauche-off.png') 94% 50% no-repeat;
+}
 
-#left ul.menu li.active.parent ul li.current.active.jaune a{
+
+/*#left ul.menu li.active.parent ul li.current.active.jaune a{
 	color: #db800c;
 	background: url('../images/fleche-gauche-orange.png') 94% 50% no-repeat;
 }
@@ -232,7 +237,7 @@ header #header-menu ul.menu li a:hover {
 #left ul.menu li.active.parent ul li.current.active.vert a{
 	color: #408C0D;
 	background: url('../images/fleche-gauche-vert.png') 94% 50% no-repeat;
-}
+}*/
 
 
 
