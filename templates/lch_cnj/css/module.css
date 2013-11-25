@@ -328,3 +328,125 @@
 .search-jeux-bloc select { border:0; width:206px; color:#424443; height:20px; background: url('../images/input-search-bg.png') top left repeat-x #e1e1e1; padding:2px 0 0 0; border:0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; }
 .search-jeux-bloc input.date { width:50px; }
 .search-jeux-bloc input.submit { border:0; background: url('../images/btn-validez.png') top left no-repeat; width:133px; height: 24px; cursor: pointer; margin-top:10px; }
+
+aside#left h2 {
+  color: #339900;
+  font-family: 'Abel';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+body.orange aside#left h2  {
+  color: #db800c;
+}
+body.rose aside#left h2 {
+  color: #bd57b3;
+}
+body.bleu aside#left h2 {
+  color: #4689b9;
+}
+body.rouge aside#left h2 {
+  color: #9d3c25;
+}
+body.rose-qsn aside#left h2  {
+  color: #b94664;
+}
+
+#content ul {
+  padding-left: 15px;
+}
+
+/* icagenda */
+
+#icagenda h1, #icagenda .event-header h1, #icagenda .title-header h2 a, #icagenda h3 {
+  color: #339900;
+  font-family: 'Abel';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#icagenda .title-header h2 a {
+  font-size: 20px;
+}
+
+#icagenda h3 {
+  font-size: 17px;
+}
+
+#icagenda .title-cat {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  float: right;
+  padding: 4px;
+  width: auto;
+}
+
+#icagenda .nextdate {
+  color: #339900;
+  font-family: 'Abel';
+  font-style: normal;
+}
+
+#icagenda .box_date {
+  text-shadow: 1px 1px 8px #555555;
+}
+
+#icagenda .icinfo .details {
+  color: #339900;
+  font-family: 'Abel';
+  font-size: 1.4em;
+}
+
+#icagenda .icinfo .details strong {
+  color: #333333;
+}
+
+#icagenda .icinfo .details .alldates {
+  display: inline;
+}
+
+#icagenda .information .icDownload {
+  display: block;
+}
+
+#icagenda .back a {
+  color: #424443;
+  font-size: 15px;
+}
+#icagenda .back a:hover {
+  color: #000000;
+}
+
+#icagenda .icinfo {
+  /*background: transparent;*/
+  border: none;
+  box-shadow: none;
+}
+
+.ic_rounded.iccalendar, body.vert .ic_rounded.iccalendar  {  
+  border: thin solid #339900;
+}
+body.orange .ic_rounded.iccalendar  {
+  border-color: #db800c;
+}
+body.rose .ic_rounded.iccalendar  {
+  border-color: #bd57b3;
+}
+body.bleu .ic_rounded.iccalendar  {
+  border-color: #4689b9;
+}
+body.rouge .ic_rounded.iccalendar  {
+  border-color: #9d3c25;
+}
+body.rose-qsn .ic_rounded.iccalendar  {
+  border-color: #b94664;
+}
+
+/*#icagenda .moreinfos a, #icagenda .moreinfos a:link, #icagenda .moreinfos a:visited {
+  color: #B94664;
+  font-weight: bold;
+}*/
