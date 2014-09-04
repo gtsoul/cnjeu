@@ -44,6 +44,9 @@ class Cnj_jeuxController extends JController
 		$view	= JRequest::getCmd('view', 'jeux');
 		$layout = JRequest::getCmd('layout', 'default');
 		$id		= JRequest::getInt('id');
+    
+    $document = JFactory::getDocument();
+    $document->addStyleSheet(JUri::base() . "components/com_cnj_jeux/com_cnj_jeux.css");  
 
 		// Check for edit form.
 		if ($view == 'jeu' && $layout == 'edit' && !$this->checkEditId('com_cnj_jeux.edit.jeu', $id)) {

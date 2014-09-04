@@ -179,7 +179,7 @@ include_once(JPATH_ROOT . '/templates/' . $this->template . '/php/init.php');
 		<div id="middle">
 			
 			<!-- container -->
-			<div class="container">
+			<div class="container">	
 			
 				<!-- left -->
 				<?php if($this->countModules('left')) : ?>
@@ -190,7 +190,7 @@ include_once(JPATH_ROOT . '/templates/' . $this->template . '/php/init.php');
 				<!--! left -->
 					
 				<!-- content -->
-				<div id="content">					
+				<div id="content" <?php if($this->countModules('right') && $_GET['view'] != 'categorie') : ?> class="withrightteaser" <?php endif; ?> >					
 					
 					<!-- top content -->
 					<?php if ($this->countModules('content-top')) : ?>
@@ -205,14 +205,6 @@ include_once(JPATH_ROOT . '/templates/' . $this->template . '/php/init.php');
 						
 						<!-- breadcrumb -->						
                         <jdoc:include type="modules" name="breadcrumb" />
-						
-						<!-- right -->
-						<?php if($this->countModules('right') && $_GET['view'] != 'categorie') : ?>
-						<aside id="right">							
-							<jdoc:include type="modules" name="right" style="wrap" />							
-						</aside>						
-						<?php endif; ?>
-						<!--! right -->
 			
 						<!-- main content -->
 						<div id="main" role="main"<?php if($_GET['view'] == 'categorie') echo ' class="large"'; ?>>
@@ -255,8 +247,16 @@ include_once(JPATH_ROOT . '/templates/' . $this->template . '/php/init.php');
 					<!--! bottom content -->
 					
 				</div>
-				<!--! content -->
+				<!--! content -->	
 			
+				<!-- right -->
+				<?php if($this->countModules('right') && $_GET['view'] != 'categorie') : ?>
+				<aside id="right">							
+					<jdoc:include type="modules" name="right" style="wrap" />							
+				</aside>						
+				<?php endif; ?>
+				<!--! right -->					
+	
 			</div>
 			<!--! container -->
 			

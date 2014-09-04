@@ -76,8 +76,6 @@ JHtml::_('behavior.formvalidation');
 
 <script src="components/com_cnj_jeux/com_cnj_jeux.js" type="text/javascript"></script>
 
-
-
 <form action="<?php 
 if(array_key_exists('ofrom', $_GET )) 
 {

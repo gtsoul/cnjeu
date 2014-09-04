@@ -54,8 +54,8 @@ class Cnj_jeuxControllerJeux extends JController
 		// Get the document object.
 		$document	= JFactory::getDocument();
 		$vName		= 'jeux';
-		$vFormat	= 'raw';
-
+		$vFormat	= 'raw'; 
+    
 		// Get and render the view.
 		if ($view = $this->getView($vName, $vFormat)) {
 			// Get the model for the view.

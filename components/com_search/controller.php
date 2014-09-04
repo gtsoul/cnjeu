@@ -35,6 +35,11 @@ class SearchController extends JControllerLegacy
 
 	function search()
 	{
+	
+		if($_SERVER['REMOTE_ADDR'] == '82.239.221.134') {
+			echo('<br/>Controller search');
+		}
+		
 		// slashes cause errors, <> get stripped anyway later on. # causes problems.
 		$badchars = array('#', '>', '<', '\\');
 		$searchword = trim(str_replace($badchars, '', JRequest::getString('searchword', null, 'post')));
@@ -77,7 +82,16 @@ class SearchController extends JControllerLegacy
 		$uri->setQuery($post);
 		$uri->setVar('option', 'com_search');
 
-
+		if($_SERVER['REMOTE_ADDR'] == '82.239.221.134') {
+			echo('<br/>searchword='.$searchword);
+			echo('<br>'.$uri->toString(array('query', 'fragment')));
+			echo('<br/>'.JRoute::_('index.php'.$uri->toString(array('query', 'fragment')), false));
+			//die('<br/>plop');
+		}
+		
+		// OK mais pas de redirection ensuite		
+		// index.php?searchword=catane2&searchphrase=all&Itemid=101&option=com_search
+		
 		$this->setRedirect(JRoute::_('index.php'.$uri->toString(array('query', 'fragment')), false));
 	}
 }

@@ -202,3 +202,40 @@ img.left {
 .pagination-actu .num-page{ height: 23px; border-right: 1px solid #e0e2e2;}
 
 .pagination-actu .num-page:last-child{border-right: none;}
+
+.iccalendar .icnav .cnj-ical-nav {
+	font-family: 'iCicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+  color: #555555;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px 2px 0;
+}
+.iccalendar .icnav .cnj-ical-nav-0, .iccalendar .icnav .cnj-ical-nav-1 {
+  float: left;
+}
+.iccalendar .icnav .cnj-ical-nav-2, .iccalendar .icnav .cnj-ical-nav-3 {
+  float: right;
+}
+
+.iccalendar .icnav .cnj-ical-nav-0:before {
+	content: "\e003";
+}
+.iccalendar .icnav .cnj-ical-nav-1:before {
+	content: "\e000";
+}
+.iccalendar .icnav .cnj-ical-nav-2:before {
+	content: "\e002";
+}
+.iccalendar .icnav .cnj-ical-nav-3:before {
+	content: "\e001";
+}
+.cnj-open-details:before {
+	content: "\e004";
+}

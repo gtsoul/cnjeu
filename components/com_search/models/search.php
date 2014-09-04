@@ -53,6 +53,11 @@ class SearchModelSearch extends JModelLegacy
 	function __construct() // MARCHE PAS
 	{
 		parent::__construct();
+		
+		if($_SERVER['REMOTE_ADDR'] == '82.239.221.134') {
+			echo('SearchModelSearch');
+			die('<br/>plop');
+		}
 
 		//Get configuration
 		$app	= JFactory::getApplication();
