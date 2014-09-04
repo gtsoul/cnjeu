@@ -1,0 +1,23 @@
+/* Css globale du module cnjeu */
+
+/* Style des listes autocomplètes */
+
+
+
+#jeu-form  .div_field_autocomplete .autocomplete {
+  background-color: white;
+}
+
+#jeu-form  .div_field_autocomplete .autocomplete ul {
+  padding: 3px;
+  border: 1px solid #146295;  
+}
+
+#jeu-form  .div_field_autocomplete .autocomplete ul li {
+  cursor: pointer;
+  padding: 2px;    
+}
+
+#jeu-form  .div_field_autocomplete .autocomplete ul li:hover, #jeu-form  .div_field_autocomplete .autocomplete ul li.selected {
+  background-color: #D5EEFF;
+}
