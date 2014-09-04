@@ -172,7 +172,9 @@ logs/
 CHANGELOG.txt
 images/cnj/ALGEDIM
 cache/
+logs/
 tmp/
+*.sh
 
 # Joomsef 4.4.1
 components/com_sef/
