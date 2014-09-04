@@ -1,0 +1,53 @@
+/**
+ *	iCagenda
+ *----------------------------------------------------------------------------
+ * @package     com_icagenda
+ * @copyright	Copyright (C) 2013 JOOMLIC - All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @author      Jooml!C - http://www.joomlic.com
+ *
+ * @update		2013-05-20
+ * @version		3.0
+ *----------------------------------------------------------------------------
+*/
+
+
+.map-wrapper {
+	float:left;
+	width: 92%;
+	margin: 0 10px 0 10px;
+}
+
+#map {
+	border: 1px solid #DDD;
+	width: 100%;
+	height: 300px;
+	margin: 10px 0 10px 0;
+	-webkit-box-shadow: #AAA 0px 0px 15px;
+}
+
+/** Fixed Known conflict Bootsrap/Google Maps */
+#map img {
+	max-width: none;
+}
+
+#legend {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.icmap-box {
+	margin-top: 30px;
+}
+
+.icmap-label {
+	float: left;
+	width: 140px;
+	padding-top: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.icmap-input {
+	margin: 5px 0;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ICAGENDA_SUBMIT_VIEW_DEFAULT_TITLE">
+		<message>COM_ICAGENDA_SUBMIT_VIEW_DEFAULT_DESC</message>
+	</layout>
+
+	<fields id="params" name="params" type="fields" label="params" addfieldpath="/administrator/components/com_icagenda/models/fields">
+		<fieldset name="BASIC" addfieldpath="/administrator/components/com_icagenda/add/elements">
+			<field type="Title" label="COM_ICAGENDA_TITLE" class="styleblanck" />
+			<field type="Title" label="COM_MENUS_VIEW_FIELDSET_LABEL"  class="stylebox lead input-xxlarge"/>
+
+			<field
+				name="template"
+				type="modal_template"
+				label="COM_ICAGENDA_LBL_TEMPLATE"
+				description="COM_ICAGENDA_DESC_TEMPLATE"
+				size="40"
+				class="inputbox"
+				default="default"
+			/>
+
+		<field type="Title" label="COM_ICAGENDA_FOOTER" class="styleblanck input-xxlarge" />
+		</fieldset>
+	</fields>
+
+</metadata>

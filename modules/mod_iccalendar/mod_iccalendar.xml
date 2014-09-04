@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+	<name>iCagenda - Calendar</name>
+	<creationDate>2013-11-23</creationDate>
+	<copyright>Copyright (C) 2012-2013 JoomliC. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Jooml!C</author>
+	<authorEmail>info@joomlic.com</authorEmail>
+	<authorUrl>www.joomlic.com</authorUrl>
+	<version>3.2.7</version>
+
+	<description>Calendar module for iCagenda component</description>
+	<files>
+		<filename module="mod_iccalendar">mod_iccalendar.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>language</folder>
+		<folder>js</folder>
+	</files>
+
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/en-GB.mod_iccalendar.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.mod_iccalendar.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.mod_iccalendar.ini</language>
+	</languages>
+	<config>
+		<fields id="params" name="params" type="fields" label="params" addfieldpath="/administrator/components/com_icagenda/models/fields">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_icagenda/add/elements">
+
+				<field type="Title" label="JGLOBAL_FIELDSET_OPTIONS" class="stylebox lead input-xxlarge"/>
+				<field
+					name="template"
+					type="modal_template"
+					label="MOD_ICCALENDAR_LBL_TEMPLATE"
+					description="MOD_ICCALENDAR_DESC_TEMPLATE"
+					size="40"
+					class="inputbox"
+					default="default"
+				/>
+
+				<field
+					name="mcatid"
+					type="modal_cat"
+					class="inputbox"
+					default="0"
+					label="MOD_ICCALENDAR_LBL_CATEGORY"
+					description="MOD_ICCALENDAR_DESC_CATEGORY"
+				/>
+
+				<field
+					name="iCmenuitem"
+					type="modal_menulink"
+					default=""
+					label="MOD_ICCALENDAR_FIELD_MENU_LABEL"
+					description="MOD_ICCALENDAR_FIELD_MENU_DESC" >
+				</field>
+
+				<field type="Title" label=" " class="stylenote"/>
+				<field type="Title" label="MOD_ICCALENDAR_LBL_TOOLTIP" class="stylebox lead input-xxlarge"/>
+				<field type="TitleImg" label="MOD_ICCALENDAR_DESC_POSITION" class="stylenote alert alert-info" icimage="info.png" />
+
+				<field
+					name="position"
+					type="radio"
+					label="MOD_ICCALENDAR_LBL_POSITION"
+					description="MOD_ICCALENDAR_DESC_POSITION"
+					default="center"
+					class="btn-group">
+						<option value="left">MOD_ICCALENDAR_POSITION_LEFT</option>
+						<option value="center">MOD_ICCALENDAR_POSITION_MIDDLE</option>
+						<option value="right">MOD_ICCALENDAR_POSITION_RIGHT</option>
+				</field>
+
+				<field type="Title" label="MOD_ICCALENDAR_DESC_POSITION_IF_MIDDLE" class="stylenote"/>
+				<field
+					name="posmiddle"
+					type="radio"
+					label="MOD_ICCALENDAR_LBL_POSITION_IF_MIDDLE"
+					description="MOD_ICCALENDAR_LBL_POSITION_IF_MIDDLE"
+					default="top"
+					class="btn-group">
+						<option value="top">MOD_ICCALENDAR_POSITION_TOP</option>
+						<option value="bottom">MOD_ICCALENDAR_POSITION_BOTTOM</option>
+				</field>
+
+				<field type="Title" label="MOD_ICCALENDAR_DESC_MOUSEOVER" class="stylenote"/>
+				<field
+					name="mouseover"
+					type="radio"
+					label="MOD_ICCALENDAR_LBL_MOUSEOVER"
+					description="MOD_ICCALENDAR_DESC_MOUSEOVER"
+					default="click"
+					class="btn-group">
+						<option value="click">MOD_ICCALANDAR_OPEN_CLICK</option>
+						<option value="mouseover">MOD_ICCALANDAR_OPEN_MOUSEOVER</option>
+				</field>
+
+				<field type="Title" label="MOD_ICCALENDAR_FORMAT_NOTE" class="stylenote"/>
+				<field
+					name="format"
+					type="iclist_globalization"
+					class="inputbox"
+					default="0"
+					label="COM_ICAGENDA_LBL_FORMAT"
+					description="COM_ICAGENDA_LBL_FORMAT"
+				/>
+
+				<field
+					name="date_separator"
+					type="text"
+					label="COM_ICAGENDA_LBL_DATE_SEPARATOR"
+					description="COM_ICAGENDA_DESC_DATE_SEPARATOR"
+					size="5"
+					class="inputbox"
+					default=""
+				/>
+
+				<field type="TitleImg" label="COM_ICAGENDA_DATE_FORMAT_NOTE1" class="stylenote alert alert-info" icimage="info.png" />
+				<field type="TitleImg" label="COM_ICAGENDA_DATE_FORMAT_NOTE2" class="stylenoteP alert alert-block" icimage="blanck.png" />
+
+
+				<field type="Title" label=" " class="stylenote"/>
+				<field type="Title" label=" " class="stylenote"/>
+				<field type="Title" label=" " class="stylenote"/>
+				<field type="Title" label=" " class="stylenote"/>
+				<field type="Title" label="MOD_ICCALENDAR_LBL_DISPLAY" class="stylebox lead input-xxlarge"/>
+
+				<field type="Title" label="MOD_ICCALENDAR_LBL_TOOLTIP_INFOS" class="stylenote"/>
+				<field
+					name="dp_city"
+					type="radio"
+					class="btn-group"
+					label="MOD_ICCALENDAR_DISPLAY_CITY_LABEL"
+					description="MOD_ICCALENDAR_DISPLAY_CITY_DESC"
+					default="1">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="dp_venuename"
+					type="radio"
+					class="btn-group"
+					label="MOD_ICCALENDAR_DISPLAY_VENUE_NAME_LABEL"
+					description="MOD_ICCALENDAR_DISPLAY_VENUE_NAME_DESC"
+					default="1">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+
+				<!--field
+					name="dp_dateTime"
+					type="radio"
+					class="btn-group"
+					label="MOD_ICCALENDAR_DISPLAY_DATETIME_LABEL"
+					description="MOD_ICCALENDAR_DISPLAY_DATETIME_DESC"
+					default="0">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field-->
+
+				<field
+					name="dp_shortDesc"
+					type="radio"
+					class="btn-group"
+					label="MOD_ICCALENDAR_DISPLAY_SHORTDESC_LABEL"
+					description="MOD_ICCALENDAR_DISPLAY_SHORTDESC_DESC"
+					default="1">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="dp_regInfos"
+					type="radio"
+					class="btn-group"
+					label="MOD_ICCALENDAR_DISPLAY_REGISTRATION_INFOS_LABEL"
+					description="MOD_ICCALENDAR_DISPLAY_REGISTRATION_INFOS_DESC"
+					default="1">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+
+				<field type="Title" label="MOD_ICCALENDAR_LBL_FIRSTDAY_WEEK" class="stylenote"/>
+				<field
+					name="firstday"
+					type="list"
+					label="MOD_ICCALENDAR_LBL_FIRSTDAY"
+            		default="1" >
+						<option value="1">MONDAY</option>
+						<option value="0">SUNDAY</option>
+				</field>
+
+				<field type="Title" label="MOD_ICCALENDAR_LBL_PERIOD" class="stylenote"/>
+				<field
+					name="onlyStDate"
+					type="list"
+					label="MOD_ICCALENDAR_PERIOD_ONLY_START_DATE_LBL"
+					description="MOD_ICCALENDAR_PERIOD_ONLY_START_DATE_DESC"
+					default=""
+					class="btn-group">
+						<option value="">PERIOD_ALL_DATES</option>
+						<option value="1">PERIOD_ONLY_START_DATE</option>
+						<!--option value="2">Only Next Date</option-->
+				</field>
+
+				<field type="Title" label="MOD_ICCALENDAR_LBL_BGCOLORS" class="stylenote"/>
+				<field
+					name="bgcolor"
+					type="text"
+					class="inputbox"
+					size="7"
+					default="none"
+					label="ICCALENDAR_BACKGROUND_COLOR"
+					description="ICCALENDAR_BACKGROUND_COLOR_DESC"
+					filter="safehtml"
+				/>
+
+				<field
+					name="bgimage"
+					type="media"
+					class="inputbox"
+					size="7"
+					default=""
+					label="ICCALENDAR_BACKGROUND_IMAGE"
+					description="ICCALENDAR_BACKGROUND_IMAGE_DESC"
+					filter="safehtml"
+				/>
+
+				<field
+					name="bgimagerepeat"
+					type="list"
+					default="repeat"
+					label="ICCALENDAR_BACKGROUND_IMAGE_REPEAT"
+					description="ICCALENDAR_BACKGROUND_IMAGE_REPEAT_DESC" >
+						<option value="repeat">repeat</option>
+						<option value="repeat-x">repeat-x</option>
+						<option value="repeat-y">repeat-y</option>
+						<option value="no-repeat">no-repeat</option>
+				</field>
+
+				<field
+					name="mon"
+					type="text"
+					class="inputbox"
+					size="7"
+					default="none"
+					label="MONDAY"
+					filter="safehtml"
+				/>
+
+				<field
+					name="tue"
+					type="text"
+					class="inputbox"
+					size="7"
+					default="none"
+					label="TUESDAY"
+					filter="safehtml"
+				/>
+
+				<field
+					name="wed"
+					type="text"
+					size="7"
+					class="inputbox"
+					default="none"
+					label="WEDNESDAY"
+					filter="safehtml"
+				/>
+
+				<field
+					name="thu"
+					type="text"
+					size="7"
+					class="inputbox"
+					default="none"
+					label="THURSDAY"
+					filter="safehtml"
+				/>
+
+				<field
+					name="fri"
+					type="text"
+					size="7"
+					class="inputbox"
+					default="none"
+					label="FRIDAY"
+					filter="safehtml"
+				/>
+
+				<field
+					name="sat"
+					type="text"
+					size="7"
+					class="inputbox"
+					default="#dddddd"
+					label="SATURDAY"
+					filter="safehtml"
+				/>
+
+				<field
+					name="sun"
+					type="text"
+					size="7"
+					class="inputbox"
+					default="#dddddd"
+					label="SUNDAY"
+					filter="safehtml"
+				/>
+
+			</fieldset>
+
+
+
+			<fieldset name="BASIC">
+                <field
+                	name="moduleclass_sfx"
+                	type="text"
+                	label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                	description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+                	icon="text_signature.png"
+                />
+
+				<field
+					name="loadJquery"
+					type="radio"
+					label="MOD_ICCALENDAR_LBL_LOADJQUERY"
+					description="MOD_ICCALENDAR_DESC_LOADJQUERY"
+					default="auto"
+					class="btn-group">
+						<option value="auto">MOD_ICCALENDAR_LOADJQUERY_AUTO</option>
+						<option value="0">MOD_ICCALENDAR_LOADJQUERY_NO</option>
+						<option value="1">MOD_ICCALENDAR_LOADJQUERY_YES</option>
+				</field>
+
+				<field type="Title" label=" " class="stylenote"/>
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC" >
+            			<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+            	</field>
+
+				<field type="title" label="MOD_ICCALENDAR_CACHE_NOTE" class="stylered alert alert-error input-xxlarge" />
+
+
+<!--field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+					icon="hourglass.png"
+					suffix="min"
+				/-->
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="itemid" >
+						<option	value="itemid"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

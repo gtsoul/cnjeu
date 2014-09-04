@@ -1,0 +1,221 @@
+/*
+ * COM_ICAGENDA
+ * iCagenda by JoomliC
+ * Theme Pack Official
+ * Default Theme - component
+ *
+ * @name		default
+ * @author		Lyr!C (JoomliC)
+ * @version		3.2.4 2013-10-28
+ * @since		1.0
+ */
+
+
+/*
+ * GENERAL STYLES (list and details)
+ */
+
+/* General */
+#icagenda {width:auto; margin:0px; padding:0px}
+#icagenda .clr {clear:both;}
+
+/* Share buttons (AddThis) */
+#icagenda .share {float:right; background:none; padding:5px 10px 5px 0; text-shadow:none;}
+#icagenda .share a:link, #icagenda .share a:visited {background:none; text-decoration:none;}
+#icagenda .share a:hover, #icagenda .share a:active, #icagenda .share a:focus {background:none;}
+
+/* Style Table */
+#icagenda table {border:0px;}
+#icagenda .table .table {background-color:transparent !important;}
+#icagenda tr {border:0px;}
+#icagenda th {background:none; border:0px; min-width:100px;}
+#icagenda td {border:0px; padding:1px 5px;}
+
+
+/*
+ * LIST PAGE CSS
+ */
+
+/* Style Navigation */
+#icagenda .navigator {margin-bottom:25px;}
+#icagenda .navigator a {text-decoration:none;}
+#icagenda .navigator a:link, #icagenda .navigator a:visited {}
+#icagenda .navigator a:hover, #icagenda .navigator a:active, #icagenda .navigator a:focus {cursor:pointer;}
+#icagenda .icagenda_back {float:left; margin-left:20px;}
+#icagenda .icagenda_next {float: right; margin-right:20px;}
+#icagenda .navigator button {border:0; padding:5px; color:#fff; background:#f3f3f3; margin-right:5px;}
+
+/* Style Background alternative */
+#icagenda .event {background:none; border-radius:6px; margin:5px 0; padding:7px 3px;}
+#icagenda .event:nth-child(2n+1) {background:#f3f3f3; background:rgba(221,221,221,0.5);}
+
+/* Style Category */
+#icagenda .cat {color:#555555; font-weight:bold; text-transform:uppercase; font-size:11px;}
+
+/* Style Left (Container Box Date) */
+#icagenda .leftbox {width:68px; border:0px;}
+
+/* Style Box Date */
+#icagenda .box_date {text-transform:capitalize; width:56px; height:56px; padding:12px; text-align:center; color:#fff; float:left; margin-right:10px; border-radius:6px;}
+#icagenda .fontColor {color: grey;}
+#icagenda .ic-date {line-height:0px !important; font-size:30px;}
+#icagenda .ic-date .day {line-height:30px !important; font-size:30px; font-weight:bold;}
+#icagenda .ic-date .month {line-height:16px !important; font-size:16px; letter-spacing:0px; margin-left:1px; font-weight:normal;}
+#icagenda .ic-date .year {line-height:11px !important; font-size:11px; letter-spacing:2px; margin-left:2px; font-weight:bold;}
+
+/* Style Right (Container Title, Cat, Desc...) */
+#icagenda .content {border:0px; float:left; margin:1%; width:100%; vertical-align:top;}
+#icagenda .content h2 {padding-top:0px;}
+#icagenda .descshort {}
+
+
+/*
+ * EVENT PAGE CSS
+ */
+
+/* Syle Back Button */
+#icagenda .back {font-size:10px; font-weight:normal; line-height:30px; padding:0px; letter-spacing:1px;}
+#icagenda .back a:link, #icagenda .back a:visited {text-decoration:none;}
+#icagenda .back a:hover, #icagenda .back a:active, #icagenda .back a:focus {}
+
+/* Style Registration button */
+#icagenda .regisBox {float:right; margin:3px 0;}
+#icagenda .regisBox a {text-decoration:none; float:left;}
+
+/* Text Button */
+#icagenda .regis_button {display:block; margin:2px 3px 0 0; line-height:16px; text-transform:uppercase;cursor: pointer;}
+#icagenda .regis_button:hover, #icagenda .regis_button:focus {text-decoration:none; cursor: pointer;}
+
+/* Text Event Finished */
+#icagenda .event_finished {display:block; margin:2px 3px 0 0; line-height:16px; color:#555555; font-weight:bold; text-transform:uppercase;}
+#icagenda .event_finished:hover, #icagenda .event_finished:focus {text-decoration:none; color:#555555;}
+
+/* Image Button */
+#icagenda .regis_imgbutton {display:block; margin:0 3px; height:16px; line-height:16px; width:16px;  background: url('../../../../../../media/com_icagenda/images/btn-regis.png') no-repeat}
+#icagenda .regis_imgbutton:hover {text-decoration:none; color:#111111; cursor: pointer;}
+
+/* Nb of registered people */
+#icagenda .icRegistered {display:block; float:left; color:#333333; text-align:center; background:url('../images/regis-baloon.png'); height:16px; line-height:16px; width:36px; font-size:11px; font-weight:bold;}
+
+/* Style Event General */
+#icagenda .icinfo {padding:1%; background:#f3f3f3; border:0px solid #ccc; margin-bottom:10px; border-radius:6px;}
+#icagenda .icinfo .details {text-align:left; padding:1%;}
+#icagenda .icinfo .details label {font-weight:bold;}
+
+/* Style Image */
+#icagenda .image {text-align:center;}
+#icagenda .image img {max-width:100%; max-height:400px; border:0px solid #ccc; margin-bottom:10px;}
+
+/* Style Time (in date) */
+#icagenda .evttime {font-size:0.8em;}
+
+/* Style File Download link */
+#icagenda .icDownload {}
+
+/* Style Description */
+#detail-desc {}
+
+/* Style Information */
+#icagenda .information {border:0px;}
+#icagenda .information table {width:100%;}
+#icagenda .information label {text-transform:uppercase; font-weight:bold;}
+#icagenda .information .infoleft {width:100px; border:0px; padding:10px; text-align:center; background:#555; color:#FFF; border-radius:5px 0px 0px 5px;}
+#icagenda .information .infomiddle {border:0px; padding:10px; text-align:left; background:#cccccc; background:rgba(204,204,204,0.5); color:#111;}
+#icagenda .information .inforight {border:0px; padding:10px; text-align:center; background:#cccccc; background:rgba(204,204,204,0.5); color:#111; border-radius:0px 5px 5px 0px;}
+
+/* Slider */
+#icagenda .icpanel { background:#FFF; border-radius:6px;}
+#icagenda .panel {margin:1px; border:0;}
+#icagenda .panel h3 {margin:-1px !important; padding:0 !important; background:#eee; border:0; border-radius:6px;}
+#icagenda .panel h3 a {display:block; padding:6px !important; text-decoration:none; color:#444; border-radius:6px;}
+#icagenda .panel h3.pane-toggler a {border:solid 1px #d4d4d4; background:#f5f5f5 url(../images/pluslist.png) 99% 50% no-repeat; border-radius:6px;}
+#icagenda .panel h3.pane-toggler-down a {border:solid 1px #d4d4d4 !important; background:#f5f5f5  url(../images/minuslist.png) 99% 50% no-repeat; border-bottom:0 !important; border-radius:6px 6px 0px 0px !important;}
+#icagenda .pane-slider .content  {border-bottom:solid 1px #d4d4d4; border-top:0; padding-bottom:3px !important;}
+#icagenda .pane-slider {border-top:0; border-left:solid 1px #d4d4d4; border-right:solid 1px #d4d4d4; padding-left:0px !important; padding-right:0px !important; margin:0; background:#FFF; border-radius:0px 0px 6px 6px; width:100% !important; margin-left: -1px;}
+
+/* Slider Full list of Participants */
+#icagenda .list_table {background:#cccccc; background:rgba(204,204,204,0.5); border-radius:3px 3px 3px 3px; float:left;}
+#icagenda .imgbox {width:40px;}
+#icagenda .imgbox img {border-radius:3px 3px 3px 3px; margin:2px 0px;}
+#icagenda .list_name {font-weight:bold;}
+#icagenda .list_places {font-size:smaller;}
+#icagenda .list_date {font-size:smaller;}
+
+/* Style Google Maps */
+#detail-map {}
+#detail-map .icagenda_map {margin:auto; border:0px solid #ccc; text-shadow:none; border-radius:0px; box-shadow:none;}
+
+/* Style All Dates */
+#detail-date-list {}
+#detail-date-list .datesList {}
+#detail-date-list .alldates ul {padding-left:1%;}
+#detail-date-list .alldates li {background-image:none}
+#detail-date-list .alldates h3 {font-size:12px; margin-top:10px; font-weight:bold;}
+
+
+/*
+ * REGISTRATION
+ */
+
+/* Style Title */
+#icagenda .formTitle h2 {margin: 15px 0 -5px 0px;}
+
+/* Style Form (general) */
+#icagenda .icagenda_form {}
+#icagenda .icagenda_form h3 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 15px 0 10px 0px;
+}
+/* #icagenda .icagenda_form div {padding:5px;} */
+#icagenda .icagenda_form .fieldset {border-radius:2px; margin:10px 0; background:#f3f3f3; padding:10px;}
+
+/* Style Registration infos */
+#icagenda .reginfos {font-size:0.8em;}
+
+/* Style Label */
+#icagenda .icagenda_form label {
+	color: #333;
+	display: block;
+	width: 130px;
+	float: left;
+	margin: 0px 3px;
+}
+
+/* Style Input field */
+#icagenda .icagenda_form input {border:1px solid #ccc; padding:3px;}
+
+/* Style button left (joomla 2.5) */
+#icagenda .icagenda_form .button2-left {
+	margin: 3px 3px 3px 0px;
+	float:left;
+}
+
+/* Style Field infos */
+#icagenda .icagenda_form .formInfo {}
+#icagenda .icagenda_form .formInfo img {height:14px; vertical-align:middle; cursor:help;}
+#icagenda .icagenda_form .formInfo img a:hover {background:none;}
+
+/* Registration Info Tooltips in CSS3 */
+a.ictip {outline:none;text-decoration:none;}
+a.ictip:hover {background:none !important;}
+a.ictip > span { min-width:auto; max-width:250px; padding: 10px 10px; margin-top: -50px; margin-left: 100px; opacity: 0; visibility: hidden; z-index: 10; position: absolute; font-style: normal; -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-box-shadow: 2px 2px 2px #999; -moz-box-shadow: 2px 2px 2px #999; box-shadow: 2px 2px 2px #999; -webkit-transition-property:opacity, margin-top, visibility, margin-left; -webkit-transition-duration:0.4s, 0.3s, 0.4s, 0.3s; -webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out; -moz-transition-property:opacity, margin-top, visibility, margin-left; -moz-transition-duration:0.4s, 0.3s, 0s, 0.3s; -moz-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out; -o-transition-property:opacity, margin-top, visibility, margin-left; -o-transition-duration:0.4s, 0.3s, 0s, 0.3s; -o-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out; transition-property:opacity, margin-top, visibility, margin-left; transition-duration:0.4s, 0.3s, 0s, 0.3s; transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out; }
+a.ictip > span .title {font-weight: bold; font-size: 1em;}
+a.ictip > span .text {font-size: 0.9em; padding:3px 0 !important;}
+a.ictip > span:after {right:100%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none; border-right-color:#777; border-width:6px; top:0%; margin-top:12px; }
+a.ictip:hover > span { opacity: 1; text-decoration:none; visibility: visible; overflow: visible; margin-top:-10px; display: inline; margin-left: 40px; }
+a.ictip > span { color: #444444; background: #F4F4F4; background: -moz-linear-gradient(top, #F4F4F4 0%, #FFFFFF 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4F4F4), color-stop(100%,#FFFFFF)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F4F4F4', endColorstr='#FFFFFF',GradientType=0 ); border: 1px solid #D4D4D4; }
+
+/* Style Buttons Background */
+#icagenda .icagenda_form  .bgButton {background:#c0c0c0; color:#fff; padding:5px; border:none; text-align:center;}
+
+/* Style Terms of Service */
+#icagenda .icagenda_form  .agreeToS {color:#fff; font-weight:bold;}
+
+/* Style Button Submit */
+#icagenda .icagenda_form  .button {font-family:arial; font-size:12px; background:#555555; color:#fff; padding:5px; border:none; border-radius:6px; text-align:center;}
+#icagenda .icagenda_form  .button:hover {background:#c72031; color:#fff;}
+
+/* Style Button Cancel */
+#icagenda .icagenda_form  .buttonx a {font-family:arial; font-size:12px; background:none !important; text-decoration:none; color:#555; padding:0px; border:none; border-radius:6px; text-align:center;}
+#icagenda .icagenda_form  .buttonx a:hover {background:none !important; text-decoration:none; color:#c72031 !important;}

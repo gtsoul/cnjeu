@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component" label="COM_ICAGENDA_COMPONENT_LABEL" addfieldpath="/administrator/components/com_icagenda/add/elements">
+    	<field type="TitleImg" label="COM_ICAGENDA_DESC" class="styleblanck" icimage="joomlic_iCagenda.png" />
+		<field name="version" type="hidden" class="inputbox" />
+		<field name="icsys" type="hidden" class="inputbox" />
+		<field name="author" type="hidden" class="inputbox" />
+		<field name="bootstrapType" type="hidden" class="inputbox" default="1"/>
+	</fieldset>
+
+	<fieldset name="config" label="ICEVENTS" description="COM_ICAGENDA_DISPLAY_DESC" addfieldpath="/administrator/components/com_icagenda/models/fields">
+
+
+
+		<field name="Title1" type="TitleImg" label="COM_ICAGENDA_LIST_PARAMS_LABEL" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" />
+
+		<field type="Title" label="COM_ICAGENDA_LIST_HEADER" class="stylesub" />
+    	<field name="headerList" type="list" default="1" label="COM_ICAGENDA_LIST_HEADER_LABEL" description="COM_ICAGENDA_LIST_HEADER_DESC">
+                 <option value="1">JALL</option>
+                 <option value="2">COM_ICAGENDA_LIST_HEADER_ONLY_TITLE</option>
+                 <option value="3">COM_ICAGENDA_LIST_HEADER_ONLY_SUBTITLE</option>
+                 <option value="4">JNONE</option>
+    	</field>
+		<field
+			name="CatDesc_global"
+			type="modal_icmulti_opt"
+			default="0"
+			label="COM_ICAGENDA_DISPLAY_CATINFOS_LABEL"
+			description="COM_ICAGENDA_DISPLAY_CATINFOS_DESC"
+			labelclass="control-label"
+		/>
+		<field
+			name="CatDesc_checkbox"
+			type="modal_icmulti_checkbox"
+			class="checkbox"
+			label=" "
+			labelclass="control-label"
+		/>
+
+		<field type="Title" label="COM_ICAGENDA_LIST_NAVIGATOR" class="stylesub" />
+    	<field name="navposition" type="list" default="0" label="COM_ICAGENDA_LIST_NAVIGATOR_POSITION_LABEL" description="COM_ICAGENDA_LIST_NAVIGATOR_POSITION_DESC">
+                 <option value="0">COM_ICAGENDA_TOP</option>
+                 <option value="1">COM_ICAGENDA_BOTTOM</option>
+                 <option value="2">COM_ICAGENDA_TOP_AND_BOTTOM</option>
+    	</field>
+
+    	<field name="arrowtext" type="radio" default="1" label="COM_ICAGENDA_LIST_ARROWS_TEXT_LABEL" description="COM_ICAGENDA_LIST_ARROWS_TEXT_DESC" class="btn-group">
+                 <option value="0">JHIDE</option>
+                 <option value="1">JSHOW</option>
+    	</field>
+
+
+		<!--field type="Title" label="COM_ICAGENDA_LIST_HEADER_LABEL" class="stylenote" />
+		<field name="HeaderTitle" type="text" label="COM_ICAGENDA_LIST_HEADER_LABEL" description="COM_ICAGENDA_LIST_HEADER_DESC" size="50" default=""/>
+		<field name="HeaderNbEvents" type="text" label="COM_ICAGENDA_LIST_HEADER_NBEVENTS_LABEL" description="COM_ICAGENDA_LIST_HEADER_NBEVENTS_DESC" size="50"/>
+		<field name="HeaderNbEvents" type="text" label="COM_ICAGENDA_LIST_HEADER_NBEVENTS_LABEL" description="COM_ICAGENDA_LIST_HEADER_NBEVENTS_DESC" size="50"/-->
+
+
+		<field type="Title" label=" " class="stylenote" />
+		<field name="Title2" type="TitleImg" label="COM_ICAGENDA_EVENT_PARAMS_LABEL" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" />
+
+
+		<field type="Title" label="COM_ICAGENDA_LEGEND_INFORMATION" class="stylesub" />
+
+		<field
+			name="infoDetails"
+			type="radio"
+			label="COM_ICAGENDA_INFORMATION_LABEL"
+			description="COM_ICAGENDA_INFORMATION_DESC"
+			class="btn-group"
+			filter="options"
+			default="1">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+		</field>
+
+		<field
+			name="accessInfoDetails"
+			type="accesslevel"
+			label="JFIELD_ACCESS_LABEL"
+			description="JFIELD_ACCESS_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		/>
+		<field
+			name="targetLink"
+			type="list"
+			label="COM_ICAGENDA_TARGET_LINK_LABEL"
+			description="COM_ICAGENDA_TARGET_LINK_DESC"
+			default="1"
+			filter="options"
+			class="inputbox">
+				<option value="0">JBROWSERTARGET_PARENT</option>
+				<option value="1">JBROWSERTARGET_NEW</option>
+		</field>
+
+		<field type="Title" label="COM_ICAGENDA_LEGEND_GOOGLE_MAPS" class="stylesub" />
+			<field
+				name="GoogleMaps"
+				type="radio"
+				label="COM_ICAGENDA_LEGEND_GOOGLE_MAPS"
+				description="COM_ICAGENDA_GOOGLE_MAPS_DESC"
+				default="1"
+				filter="options"
+				class="btn-group">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<field
+				name="accessGoogleMaps"
+				type="accesslevel"
+				label="JFIELD_ACCESS_LABEL"
+				description="JFIELD_ACCESS_DESC"
+				class="inputbox"
+				size="1"
+			default="1"
+			/>
+
+		<field type="Title" label="COM_ICAGENDA_EVENT_DATES" class="stylesub" />
+			<field
+				name="SingleDates"
+				type="radio"
+				label="COM_ICAGENDA_EVENT_SINGLE_DATES_LABEL"
+				description="COM_ICAGENDA_EVENT_SINGLE_DATES_DESC"
+				default="1"
+				filter="options"
+				class="btn-group">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<!--field
+				name="accessSingleDates"
+				type="accesslevel"
+				label="JFIELD_ACCESS_LABEL"
+				description="JFIELD_ACCESS_DESC"
+				class="inputbox"
+				size="1"
+			/-->
+			<field
+				name="SingleDatesOrder"
+				type="list"
+				label="COM_ICAGENDA_LBL_DATE"
+				description="COM_ICAGENDA_DESC_DATE"
+				default="1"
+				class="inputbox">
+				<option value="1">COM_ICAGENDA_DATE_DESC</option>
+				<option value="2">COM_ICAGENDA_DATE_ASC</option>
+			</field>
+			<field
+				name="SingleDatesListModel"
+				type="list"
+				label="COM_ICAGENDA_EVENT_SINGLE_DATES_LIST_LABEL"
+				description="COM_ICAGENDA_EVENT_SINGLE_DATES_LIST_DESC"
+				default="1"
+				class="inputbox">
+				<option value="1">COM_ICAGENDA_EVENT_SINGLE_DATES_VERTICAL</option>
+				<option value="2">COM_ICAGENDA_EVENT_SINGLE_DATES_HORIZONTAL</option>
+			</field>
+		<field type="Title" label=" " class="stylenote" />
+			<field
+				name="PeriodDates"
+				type="radio"
+				label="COM_ICAGENDA_EVENT_PERIOD_LABEL"
+				description="COM_ICAGENDA_EVENT_PERIOD_DESC"
+				default="1"
+				filter="options"
+				class="btn-group">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			<!--field
+				name="accessPeriodDates"
+				type="accesslevel"
+				label="JFIELD_ACCESS_LABEL"
+				description="JFIELD_ACCESS_DESC"
+				class="inputbox"
+				size="1"
+			/-->
+
+		<field type="Title" label="COM_ICAGENDA_LIST_OF_PARTICIPANTS_LABEL" class="stylesub" />
+			<field
+				name="participantList"
+				type="radio"
+				label="COM_ICAGENDA_LIST_OF_PARTICIPANTS_LABEL"
+				description="COM_ICAGENDA_LIST_OF_PARTICIPANTS_DESC"
+				default="1"
+				filter="options"
+				class="btn-group">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+		<field
+			name="accessParticipantList"
+			type="accesslevel"
+			label="JFIELD_ACCESS_LABEL"
+			description="JFIELD_ACCESS_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		/>
+
+			<field
+				name="participantSlide"
+				type="radio"
+				label="COM_ICAGENDA_LIST_OF_PARTICIPANTS_SLIDE_LABEL"
+				description="COM_ICAGENDA_LIST_OF_PARTICIPANTS_SLIDE_DESC"
+				default="1"
+				filter="options"
+				class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field
+				name="participantDisplay"
+				type="list"
+				label="COM_ICAGENDA_LIST_OF_PARTICIPANTS_DISPLAY_LABEL"
+				description="COM_ICAGENDA_LIST_OF_PARTICIPANTS_DISPLAY_DESC"
+				default="1"
+				filter="options"
+				class="inputbox">
+				<option value="1">COM_ICAGENDA_LIST_OF_PARTICIPANTS_DISPLAY_FULL</option>
+				<option value="2">COM_ICAGENDA_LIST_OF_PARTICIPANTS_DISPLAY_AVATAR</option>
+				<option value="3">COM_ICAGENDA_LIST_OF_PARTICIPANTS_DISPLAY_NAMES</option>
+			</field>
+			<field
+				name="fullListColumns"
+				type="radio"
+				label="COM_ICAGENDA_LIST_DISPLAY_FULL_COLUMN_LABEL"
+				description="COM_ICAGENDA_LIST_DISPLAY_FULL_COLUMN_DESC"
+				default="tiers"
+				filter="options"
+				class="btn-group">
+				<option value="total">1</option>
+				<option value="demi">2</option>
+				<option value="tiers">3</option>
+				<option value="quart">4</option>
+			</field>
+
+
+	</fieldset>
+
+	<fieldset name="params" label="COM_ICAGENDA_REGISTRATION_LABEL" description="COM_ICAGENDA_REGISTRATION_TO_EVENT_DESC">
+		<field name="Title1" type="TitleImg" label="COM_ICAGENDA_TITLE_REGISTRATION" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" />
+    	<!--field type="TitleImg" label="COM_ICAGENDA_ADDTHIS_NOTE" class="stylenote" icimage="info.png" /-->
+
+		<field
+			name="statutReg"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_DESC"
+			class="btn-group">
+				<option value="0">JOFF</option>
+				<option value="1">JON</option>
+		</field>
+
+		<field
+			name="RegButtonText"
+			type="modal_ph_regbt"
+			label="COM_ICAGENDA_REGISTRATION_BUTTON_TEXT"
+			description="COM_ICAGENDA_OVERRIDE_BUTTON_TEXT_DESC"
+			default=""
+		/>
+
+		<field
+			name="maxRlist"
+			type="text"
+			label="COM_ICAGENDA_MAX_PER_REGISTRATION_LABEL"
+			description="COM_ICAGENDA_MAX_PER_REGISTRATION_DESC"
+			size="2"
+			default="5"
+		/>
+
+
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_EMAIL_FIELD" class="stylesub" />
+
+		<field
+			name="emailRequired"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_REQUIRED_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_REQUIRED_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="limitRegEmail"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_LIMIT_EMAIL_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_LIMIT_EMAIL_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="limitRegDate"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_LIMIT_DATE_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_LIMIT_DATE_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="emailCheckdnsrr"
+			type="radio"
+			default="0"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_CHECKDNSRR_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_CHECKDNSRR_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+		<field
+			name="Checkdnsrr"
+			type="modal_checkdnsrr"
+			label=" "
+			description=" "
+		/>
+
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_PHONE_FIELD" class="stylesub" />
+		<field
+			name="phoneDisplay"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_PHONE_DISPLAY_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_PHONE_DISPLAY_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+		<field
+			name="phoneRequired"
+			type="radio"
+			default="0"
+			label="COM_ICAGENDA_REGISTRATION_PHONE_REQUIRED_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_PHONE_REQUIRED_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_NOTES_FIELD" class="stylesub" />
+		<field
+			name="notesDisplay"
+			type="radio"
+			default="0"
+			label="COM_ICAGENDA_REGISTRATION_NOTES_DISPLAY_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_NOTES_DISPLAY_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+
+    	<field name="Title2" type="TitleImg" label="COM_ICAGENDA_REGISTRATION_TERMS_LABEL" class="stylebox lead input-xxlarge"  icimage="iconicagenda16.png"/>
+		<field
+			name="terms"
+			type="radio"
+			default="0"
+			label="COM_ICAGENDA_REGISTRATION_TERMS_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_TERMS_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JDISABLED</option>
+				<option value="1">JENABLED</option>
+		</field>
+
+		<field
+			name="terms_Type"
+			type="modal_ictxt_type"
+			default=""
+			label="COM_ICAGENDA_REGISTRATION_TERMS_TEXTTYPE_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_TERMS_TEXTTYPE_DESC"
+			labelclass="control-label"
+			class="btn-group"
+		/>
+
+		<field
+			name="termsArticle"
+			type="modal_ictxt_article"
+			label=" "
+			default=""
+			edit="true"
+			clear="true"
+			description="COM_ICAGENDA_FIELD_SELECT_ARTICLE_DESC"
+		/>
+
+		<field
+			name="termsContent"
+			type="modal_ictxt_content"
+			buttons="readmore,pagebreak"
+			class="inputbox"
+			placeholder="text"
+			filter="JComponentHelper::filterText"
+			label=" "
+			labelclass="control-label"
+		/>
+		<field name="termsDefault" type="modal_ictxt_default" label=" " description="COM_ICAGENDA_REGISTRATION_TERMS" />
+
+
+		<field type="Title" label=" " class="stylenote" />
+		<field name="Title3" type="TitleImg" label="COM_ICAGENDA_TITLE_REGISTRATION_NOTIFICATIONS" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" />
+
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_EMAIL_USER" class="stylesub" />
+
+		<field
+			name="regEmailUser"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD_DEFAULT_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD_DEFAULT_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">COM_ICAGENDA_CUSTOM_EMAILS</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field type="Title" label=" " class="stylenote" />
+		<field name="Title4" type="TitleImg" label="COM_ICAGENDA_CUSTOM_EMAILS" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" />
+    	<field type="TitleImg" label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_NOTICE" class="stylenote alert alert-info" icimage="info.png" />
+
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD" class="stylesub" />
+		<field
+			name="emailUserSubjectPeriod"
+			type="text"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD_CUSTOM_SUBJECT_LBL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD_CUSTOM_SUBJECT_DESC"
+			size="50"
+			default="Your registration to event [TITLE] on [SITENAME]"
+			class="input-xxlarge"
+			/>
+		<field
+			name="emailUserBodyPeriod"
+			type="textarea"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD_CUSTOM_BODY_LBL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_USER_PERIOD_CUSTOM_BODY_DESC"
+			rows="10"
+			cols="80"
+			size="300"
+			class="input-xxlarge"
+			default="Hello [NAME],\n\nYou have registered to event '[TITLE]'.\n\nIf you want to review the event details, please click on the following link or, if it's not clickable, copy and paste it to your browser.\n[EVENTURL]\n\nThis email contains your personal information entered when registering for this event on the website [SITEURL].\n\nName: [NAME]\nEmail: [EMAIL]\nPhone: [PHONE]\nNb of tickets: [PLACES]\nPeriod: from [STARTDATETIME] to [ENDDATETIME]\n\nYou can request information, modify your personal details or cancel your registration by sending an email to: [AUTHOREMAIL]\n\nBest regards,\n[SITENAME]"
+		/>
+
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_DATE" class="stylesub" />
+		<field
+			name="emailUserSubjectDate"
+			type="text"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_DATE_CUSTOM_SUBJECT_LBL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_USER_DATE_CUSTOM_SUBJECT_DESC"
+			size="50"
+			default="Your registration to event [TITLE] on [SITENAME]"
+			class="input-xxlarge"
+			/>
+		<field
+			name="emailUserBodyDate"
+			type="textarea"
+			label="COM_ICAGENDA_REGISTRATION_EMAIL_USER_DATE_CUSTOM_BODY_LBL"
+			description="COM_ICAGENDA_REGISTRATION_EMAIL_USER_DATE_CUSTOM_BODY_DESC"
+			rows="10"
+			cols="80"
+			class="input-xxlarge"
+			default="Hello [NAME],\n\nYou have registered to event '[TITLE]'.\n\nIf you want to review the event details, please click on the following link or, if it's not clickable, copy and paste it to your browser.\n[EVENTURL]\n\nThis email contains your personal information entered when registering for this event on the website [SITEURL].\n\nName: [NAME]\nEmail: [EMAIL]\nPhone: [PHONE]\nNb of tickets: [PLACES]\nDate : [DATETIME]\n\nYou can request information, modify your personal details or cancel your registration by sending an email to: [AUTHOREMAIL]\n\nBest regards,\n[SITENAME]"
+		/>
+
+
+		<!--field type="Title" label="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN" class="stylenote" />
+		<field type="Title" label="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_DEFAULT" class="stylenote" />
+		<field name="regEmailAdmin" type="radio" default="1" label="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_DEFAULT_LABEL" description="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_DEFAULT_DESC">
+				<option value="1">JYES</option>
+				<option value="2">JNO</option>
+		</field>
+		<field name="emailAdminSubject" type="text" label="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_CUSTOM_SUBJECT_LBL" description="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_CUSTOM_SUBJECT_DESC" size="50" default=""/>
+		<field name="emailAdminBody" type="textarea" label="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_CUSTOM_BODY_LBL" description="COM_ICAGENDA_REGISTRATION_EMAIL_ADMIN_CUSTOM_BODY_DESC" rows="10" cols="80" default=""/-->
+
+
+	</fieldset>
+
+	<fieldset name="submit" label="COM_ICAGENDA_SUBMIT_AN_EVENT_LABEL" description="COM_ICAGENDA_SUBMIT_AN_EVENT_DESC" addfieldpath="/administrator/components/com_content/models/fields">
+
+    	<field name="Title1" type="TitleImg" label="COM_ICAGENDA_SUBMIT_PERMISSIONS_LABEL" class="stylebox lead input-xxlarge"  icimage="iconicagenda16.png"/>
+
+		<field type="Title" label="COM_ICAGENDA_SUBMIT_FRONTEND_ACCESS_LABEL" class="stylesub" />
+		<field
+			name="submitAccess"
+			type="accesslevel"
+			multiple="true"
+			default="2"
+			label="JFIELD_ACCESS_LABEL"
+			description="COM_ICAGENDA_SUBMIT_FRONTEND_ACCESS_DESC"
+			labelclass="control-label"
+		/>
+
+		<field
+			name="submitNotLogin"
+			type="modal_ictext_type"
+			default=""
+			label="COM_ICAGENDA_SUBMIT_NOT_LOGIN_LBL"
+			description="COM_ICAGENDA_SUBMIT_NOT_LOGIN_DESC"
+			labelclass="control-label"
+		/>
+		<field
+			name="submitNotLogin_Content"
+			type="modal_ictext_content"
+			buttons="readmore,pagebreak"
+			class="inputbox"
+			placeholder="text"
+			filter="JComponentHelper::filterText"
+			label=" "
+			labelclass="control-label"
+		/>
+
+		<field
+			name="submitNoRights"
+			type="modal_ictext_type"
+			default=""
+			label="COM_ICAGENDA_SUBMIT_NO_RIGHTS_LBL"
+			description="COM_ICAGENDA_SUBMIT_NO_RIGHTS_DESC"
+			labelclass="control-label"
+		/>
+		<field
+			name="submitNoRights_Content"
+			type="modal_ictext_content"
+			buttons="readmore,pagebreak"
+			class="inputbox"
+			placeholder="text"
+			filter="JComponentHelper::filterText"
+			label=" "
+			labelclass="control-label"
+		/>
+
+		<field type="Title" label="COM_ICAGENDA_SUBMIT_APPROVAL_LABEL" class="stylesub" />
+		<field
+			name="approvalGroups"
+			type="usergroup"
+			multiple="true"
+			default="8"
+			label="IC_MANAGERS"
+			description="COM_ICAGENDA_SUBMIT_APPROVAL_GROUPS_DESC"
+			labelclass="control-label"
+		/>
+
+		<field
+			name="managers_note"
+			type="Desc"
+			label="COM_ICAGENDA_SUBMIT_MANAGERS_NOTE"
+			class="alert span9"
+			description="COM_ICAGENDA_SUBMIT_APPROVAL_GROUPS_DESC"
+			labelclass="control-label"
+		/>
+
+
+    	<field name="Title2" type="TitleImg" label="COM_ICAGENDA_SUBMIT_TOS_LABEL" class="stylebox lead input-xxlarge"  icimage="iconicagenda16.png"/>
+		<field
+			name="tos"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_SUBMIT_TOS_LABEL"
+			description="COM_ICAGENDA_SUBMIT_TOS_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JDISABLED</option>
+				<option value="1">JENABLED</option>
+		</field>
+
+		<field
+			name="tos_Type"
+			type="modal_ictxt_type"
+			default=""
+			label="COM_ICAGENDA_SUBMIT_TOS_TEXTTYPE_LABEL"
+			description="COM_ICAGENDA_SUBMIT_TOS_TEXTTYPE_DESC"
+			labelclass="control-label"
+			class="btn-group"
+		/>
+
+		<field
+			name="tosArticle"
+			type="modal_ictxt_article"
+			label=" "
+			default=""
+			edit="true"
+			clear="true"
+			description="COM_ICAGENDA_FIELD_SELECT_ARTICLE_DESC"
+		/>
+
+		<field
+			name="tosContent"
+			type="modal_ictxt_content"
+			buttons="readmore,pagebreak"
+			class="inputbox"
+			placeholder="text"
+			filter="JComponentHelper::filterText"
+			label=" "
+			labelclass="control-label"
+		/>
+		<field name="tosDefault" type="modal_ictxt_default" label=" " description="COM_ICAGENDA_TOS" />
+
+	</fieldset>
+
+	<fieldset name="sharing" label="COM_ICAGENDA_ADDTHIS_LABEL" description=" ">
+        <field type="Title" label="COM_ICAGENDA_ADDTHIS_DESC" class="stylered" />
+    	<field name="Title1" type="TitleImg" label="COM_ICAGENDA_ADDTHIS" class="stylebox lead input-xxlarge"  icimage="addthis_16.png"/>
+    	<field type="TitleImg" label="COM_ICAGENDA_ADDTHIS_NOTE" class="stylenote alert alert-info" icimage="info.png" />
+		<field name="addthis" type="text" label="COM_ICAGENDA_ADDTHIS_ID_LABEL"  description="COM_ICAGENDA_ADDTHIS_ID_DESC" />
+		<field
+			name="atlist"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_ADDTHIS_LIST_LABEL"
+			description="COM_ICAGENDA_ADDTHIS_LIST_DESC"
+			class="btn-group">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+		</field>
+		<field
+			name="atevent"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_ADDTHIS_EVENT_LABEL"
+			description="COM_ICAGENDA_ADDTHIS_EVENT_DESC"
+			class="btn-group">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+		</field>
+		<field
+			name="atfloat"
+			type="radio"
+			default="2"
+			label="COM_ICAGENDA_ADDTHIS_FLOAT_LABEL"
+			description="COM_ICAGENDA_ADDTHIS_FLOAT_DESC"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JGLOBAL_LEFT</option>
+				<option value="2">JGLOBAL_RIGHT</option>
+		</field>
+		<field
+			name="aticon"
+			type="radio"
+			default="2"
+			label="COM_ICAGENDA_ADDTHIS_ICON_LABEL"
+			description="COM_ICAGENDA_ADDTHIS_ICON_DESC"
+			class="btn-group">
+				<option value="1">COM_ICAGENDA_ADDTHIS_16</option>
+				<option value="2">COM_ICAGENDA_ADDTHIS_32</option>
+		</field>
+
+	</fieldset>
+
+	<fieldset name="global" label="COM_ICAGENDA_GLOBAL_PARAMS_LABEL" description="COM_ICAGENDA_GLOBAL_PARAMS_DESC">
+		<field type="Title" label="COM_ICAGENDA_GLOBAL_PARAMS_INFO" class="stylenote alert alert-info" />
+
+		<!--field name="Title1" type="TitleImg" label="COM_ICAGENDA_GLOBAL_PARAMS_LABEL" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" /-->
+
+    	<field
+    		name="timeformat"
+    		type="radio"
+    		default="1"
+    		label="COM_ICAGENDA_TIME_FORMAT_LABEL"
+    		description="COM_ICAGENDA_TIME_FORMAT_DESC"
+    		class="btn-group">
+                 <option value="1">COM_ICAGENDA_24</option>
+                 <option value="2">COM_ICAGENDA_12</option>
+    	</field>
+
+		<field
+			name="ShortDescLimit"
+			type="text"
+			label="COM_ICAGENDA_LBL_LIMIT"
+			description="COM_ICAGENDA_DESC_LIMIT"
+			size="5"
+			default="100"
+		/>
+
+		<field type="Title" label=" " class="stylesub" />
+		<field
+			name="autofilluser"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_JOOMLA_USER_AUTOFILL_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_JOOMLA_USER_AUTOFILL_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="nameJoomlaUser"
+			type="radio"
+			default="1"
+			label="COM_ICAGENDA_REGISTRATION_JOOMLA_USER_NAME_LABEL"
+			description="COM_ICAGENDA_REGISTRATION_JOOMLA_USER_NAME_DESC"
+			labelclass="control-label"
+			class="btn-group">
+				<option value="1">IC_NAME</option>
+				<option value="2">IC_USERNAME</option>
+		</field>
+
+
+		<field type="Title" label="COM_ICAGENDA_THUMBNAILS_LABEL" class="stylesub" />
+    	<field
+    		name="thumb_generator"
+    		type="radio"
+    		default="1"
+    		label="COM_ICAGENDA_ICTHUMB_LABEL"
+    		description="COM_ICAGENDA_ICTHUMB_DESC"
+    		class="btn-group">
+                 <option value="0">JNO</option>
+                 <option value="1">JYES</option>
+    	</field>
+		<!--field name="Thumbnails" type="TitleImg" label="COM_ICAGENDA_IMAGES_OPTIONS_LABEL" class="stylebox lead input-xxlarge" icimage="iconicagenda16.png" /-->
+		<!--field
+			name="ThumbMedium"
+			type="modal_thumbs"
+			label="Medium Image"
+			description="COM_ICAGENDA_THUMB_MEDIUM_DESC"
+			class="input-small"
+		/-->
+		<!--field
+			name="Event_MaxWidth"
+			type="text"
+			label="Event Image MAX Width"
+			description="COM_ICAGENDA_IMAGES_EVENT_MAXWIDTH_DESC"
+			class="input-small"
+			default="300"
+		/>
+		<field
+			name="Event_MaxHeight"
+			type="text"
+			label="Event Image MAX Height"
+			description="COM_ICAGENDA_IMAGES_EVENT_MAXHEIGHT_DESC"
+			class="input-small"
+			default="300"
+		/>
+		<field
+			name="Event_Quality"
+			type="list"
+			label="Event Image Quality"
+			description="COM_ICAGENDA_IMAGES_EVENT_QUALITY_DESC"
+			class="input-small"
+			default="70">
+                 <option value="100">100</option>
+                 <option value="90">90</option>
+                 <option value="80">80</option>
+                 <option value="70">70</option>
+                 <option value="60">60</option>
+                 <option value="50">50</option>
+                 <option value="40">40</option>
+                 <option value="30">30</option>
+                 <option value="20">20</option>
+                 <option value="10">10</option>
+    	</field>
+		<field type="Title" label=" " class="stylenote" /-->
+
+		<field type="Title" label="COM_ICAGENDA_SENDING_EMAIL_LABEL" class="stylesub" />
+    	<field
+    		name="auto_login"
+    		type="radio"
+    		default="1"
+    		label="COM_ICAGENDA_AUTOLOGIN_LABEL"
+    		description="COM_ICAGENDA_AUTOLOGIN_DESC"
+    		class="btn-group">
+                 <option value="0">JNO</option>
+                 <option value="1">JYES</option>
+    	</field>
+
+	</fieldset>
+
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_icagenda"
+			section="component" />
+	</fieldset>
+
+
+</config>
+

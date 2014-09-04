@@ -1,0 +1,208 @@
+/** general **/
+.clr {
+	clear:both;
+}
+
+
+/**
+ *	MANAGER ICONS
+ **/
+.icicon {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+/* Approval Icon */
+.icicon.approval {
+	background-image: url(../../../../media/com_icagenda/images/manager/approval_16.png);
+	background-position: -16px 0;
+}
+
+a div.icicon.approval:hover {
+	background-image: url(../../../../media/com_icagenda/images/manager/approval_16.png);
+	background-position: 16px 0;
+}
+
+
+
+/* iC Tooltip in CSS3 */
+a.icTooltip {
+	text-align: center;
+	outline:none;
+	text-decoration:none;
+}
+a.icTooltip:hover {
+	background:none !important;
+}
+a.icTooltip > span {
+	position: absolute;
+/*	min-width:auto;
+	max-width:250px;*/
+	width:100px;
+	padding: 3px 5px;
+/*	margin-top: -50px;
+	margin-left: 100px; */
+	margin-top:-33px;
+	margin-left:-71px;
+	margin-right:auto;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 10;
+	font-style: normal;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 4px -3px 2px #333;
+	-moz-box-shadow: 0px 4px -3px 2px #333;
+	box-shadow: 0px 4px -3px 2px #333;
+	-webkit-transition-property:opacity, visibility;
+	-webkit-transition-duration:0.4s, 0s;
+	-webkit-transition-timing-function: ease-in-out, ease-in-out;
+	-moz-transition-property:opacity, visibility;
+	-moz-transition-duration:0.4s, 0s;
+	-moz-transition-timing-function: ease-in-out, ease-in-out;
+	-o-transition-property:opacity, visibility;
+	-o-transition-duration:0.4s, 0s;
+	-o-transition-timing-function: ease-in-out, ease-in-out;
+	transition-property:opacity, visibility;
+	transition-duration:0.4s, 0s;
+	transition-timing-function: ease-in-out, ease-in-out;
+}
+a.icTooltip > span .title {
+	font-weight: normal;
+	font-size: 11px;
+}
+a.icTooltip > span .text {
+	font-size: 0.7em;
+	padding:0 !important;
+}
+a.icTooltip > span:after {
+	right:100%;
+	border:solid transparent;
+	content:" ";
+	height:0;
+	width:0;
+	position:absolute;
+	pointer-events:none;
+
+	border-top:.6em solid #000;
+	border-top:5px solid rgba(0,0,0,0.8);
+	border-left:5px solid transparent;
+	border-right:5px solid transparent;
+
+  	top:0%;
+	left:50%;
+	margin-left: -3px;
+	margin-top:25px;
+	white-space:pre-wrap;
+}
+a.icTooltip:hover > span {
+	opacity: 1;
+	text-decoration:none;
+	visibility: visible;
+	overflow: visible;
+/*	margin-top:-10px;
+	margin-left: 40px; */
+	display: inline;
+}
+a.icTooltip > span {
+	text-align: center;
+	color: #FFFFFF;
+	background: #000000;
+	background: -moz-linear-gradient(top, #000000 0%, #111111 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#111111));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#111111',GradientType=0 );
+	border: 1px solid #222222;
+}
+
+
+/** Columns List of Participants (Full) **/
+#icagenda .total {width:99%; min-width:180px; margin:0.5%;}
+#icagenda .demi {width:49%; min-width:180px; margin:0.5%;}
+#icagenda .tiers {width:32.3%; min-width:180px; margin:0.5%;}
+#icagenda .quart {width:24%; min-width:150px; margin:0.5%;}
+
+.names_noslide {text-align:justify;}
+.names_slide { padding:6px !important; text-align:justify;}
+
+
+
+.locandina img {
+	background:#dedede;
+	padding:5px;
+	border:1px solid #ccc;
+	max-width:150px;
+	max-height:200px;
+}
+.icon-48-events {
+	background-image: url(../media/com_icagenda/images/icon48event.png);
+}
+
+
+
+/** colore **/
+.farbtastic {
+  position: relative;
+}
+.farbtastic * {
+  position: absolute;
+  cursor: crosshair;
+}
+.farbtastic, .farbtastic .wheel {
+  width: 195px;
+  height: 195px;
+}
+.farbtastic .color, .farbtastic .overlay {
+  top: 47px;
+  left: 47px;
+  width: 101px;
+  height: 101px;
+}
+.farbtastic .wheel {
+  background: url(../image/wheel.png) no-repeat;
+  width: 195px;
+  height: 195px;
+}
+.farbtastic .overlay {
+  background: url(../image/mask.png) no-repeat;
+}
+.farbtastic .marker {
+  width: 17px;
+  height: 17px;
+  margin: -8px 0 0 -8px;
+  overflow: hidden;
+  background: url(../image/marker.png) no-repeat;
+}
+
+.color {
+	width:300px;
+}
+
+.color .form-item {
+	float:left;
+}
+
+.color #picker {
+	float:left;
+	width:200px;
+}
+
+
+/** mappa **/
+.ui-autocomplete {
+	background-color: white;
+	width: 300px;
+	border: 1px solid #cfcfcf;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+/** calendario **/
+fieldset.adminform textarea.date {height: 130px; }
+#add {line-height: 28px; margin-left:145px;}
+table#dTable {width: 113px; border:1px solid #cdcec9;}
+table#dTable th {padding:5px;}
+table#dTable td {padding:5px;}
+#ui-datepicker-div{font-size:12px; padding:15px;}
