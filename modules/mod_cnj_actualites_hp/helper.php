@@ -56,7 +56,7 @@ class modCnjActualitesHpHelper
     public static function getTitleModule(&$params)
     {
         switch($params->get("typeactualite")) {
-            case 'joue1a7': $title = 'On joue de 1 à 7 ans'; break;
+            case 'joue1a7': $title = 'On joue de 0 à 8 ans'; break;
             case 'joueclub': $title = 'On joue en club'; break;
             case 'actualitescnj': $title = 'Actualités du CNJ'; break;
         }
